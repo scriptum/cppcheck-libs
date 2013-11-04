@@ -1,0 +1,1296 @@
+functions:
+	g_array_append_vals	return leak-ignore
+	g_array_get_element_size	return leak-ignore
+	g_array_insert_vals	return leak-ignore
+	g_array_prepend_vals	return leak-ignore
+	g_array_ref	return leak-ignore
+	g_array_remove_index	return leak-ignore
+	g_array_remove_index_fast	return leak-ignore
+	g_array_remove_range	return leak-ignore
+	g_array_set_clear_func	noreturn leak-ignore
+	g_array_set_size	return leak-ignore
+	g_array_sort	noreturn leak-ignore
+	g_array_sort_with_data	noreturn leak-ignore
+	g_array_unref	noreturn leak-ignore
+	g_async_queue_new_full	return leak-ignore
+	g_bookmark_file_error_quark	return leak-ignore
+	g_byte_array_append	return leak-ignore
+	g_byte_array_prepend	return leak-ignore
+	g_byte_array_remove_index	return leak-ignore
+	g_byte_array_remove_index_fast	return leak-ignore
+	g_byte_array_remove_range	return leak-ignore
+	g_byte_array_set_size	return leak-ignore
+	g_byte_array_sort	noreturn leak-ignore
+	g_byte_array_sort_with_data	noreturn leak-ignore
+	g_checksum_type_get_length	return leak-ignore
+	g_date_get_days_in_month	return leak-ignore
+	g_date_get_monday_weeks_in_year	return leak-ignore
+	g_date_get_sunday_weeks_in_year	return leak-ignore
+	g_date_is_leap_year	return leak-ignore
+	g_date_strftime	return leak-ignore
+	g_date_valid_day	return leak-ignore
+	g_date_valid_dmy	return leak-ignore
+	g_date_valid_julian	return leak-ignore
+	g_date_valid_month	return leak-ignore
+	g_date_valid_weekday	return leak-ignore
+	g_date_valid_year	return leak-ignore
+	g_date_time_compare	return leak-ignore
+	g_date_time_equal	return leak-ignore
+	g_date_time_hash	return leak-ignore
+	g_dir_make_tmp	return leak-ignore
+	g_dir_open	return leak-ignore
+	g_hash_table_add	noreturn leak-ignore
+	g_hash_table_contains	return leak-ignore
+	g_hash_table_destroy	noreturn leak-ignore
+	g_hash_table_find	return leak-ignore
+	g_hash_table_foreach	noreturn leak-ignore
+	g_hash_table_foreach_remove	return leak-ignore
+	g_hash_table_foreach_steal	return leak-ignore
+	g_hash_table_get_keys	return leak-ignore
+	g_hash_table_get_values	return leak-ignore
+	g_hash_table_insert	noreturn leak-ignore
+	g_hash_table_lookup	return leak-ignore
+	g_hash_table_lookup_extended	return leak-ignore
+	g_hash_table_new_full	return leak-ignore
+	g_hash_table_ref	return leak-ignore
+	g_hash_table_remove	return leak-ignore
+	g_hash_table_remove_all	noreturn leak-ignore
+	g_hash_table_replace	noreturn leak-ignore
+	g_hash_table_size	return leak-ignore
+	g_hash_table_steal	return leak-ignore
+	g_hash_table_steal_all	noreturn leak-ignore
+	g_hash_table_unref	noreturn leak-ignore
+	g_hook_alloc	return leak-ignore
+	g_hook_destroy	return leak-ignore
+	g_hook_destroy_link	noreturn leak-ignore
+	g_hook_find	return leak-ignore
+	g_hook_find_data	return leak-ignore
+	g_hook_find_func	return leak-ignore
+	g_hook_find_func_data	return leak-ignore
+	g_hook_first_valid	return leak-ignore
+	g_hook_free	noreturn leak-ignore
+	g_hook_get	return leak-ignore
+	g_hook_insert_before	noreturn leak-ignore
+	g_hook_insert_sorted	noreturn leak-ignore
+	g_hook_next_valid	return leak-ignore
+	g_hook_prepend	noreturn leak-ignore
+	g_hook_ref	return leak-ignore
+	g_hook_unref	noreturn leak-ignore
+	g_iconv_open	return leak-ignore
+	g_io_channel_error_from_errno	return leak-ignore
+	g_io_channel_error_quark	return leak-ignore
+	g_key_file_error_quark	return leak-ignore
+	g_list_alloc	return leak-ignore
+	g_list_append	return leak-ignore
+	g_list_concat	return leak-ignore
+	g_list_copy	return leak-ignore
+	g_list_copy_deep	return leak-ignore
+	g_list_delete_link	return leak-ignore
+	g_list_find	return leak-ignore
+	g_list_find_custom	return leak-ignore
+	g_list_first	return leak-ignore
+	g_list_foreach	noreturn leak-ignore
+	g_list_free	noreturn leak-ignore
+	g_list_free_1	noreturn leak-ignore
+	g_list_free_full	noreturn leak-ignore
+	g_list_index	return leak-ignore
+	g_list_insert	return leak-ignore
+	g_list_insert_before	return leak-ignore
+	g_list_insert_sorted	return leak-ignore
+	g_list_insert_sorted_with_data	return leak-ignore
+	g_list_last	return leak-ignore
+	g_list_length	return leak-ignore
+	g_list_nth	return leak-ignore
+	g_list_nth_data	return leak-ignore
+	g_list_nth_prev	return leak-ignore
+	g_list_position	return leak-ignore
+	g_list_prepend	return leak-ignore
+	g_list_remove	return leak-ignore
+	g_list_remove_all	return leak-ignore
+	g_list_remove_link	return leak-ignore
+	g_list_reverse	return leak-ignore
+	g_list_sort	return leak-ignore
+	g_list_sort_with_data	return leak-ignore
+	g_main_context_default	return leak-ignore
+	g_main_context_get_thread_default	return leak-ignore
+	g_main_context_ref_thread_default	return leak-ignore
+	g_mapped_file_new_from_fd	return leak-ignore
+	g_once_init_enter	return leak-ignore
+	g_once_init_leave	noreturn leak-ignore
+	g_ptr_array_add	noreturn leak-ignore
+	g_ptr_array_foreach	noreturn leak-ignore
+	g_ptr_array_new_full	return leak-ignore
+	g_ptr_array_new_with_free_func	return leak-ignore
+	g_ptr_array_ref	return leak-ignore
+	g_ptr_array_remove	return leak-ignore
+	g_ptr_array_remove_fast	return leak-ignore
+	g_ptr_array_remove_index	return leak-ignore
+	g_ptr_array_remove_index_fast	return leak-ignore
+	g_ptr_array_remove_range	noreturn leak-ignore
+	g_ptr_array_set_free_func	noreturn leak-ignore
+	g_ptr_array_set_size	noreturn leak-ignore
+	g_ptr_array_sort	noreturn leak-ignore
+	g_ptr_array_sort_with_data	noreturn leak-ignore
+	g_ptr_array_unref	noreturn leak-ignore
+	g_rand_new_with_seed	return leak-ignore
+	g_rand_new_with_seed_array	return leak-ignore
+	g_regex_check_replacement	return leak-ignore
+	g_regex_error_quark	return leak-ignore
+	g_regex_escape_nul	return leak-ignore
+	g_regex_escape_string	return leak-ignore
+	g_regex_match_simple	return leak-ignore
+	g_regex_split_simple	return leak-ignore
+	g_slist_alloc	return leak-ignore
+	g_slist_append	return leak-ignore
+	g_slist_concat	return leak-ignore
+	g_slist_copy	return leak-ignore
+	g_slist_copy_deep	return leak-ignore
+	g_slist_delete_link	return leak-ignore
+	g_slist_find	return leak-ignore
+	g_slist_find_custom	return leak-ignore
+	g_slist_foreach	noreturn leak-ignore
+	g_slist_free	noreturn leak-ignore
+	g_slist_free_1	noreturn leak-ignore
+	g_slist_free_full	noreturn leak-ignore
+	g_slist_index	return leak-ignore
+	g_slist_insert	return leak-ignore
+	g_slist_insert_before	return leak-ignore
+	g_slist_insert_sorted	return leak-ignore
+	g_slist_insert_sorted_with_data	return leak-ignore
+	g_slist_last	return leak-ignore
+	g_slist_length	return leak-ignore
+	g_slist_nth	return leak-ignore
+	g_slist_nth_data	return leak-ignore
+	g_slist_position	return leak-ignore
+	g_slist_prepend	return leak-ignore
+	g_slist_remove	return leak-ignore
+	g_slist_remove_all	return leak-ignore
+	g_slist_remove_link	return leak-ignore
+	g_slist_reverse	return leak-ignore
+	g_slist_sort	return leak-ignore
+	g_slist_sort_with_data	return leak-ignore
+	g_sequence_foreach_range	noreturn leak-ignore
+	g_sequence_get	return leak-ignore
+	g_sequence_insert_before	return leak-ignore
+	g_sequence_move	noreturn leak-ignore
+	g_sequence_move_range	noreturn leak-ignore
+	g_sequence_range_get_midpoint	return leak-ignore
+	g_sequence_remove	noreturn leak-ignore
+	g_sequence_remove_range	noreturn leak-ignore
+	g_sequence_set	noreturn leak-ignore
+	g_sequence_sort_changed	noreturn leak-ignore
+	g_sequence_sort_changed_iter	noreturn leak-ignore
+	g_sequence_swap	noreturn leak-ignore
+	g_source_remove	return leak-ignore
+	g_source_remove_by_funcs_user_data	return leak-ignore
+	g_source_remove_by_user_data	return leak-ignore
+	g_source_set_name_by_id	noreturn leak-ignore
+	g_thread_error_quark	return leak-ignore
+	g_thread_exit	noreturn leak-ignore
+	g_thread_self	return leak-ignore
+	g_thread_yield	noreturn leak-ignore
+	g_thread_pool_get_max_idle_time	return leak-ignore
+	g_thread_pool_get_max_unused_threads	return leak-ignore
+	g_thread_pool_get_num_unused_threads	return leak-ignore
+	g_thread_pool_set_max_idle_time	noreturn leak-ignore
+	g_thread_pool_set_max_unused_threads	noreturn leak-ignore
+	g_thread_pool_stop_unused_threads	noreturn leak-ignore
+	g_time_val_from_iso8601	return leak-ignore
+	g_trash_stack_height	return leak-ignore
+	g_trash_stack_peek	return leak-ignore
+	g_trash_stack_pop	return leak-ignore
+	g_trash_stack_push	noreturn leak-ignore
+	g_tree_new_full	return leak-ignore
+	g_tree_new_with_data	return leak-ignore
+	g_variant_is_object_path	return leak-ignore
+	g_variant_is_signature	return leak-ignore
+	g_variant_parse	return leak-ignore
+	g_variant_parser_get_error_quark	return leak-ignore
+	g_variant_type_checked_	return leak-ignore
+	g_variant_type_string_is_valid	return leak-ignore
+	g_variant_type_string_scan	return leak-ignore
+	g_access	return leak-ignore
+	g_array_get_element_size	return leak-ignore
+	g_array_set_clear_func	noreturn leak-ignore
+	g_array_unref	noreturn leak-ignore
+	g_ascii_digit_value	return
+	g_ascii_dtostr	return leak-ignore
+	g_ascii_formatd	return leak-ignore
+	g_ascii_strcasecmp	return leak-ignore
+	g_ascii_strncasecmp	return leak-ignore
+	g_ascii_strtod	return leak-ignore
+	g_ascii_strtoll	return leak-ignore
+	g_ascii_strtoull	return leak-ignore
+	g_ascii_tolower	return
+	g_ascii_toupper	return
+	g_ascii_xdigit_value	return
+	g_assert_warning	noreturn leak-ignore
+	g_assertion_message	noreturn leak-ignore
+	g_assertion_message_cmpnum	noreturn leak-ignore
+	g_assertion_message_cmpstr	noreturn leak-ignore
+	g_assertion_message_error	noreturn leak-ignore
+	g_assertion_message_expr	noreturn leak-ignore
+	g_atexit	noreturn
+	g_atomic_int_add	return leak-ignore
+	g_atomic_int_and	return leak-ignore
+	g_atomic_int_compare_and_exchange	return leak-ignore
+	g_atomic_int_dec_and_test	return leak-ignore
+	g_atomic_int_exchange_and_add	return leak-ignore
+	g_atomic_int_get	return leak-ignore
+	g_atomic_int_inc	noreturn leak-ignore
+	g_atomic_int_or	return leak-ignore
+	g_atomic_int_set	noreturn leak-ignore
+	g_atomic_int_xor	return leak-ignore
+	g_atomic_pointer_add	return leak-ignore
+	g_atomic_pointer_and	return leak-ignore
+	g_atomic_pointer_compare_and_exchange	return leak-ignore
+	g_atomic_pointer_get	return leak-ignore
+	g_atomic_pointer_or	return leak-ignore
+	g_atomic_pointer_set	noreturn leak-ignore
+	g_atomic_pointer_xor	return leak-ignore
+	g_base64_decode_inplace	return leak-ignore
+	g_base64_decode_step	return leak-ignore
+	g_base64_encode_close	return leak-ignore
+	g_base64_encode_step	return leak-ignore
+	g_basename	return leak-ignore
+	g_bit_lock	noreturn leak-ignore
+	g_bit_nth_lsf	return
+	g_bit_nth_msf	return
+	g_bit_storage	return
+	g_bit_trylock	return leak-ignore
+	g_bit_unlock	noreturn leak-ignore
+	g_bookmark_file_error_quark	return
+	g_chdir	return leak-ignore
+	glib_check_version	return
+	g_checksum_type_get_length	return
+	g_child_watch_add	return leak-ignore
+	g_child_watch_add_full	return leak-ignore
+	g_clear_error	noreturn
+	g_clear_pointer	noreturn leak-ignore
+	g_convert_error_quark	return
+	g_datalist_clear	noreturn leak-ignore
+	g_datalist_foreach	noreturn leak-ignore
+	g_datalist_get_data	return leak-ignore
+	g_datalist_get_flags	return leak-ignore
+	g_datalist_id_dup_data	return leak-ignore
+	g_datalist_id_get_data	return leak-ignore
+	g_datalist_id_remove_no_notify	return leak-ignore
+	g_datalist_id_replace_data	return leak-ignore
+	g_datalist_id_set_data_full	noreturn leak-ignore
+	g_datalist_init	noreturn leak-ignore
+	g_datalist_set_flags	noreturn leak-ignore
+	g_datalist_unset_flags	noreturn leak-ignore
+	g_dataset_destroy	noreturn
+	g_dataset_foreach	noreturn leak-ignore
+	g_dataset_id_get_data	return
+	g_dataset_id_remove_no_notify	return
+	g_dataset_id_set_data_full	noreturn leak-ignore
+	g_date_get_days_in_month	return
+	g_date_get_monday_weeks_in_year	return
+	g_date_get_sunday_weeks_in_year	return
+	g_date_is_leap_year	return
+	g_date_strftime	return leak-ignore
+	g_date_time_compare	return
+	g_date_time_equal	return
+	g_date_time_hash	return
+	g_date_valid_day	return
+	g_date_valid_dmy	return
+	g_date_valid_julian	return
+	g_date_valid_month	return
+	g_date_valid_weekday	return
+	g_date_valid_year	return
+	g_dcgettext	return leak-ignore
+	g_dgettext	return leak-ignore
+	g_dir_make_tmp	return leak-ignore
+	g_direct_equal	return
+	g_direct_hash	return
+	g_dngettext	return leak-ignore
+	g_double_equal	return
+	g_double_hash	return
+	g_dpgettext	return leak-ignore
+	g_dpgettext2	return leak-ignore
+	g_environ_getenv	return leak-ignore
+	g_environ_setenv	return leak-ignore
+	g_environ_unsetenv	return leak-ignore
+	g_file_error_from_errno	return
+	g_file_error_quark	return
+	g_file_get_contents	return leak-ignore
+	g_file_open_tmp	return leak-ignore
+	g_file_read_link	return leak-ignore
+	g_file_set_contents	return leak-ignore
+	g_file_test	return leak-ignore
+	g_filename_from_utf8	return leak-ignore
+	g_filename_to_utf8	return leak-ignore
+	g_find_program_in_path	return leak-ignore
+	g_format_size	return
+	g_format_size_for_display	return
+	g_format_size_full	return
+	g_fprintf	return leak-ignore
+	g_get_application_name	return
+	g_get_charset	return leak-ignore
+	g_get_current_time	noreturn leak-ignore
+	g_get_environ	return
+	g_get_filename_charsets	return leak-ignore
+	g_get_home_dir	return
+	g_get_host_name	return
+	g_get_language_names	return
+	g_get_monotonic_time	return
+	g_get_prgname	return
+	g_get_real_name	return
+	g_get_real_time	return
+	g_get_system_config_dirs	return
+	g_get_system_data_dirs	return
+	g_get_tmp_dir	return
+	g_get_user_cache_dir	return
+	g_get_user_config_dir	return
+	g_get_user_data_dir	return
+	g_get_user_name	return
+	g_get_user_runtime_dir	return
+	g_get_user_special_dir	return
+	g_getenv	return leak-ignore
+	g_hash_table_add	noreturn leak-ignore
+	g_hash_table_contains	return leak-ignore
+	g_hash_table_destroy	noreturn leak-ignore
+	g_hash_table_insert	noreturn leak-ignore
+	g_hash_table_lookup_extended	return leak-ignore
+	g_hash_table_remove	return leak-ignore
+	g_hash_table_remove_all	noreturn leak-ignore
+	g_hash_table_replace	noreturn leak-ignore
+	g_hash_table_size	return leak-ignore
+	g_hash_table_steal	return leak-ignore
+	g_hash_table_steal_all	noreturn leak-ignore
+	g_hash_table_unref	noreturn leak-ignore
+	g_hook_destroy	return leak-ignore
+	g_hook_destroy_link	noreturn leak-ignore
+	g_hook_free	noreturn leak-ignore
+	g_hook_insert_before	noreturn leak-ignore
+	g_hook_prepend	noreturn leak-ignore
+	g_hook_unref	noreturn leak-ignore
+	g_hostname_is_ascii_encoded	return leak-ignore
+	g_hostname_is_ip_address	return leak-ignore
+	g_hostname_is_non_ascii	return leak-ignore
+	g_hostname_to_ascii	return leak-ignore
+	g_hostname_to_unicode	return leak-ignore
+	g_idle_add	return leak-ignore
+	g_idle_add_full	return leak-ignore
+	g_idle_remove_by_data	return leak-ignore
+	g_int64_equal	return
+	g_int64_hash	return
+	g_int_equal	return
+	g_int_hash	return
+	g_intern_static_string	return leak-ignore
+	g_intern_string	return leak-ignore
+	g_io_add_watch	return leak-ignore
+	g_io_add_watch_full	return leak-ignore
+	g_io_channel_error_from_errno	return
+	g_io_channel_error_quark	return
+	g_io_create_watch	return leak-ignore
+	g_key_file_error_quark	return
+	g_listenv	return
+	g_locale_from_utf8	return leak-ignore
+	g_locale_to_utf8	return leak-ignore
+	g_log	noreturn leak-ignore
+	g_log_default_handler	noreturn leak-ignore
+	g_log_remove_handler	noreturn leak-ignore
+	g_log_set_always_fatal	return
+	g_log_set_default_handler	return leak-ignore
+	g_log_set_fatal_mask	return leak-ignore
+	g_log_set_handler	return leak-ignore
+	g_logv	noreturn leak-ignore
+	g_main_context_default	return
+	g_main_context_get_thread_default	return
+	g_main_context_ref_thread_default	return
+	g_main_current_source	return
+	g_main_depth	return
+	g_markup_collect_attributes	return leak-ignore
+	g_markup_error_quark	return
+	g_markup_escape_text	return leak-ignore
+	g_markup_printf_escaped	return leak-ignore
+	g_markup_vprintf_escaped	return leak-ignore
+	g_mem_is_system_malloc	return
+	g_mem_profile	noreturn
+	g_mem_set_vtable	noreturn leak-ignore
+	g_mkdir_with_parents	return leak-ignore
+	g_mkdtemp	return leak-ignore
+	g_mkdtemp_full	return leak-ignore
+	g_mkstemp	return leak-ignore
+	g_mkstemp_full	return leak-ignore
+	g_nullify_pointer	noreturn leak-ignore
+	g_on_error_query	noreturn leak-ignore
+	g_on_error_stack_trace	noreturn leak-ignore
+	g_once_init_enter	return leak-ignore
+	g_once_init_leave	noreturn leak-ignore
+	g_option_error_quark	return
+	g_parse_debug_string	return leak-ignore
+	g_path_is_absolute	return leak-ignore
+	g_path_skip_root	return leak-ignore
+	g_pattern_match	return leak-ignore
+	g_pattern_match_simple	return leak-ignore
+	g_pattern_match_string	return leak-ignore
+	g_pointer_bit_lock	noreturn leak-ignore
+	g_pointer_bit_trylock	return leak-ignore
+	g_pointer_bit_unlock	noreturn leak-ignore
+	g_poll	return leak-ignore
+	g_prefix_error	noreturn leak-ignore
+	g_print	noreturn leak-ignore
+	g_printerr	noreturn leak-ignore
+	g_printf	return leak-ignore
+	g_printf_string_upper_bound	return leak-ignore
+	g_propagate_error	noreturn leak-ignore
+	g_propagate_prefixed_error	noreturn leak-ignore
+	g_ptr_array_add	noreturn leak-ignore
+	g_ptr_array_remove	return leak-ignore
+	g_ptr_array_remove_fast	return leak-ignore
+	g_ptr_array_remove_range	noreturn leak-ignore
+	g_ptr_array_set_free_func	noreturn leak-ignore
+	g_ptr_array_set_size	noreturn leak-ignore
+	g_ptr_array_unref	noreturn leak-ignore
+	g_qsort_with_data	noreturn leak-ignore
+	g_quark_from_static_string	return leak-ignore
+	g_quark_from_string	return leak-ignore
+	g_quark_to_string	return
+	g_quark_try_string	return leak-ignore
+	g_random_double	return
+	g_random_double_range	return
+	g_random_int	return
+	g_random_int_range	return
+	g_random_set_seed	noreturn
+	g_realloc	return leak-ignore
+	g_realloc_n	return leak-ignore
+	g_regex_check_replacement	return leak-ignore
+	g_regex_error_quark	return
+	g_regex_escape_nul	return leak-ignore
+	g_regex_escape_string	return
+	g_regex_match_simple	return leak-ignore
+	g_regex_split_simple	return leak-ignore
+	g_reload_user_special_dirs_cache	noreturn
+	g_return_if_fail_warning	noreturn leak-ignore
+	g_rmdir	return leak-ignore
+	g_sequence_move	noreturn leak-ignore
+	g_sequence_move_range	noreturn leak-ignore
+	g_sequence_remove	noreturn leak-ignore
+	g_sequence_remove_range	noreturn leak-ignore
+	g_sequence_set	noreturn leak-ignore
+	g_sequence_swap	noreturn leak-ignore
+	g_set_application_name	noreturn leak-ignore
+	g_set_error	noreturn leak-ignore
+	g_set_error_literal	noreturn leak-ignore
+	g_set_prgname	noreturn leak-ignore
+	g_set_print_handler	return
+	g_set_printerr_handler	return
+	g_setenv	return leak-ignore
+	g_shell_error_quark	return
+	g_shell_parse_argv	return leak-ignore
+	g_shell_quote	return leak-ignore
+	g_shell_unquote	return leak-ignore
+	g_slice_free1	noreturn leak-ignore
+	g_slice_free_chain_with_offset	noreturn leak-ignore
+	g_slice_get_config	return
+	g_slice_get_config_state	return leak-ignore
+	g_slice_set_config	noreturn
+	g_snprintf	return leak-ignore
+	g_source_remove	return
+	g_source_remove_by_funcs_user_data	return leak-ignore
+	g_source_remove_by_user_data	return leak-ignore
+	g_source_set_name_by_id	noreturn leak-ignore
+	g_spaced_primes_closest	return
+	g_spawn_async	return leak-ignore
+	g_spawn_async_with_pipes	return leak-ignore
+	g_spawn_check_exit_status	return
+	g_spawn_close_pid	noreturn
+	g_spawn_command_line_async	return leak-ignore
+	g_spawn_command_line_sync	return leak-ignore
+	g_spawn_error_quark	return
+	g_spawn_exit_error_quark	return
+	g_spawn_sync	return leak-ignore
+	g_sprintf	return leak-ignore
+	g_stpcpy	return leak-ignore
+	g_str_equal	return
+	g_str_has_prefix	return leak-ignore
+	g_str_has_suffix	return leak-ignore
+	g_str_hash	return
+	g_strcanon	return leak-ignore
+	g_strcasecmp	return leak-ignore
+	g_strchomp	return leak-ignore
+	g_strchug	return leak-ignore
+	g_strcmp0	return leak-ignore
+	g_strdelimit	return leak-ignore
+	g_strdown	return leak-ignore
+	g_strerror	return
+	g_string_new_len	return leak-ignore
+	g_strip_context	return leak-ignore
+	g_strlcat	return leak-ignore
+	g_strlcpy	return leak-ignore
+	g_strncasecmp	return leak-ignore
+	g_strreverse	return leak-ignore
+	g_strrstr	return leak-ignore
+	g_strrstr_len	return leak-ignore
+	g_strsignal	return
+	g_strstr_len	return leak-ignore
+	g_strtod	return leak-ignore
+	g_strup	return leak-ignore
+	g_strv_get_type	return
+	g_strv_length	return leak-ignore
+	g_test_add_data_func	noreturn leak-ignore
+	g_test_add_data_func_full	noreturn leak-ignore
+	g_test_add_func	noreturn leak-ignore
+	g_test_add_vtable	noreturn leak-ignore
+	g_test_assert_expected_messages_internal	noreturn leak-ignore
+	g_test_bug	noreturn leak-ignore
+	g_test_bug_base	noreturn leak-ignore
+	g_test_create_case	return leak-ignore
+	g_test_create_suite	return leak-ignore
+	g_test_expect_message	noreturn leak-ignore
+	g_test_fail	noreturn
+	g_test_get_root	return
+	g_test_init	noreturn leak-ignore
+	g_test_log_set_fatal_handler	noreturn leak-ignore
+	g_test_log_type_name	return
+	g_test_maximized_result	noreturn leak-ignore
+	g_test_message	noreturn leak-ignore
+	g_test_minimized_result	noreturn leak-ignore
+	g_test_queue_destroy	noreturn leak-ignore
+	g_test_queue_free	noreturn leak-ignore
+	g_test_rand_double	return
+	g_test_rand_double_range	return
+	g_test_rand_int	return
+	g_test_rand_int_range	return
+	g_test_run	return
+	g_test_run_suite	return leak-ignore
+	g_test_timer_elapsed	return
+	g_test_timer_last	return
+	g_test_timer_start	noreturn
+	g_test_trap_assertions	noreturn leak-ignore
+	g_test_trap_fork	return
+	g_test_trap_has_passed	return
+	g_test_trap_reached_timeout	return
+	g_thread_error_quark	return
+	g_thread_exit	noreturn leak-ignore
+	g_thread_pool_get_max_idle_time	return
+	g_thread_pool_get_max_unused_threads	return
+	g_thread_pool_get_num_unused_threads	return
+	g_thread_pool_set_max_idle_time	noreturn
+	g_thread_pool_set_max_unused_threads	noreturn
+	g_thread_pool_stop_unused_threads	noreturn
+	g_thread_yield	noreturn
+	g_time_val_from_iso8601	return leak-ignore
+	g_timeout_add	return leak-ignore
+	g_timeout_add_full	return leak-ignore
+	g_timeout_add_seconds	return leak-ignore
+	g_timeout_add_seconds_full	return leak-ignore
+	g_timeout_source_new_seconds	return
+	g_trash_stack_height	return leak-ignore
+	g_trash_stack_push	noreturn leak-ignore
+	g_try_realloc	return leak-ignore
+	g_try_realloc_n	return leak-ignore
+	g_unichar_break_type	return
+	g_unichar_combining_class	return
+	g_unichar_compose	return leak-ignore
+	g_unichar_decompose	return leak-ignore
+	g_unichar_digit_value	return
+	g_unichar_fully_decompose	return leak-ignore
+	g_unichar_get_mirror_char	return leak-ignore
+	g_unichar_get_script	return
+	g_unichar_isalnum	return
+	g_unichar_isalpha	return
+	g_unichar_iscntrl	return
+	g_unichar_isdefined	return
+	g_unichar_isdigit	return
+	g_unichar_isgraph	return
+	g_unichar_islower	return
+	g_unichar_ismark	return
+	g_unichar_isprint	return
+	g_unichar_ispunct	return
+	g_unichar_isspace	return
+	g_unichar_istitle	return
+	g_unichar_isupper	return
+	g_unichar_iswide	return
+	g_unichar_iswide_cjk	return
+	g_unichar_isxdigit	return
+	g_unichar_iszerowidth	return
+	g_unichar_to_utf8	return leak-ignore
+	g_unichar_tolower	return
+	g_unichar_totitle	return
+	g_unichar_toupper	return
+	g_unichar_type	return
+	g_unichar_validate	return
+	g_unichar_xdigit_value	return
+	g_unicode_canonical_ordering	noreturn leak-ignore
+	g_unicode_script_from_iso15924	return
+	g_unicode_script_to_iso15924	return
+	g_unix_error_quark	return
+	g_unix_open_pipe	return leak-ignore
+	g_unix_set_fd_nonblocking	return
+	g_unix_signal_add	return leak-ignore
+	g_unix_signal_add_full	return leak-ignore
+	g_unlink	return leak-ignore
+	g_unsetenv	noreturn leak-ignore
+	g_uri_escape_string	return leak-ignore
+	g_uri_parse_scheme	return leak-ignore
+	g_uri_unescape_segment	return leak-ignore
+	g_uri_unescape_string	return leak-ignore
+	g_usleep	noreturn
+	g_utf8_collate	return leak-ignore
+	g_utf8_find_next_char	return leak-ignore
+	g_utf8_find_prev_char	return leak-ignore
+	g_utf8_get_char	return leak-ignore
+	g_utf8_get_char_validated	return leak-ignore
+	g_utf8_offset_to_pointer	return leak-ignore
+	g_utf8_pointer_to_offset	return leak-ignore
+	g_utf8_prev_char	return leak-ignore
+	g_utf8_strchr	return leak-ignore
+	g_utf8_strlen	return leak-ignore
+	g_utf8_strncpy	return leak-ignore
+	g_utf8_strrchr	return leak-ignore
+	g_utf8_validate	return leak-ignore
+	g_variant_get_gtype	return
+	g_variant_is_object_path	return leak-ignore
+	g_variant_is_signature	return leak-ignore
+	g_variant_parse	return leak-ignore
+	g_variant_parser_get_error_quark	return
+	g_variant_type_checked_	return leak-ignore
+	g_variant_type_string_is_valid	return leak-ignore
+	g_variant_type_string_scan	return leak-ignore
+	g_vasprintf	return leak-ignore
+	g_vfprintf	return leak-ignore
+	g_vprintf	return leak-ignore
+	g_vsnprintf	return leak-ignore
+	g_vsprintf	return leak-ignore
+	g_warn_message	noreturn leak-ignore
+	g_async_queue_length	return leak-ignore
+	g_async_queue_length_unlocked	return leak-ignore
+	g_async_queue_lock	noreturn leak-ignore
+	g_async_queue_pop	return leak-ignore
+	g_async_queue_pop_unlocked	return leak-ignore
+	g_async_queue_push	noreturn leak-ignore
+	g_async_queue_push_sorted	noreturn leak-ignore
+	g_async_queue_push_sorted_unlocked	noreturn leak-ignore
+	g_async_queue_push_unlocked	noreturn leak-ignore
+	g_async_queue_ref	return leak-ignore
+	g_async_queue_ref_unlocked	noreturn leak-ignore
+	g_async_queue_sort	noreturn leak-ignore
+	g_async_queue_sort_unlocked	noreturn leak-ignore
+	g_async_queue_timed_pop	return leak-ignore
+	g_async_queue_timed_pop_unlocked	return leak-ignore
+	g_async_queue_timeout_pop	return leak-ignore
+	g_async_queue_timeout_pop_unlocked	return leak-ignore
+	g_async_queue_try_pop	return leak-ignore
+	g_async_queue_try_pop_unlocked	return leak-ignore
+	g_async_queue_unlock	noreturn leak-ignore
+	g_async_queue_unref	noreturn leak-ignore
+	g_async_queue_unref_and_unlock	noreturn leak-ignore
+	g_bookmark_file_add_application	noreturn leak-ignore
+	g_bookmark_file_add_group	noreturn leak-ignore
+	g_bookmark_file_get_added	return leak-ignore
+	g_bookmark_file_get_app_info	return leak-ignore
+	g_bookmark_file_get_applications	return leak-ignore
+	g_bookmark_file_get_groups	return leak-ignore
+	g_bookmark_file_get_icon	return leak-ignore
+	g_bookmark_file_get_is_private	return leak-ignore
+	g_bookmark_file_get_modified	return leak-ignore
+	g_bookmark_file_get_size	return leak-ignore
+	g_bookmark_file_get_visited	return leak-ignore
+	g_bookmark_file_has_application	return leak-ignore
+	g_bookmark_file_has_group	return leak-ignore
+	g_bookmark_file_has_item	return leak-ignore
+	g_bookmark_file_load_from_data	return leak-ignore
+	g_bookmark_file_load_from_data_dirs	return leak-ignore
+	g_bookmark_file_load_from_file	return leak-ignore
+	g_bookmark_file_move_item	return leak-ignore
+	g_bookmark_file_remove_application	return leak-ignore
+	g_bookmark_file_remove_group	return leak-ignore
+	g_bookmark_file_remove_item	return leak-ignore
+	g_bookmark_file_set_added	noreturn leak-ignore
+	g_bookmark_file_set_app_info	return leak-ignore
+	g_bookmark_file_set_description	noreturn leak-ignore
+	g_bookmark_file_set_groups	noreturn leak-ignore
+	g_bookmark_file_set_icon	noreturn leak-ignore
+	g_bookmark_file_set_is_private	noreturn leak-ignore
+	g_bookmark_file_set_mime_type	noreturn leak-ignore
+	g_bookmark_file_set_modified	noreturn leak-ignore
+	g_bookmark_file_set_title	noreturn leak-ignore
+	g_bookmark_file_set_visited	noreturn leak-ignore
+	g_bookmark_file_to_file	return leak-ignore
+	g_bytes_compare	return leak-ignore
+	g_bytes_equal	return leak-ignore
+	g_bytes_get_data	return leak-ignore
+	g_bytes_get_size	return leak-ignore
+	g_bytes_hash	return leak-ignore
+	g_checksum_get_digest	noreturn leak-ignore
+	g_checksum_get_string	return leak-ignore
+	g_checksum_reset	noreturn leak-ignore
+	g_checksum_update	noreturn leak-ignore
+	g_cond_broadcast	noreturn leak-ignore
+	g_cond_clear	noreturn leak-ignore
+	g_cond_init	noreturn leak-ignore
+	g_cond_signal	noreturn leak-ignore
+	g_cond_wait	noreturn leak-ignore
+	g_cond_wait_until	return leak-ignore
+	g_date_add_days	noreturn leak-ignore
+	g_date_add_months	noreturn leak-ignore
+	g_date_add_years	noreturn leak-ignore
+	g_date_clamp	noreturn leak-ignore
+	g_date_clear	noreturn leak-ignore
+	g_date_compare	return leak-ignore
+	g_date_days_between	return leak-ignore
+	g_date_get_day	return leak-ignore
+	g_date_get_day_of_year	return leak-ignore
+	g_date_get_iso8601_week_of_year	return leak-ignore
+	g_date_get_julian	return leak-ignore
+	g_date_get_monday_week_of_year	return leak-ignore
+	g_date_get_month	return leak-ignore
+	g_date_get_sunday_week_of_year	return leak-ignore
+	g_date_get_weekday	return leak-ignore
+	g_date_get_year	return leak-ignore
+	g_date_is_first_of_month	return leak-ignore
+	g_date_is_last_of_month	return leak-ignore
+	g_date_order	noreturn leak-ignore
+	g_date_set_day	noreturn leak-ignore
+	g_date_set_dmy	noreturn leak-ignore
+	g_date_set_julian	noreturn leak-ignore
+	g_date_set_month	noreturn leak-ignore
+	g_date_set_parse	noreturn leak-ignore
+	g_date_set_time	noreturn leak-ignore
+	g_date_set_time_t	noreturn leak-ignore
+	g_date_set_time_val	noreturn leak-ignore
+	g_date_set_year	noreturn leak-ignore
+	g_date_subtract_days	noreturn leak-ignore
+	g_date_subtract_months	noreturn leak-ignore
+	g_date_subtract_years	noreturn leak-ignore
+	g_date_to_struct_tm	noreturn leak-ignore
+	g_date_valid	return leak-ignore
+	g_date_time_add	return leak-ignore
+	g_date_time_add_days	return leak-ignore
+	g_date_time_add_full	return leak-ignore
+	g_date_time_add_hours	return leak-ignore
+	g_date_time_add_minutes	return leak-ignore
+	g_date_time_add_months	return leak-ignore
+	g_date_time_add_seconds	return leak-ignore
+	g_date_time_add_weeks	return leak-ignore
+	g_date_time_add_years	return leak-ignore
+	g_date_time_difference	return leak-ignore
+	g_date_time_get_day_of_month	return leak-ignore
+	g_date_time_get_day_of_week	return leak-ignore
+	g_date_time_get_day_of_year	return leak-ignore
+	g_date_time_get_hour	return leak-ignore
+	g_date_time_get_microsecond	return leak-ignore
+	g_date_time_get_minute	return leak-ignore
+	g_date_time_get_month	return leak-ignore
+	g_date_time_get_second	return leak-ignore
+	g_date_time_get_seconds	return leak-ignore
+	g_date_time_get_timezone_abbreviation	return leak-ignore
+	g_date_time_get_utc_offset	return leak-ignore
+	g_date_time_get_week_numbering_year	return leak-ignore
+	g_date_time_get_week_of_year	return leak-ignore
+	g_date_time_get_year	return leak-ignore
+	g_date_time_get_ymd	noreturn leak-ignore
+	g_date_time_is_daylight_savings	return leak-ignore
+	g_date_time_ref	return leak-ignore
+	g_date_time_to_local	return leak-ignore
+	g_date_time_to_timeval	return leak-ignore
+	g_date_time_to_timezone	return leak-ignore
+	g_date_time_to_unix	return leak-ignore
+	g_date_time_to_utc	return leak-ignore
+	g_date_time_unref	noreturn leak-ignore
+	g_dir_close	noreturn leak-ignore
+	g_dir_read_name	return leak-ignore
+	g_dir_rewind	noreturn leak-ignore
+	g_error_copy	return leak-ignore
+	g_error_matches	return leak-ignore
+	g_hash_table_iter_get_hash_table	return leak-ignore
+	g_hash_table_iter_init	noreturn leak-ignore
+	g_hash_table_iter_next	return leak-ignore
+	g_hash_table_iter_remove	noreturn leak-ignore
+	g_hash_table_iter_replace	noreturn leak-ignore
+	g_hash_table_iter_steal	noreturn leak-ignore
+	g_hmac_copy	return leak-ignore
+	g_hmac_get_digest	noreturn leak-ignore
+	g_hmac_get_string	return leak-ignore
+	g_hmac_update	noreturn leak-ignore
+	g_hook_compare_ids	return leak-ignore
+	g_hook_list_clear	noreturn leak-ignore
+	g_hook_list_init	noreturn leak-ignore
+	g_hook_list_invoke	noreturn leak-ignore
+	g_hook_list_invoke_check	noreturn leak-ignore
+	g_hook_list_marshal	noreturn leak-ignore
+	g_hook_list_marshal_check	noreturn leak-ignore
+	g_iconv	return leak-ignore
+	g_iconv_close	return leak-ignore
+	g_io_channel_close	noreturn leak-ignore
+	g_io_channel_flush	return leak-ignore
+	g_io_channel_get_buffer_condition	return leak-ignore
+	g_io_channel_get_buffer_size	return leak-ignore
+	g_io_channel_get_buffered	return leak-ignore
+	g_io_channel_get_close_on_unref	return leak-ignore
+	g_io_channel_get_encoding	return leak-ignore
+	g_io_channel_get_flags	return leak-ignore
+	g_io_channel_get_line_term	return leak-ignore
+	g_io_channel_init	noreturn leak-ignore
+	g_io_channel_read	return leak-ignore
+	g_io_channel_read_chars	return leak-ignore
+	g_io_channel_read_line	return leak-ignore
+	g_io_channel_read_line_string	return leak-ignore
+	g_io_channel_read_to_end	return leak-ignore
+	g_io_channel_read_unichar	return leak-ignore
+	g_io_channel_ref	return leak-ignore
+	g_io_channel_seek	return leak-ignore
+	g_io_channel_seek_position	return leak-ignore
+	g_io_channel_set_buffer_size	noreturn leak-ignore
+	g_io_channel_set_buffered	noreturn leak-ignore
+	g_io_channel_set_close_on_unref	noreturn leak-ignore
+	g_io_channel_set_encoding	return leak-ignore
+	g_io_channel_set_flags	return leak-ignore
+	g_io_channel_set_line_term	noreturn leak-ignore
+	g_io_channel_shutdown	return leak-ignore
+	g_io_channel_unix_get_fd	return leak-ignore
+	g_io_channel_unref	noreturn leak-ignore
+	g_io_channel_write	return leak-ignore
+	g_io_channel_write_chars	return leak-ignore
+	g_io_channel_write_unichar	return leak-ignore
+	g_key_file_get_boolean	return leak-ignore
+	g_key_file_get_double	return leak-ignore
+	g_key_file_get_int64	return leak-ignore
+	g_key_file_get_integer	return leak-ignore
+	g_key_file_get_uint64	return leak-ignore
+	g_key_file_has_group	return leak-ignore
+	g_key_file_has_key	return leak-ignore
+	g_key_file_load_from_data	return leak-ignore
+	g_key_file_load_from_data_dirs	return leak-ignore
+	g_key_file_load_from_dirs	return leak-ignore
+	g_key_file_load_from_file	return leak-ignore
+	g_key_file_remove_comment	return leak-ignore
+	g_key_file_remove_group	return leak-ignore
+	g_key_file_remove_key	return leak-ignore
+	g_key_file_set_boolean	noreturn leak-ignore
+	g_key_file_set_boolean_list	noreturn leak-ignore
+	g_key_file_set_comment	return leak-ignore
+	g_key_file_set_double	noreturn leak-ignore
+	g_key_file_set_double_list	noreturn leak-ignore
+	g_key_file_set_int64	noreturn leak-ignore
+	g_key_file_set_integer	noreturn leak-ignore
+	g_key_file_set_integer_list	noreturn leak-ignore
+	g_key_file_set_list_separator	noreturn leak-ignore
+	g_key_file_set_locale_string	noreturn leak-ignore
+	g_key_file_set_locale_string_list	noreturn leak-ignore
+	g_key_file_set_string	noreturn leak-ignore
+	g_key_file_set_string_list	noreturn leak-ignore
+	g_key_file_set_uint64	noreturn leak-ignore
+	g_key_file_set_value	noreturn leak-ignore
+	g_main_context_acquire	return leak-ignore
+	g_main_context_add_poll	noreturn leak-ignore
+	g_main_context_check	return leak-ignore
+	g_main_context_dispatch	noreturn leak-ignore
+	g_main_context_find_source_by_funcs_user_data	return leak-ignore
+	g_main_context_find_source_by_id	return leak-ignore
+	g_main_context_find_source_by_user_data	return leak-ignore
+	g_main_context_get_poll_func	return leak-ignore
+	g_main_context_invoke	noreturn leak-ignore
+	g_main_context_invoke_full	noreturn leak-ignore
+	g_main_context_is_owner	return leak-ignore
+	g_main_context_iteration	return leak-ignore
+	g_main_context_pending	return leak-ignore
+	g_main_context_pop_thread_default	noreturn leak-ignore
+	g_main_context_prepare	return leak-ignore
+	g_main_context_push_thread_default	noreturn leak-ignore
+	g_main_context_query	return leak-ignore
+	g_main_context_ref	return leak-ignore
+	g_main_context_release	noreturn leak-ignore
+	g_main_context_remove_poll	noreturn leak-ignore
+	g_main_context_set_poll_func	noreturn leak-ignore
+	g_main_context_unref	noreturn leak-ignore
+	g_main_context_wait	return leak-ignore
+	g_main_context_wakeup	noreturn leak-ignore
+	g_main_loop_get_context	return leak-ignore
+	g_main_loop_is_running	return leak-ignore
+	g_main_loop_quit	noreturn leak-ignore
+	g_main_loop_ref	return leak-ignore
+	g_main_loop_run	noreturn leak-ignore
+	g_main_loop_unref	noreturn leak-ignore
+	g_mapped_file_get_bytes	return leak-ignore
+	g_mapped_file_get_contents	return leak-ignore
+	g_mapped_file_get_length	return leak-ignore
+	g_mapped_file_ref	return leak-ignore
+	g_mapped_file_unref	noreturn leak-ignore
+	g_markup_parse_context_end_parse	return leak-ignore
+	g_markup_parse_context_get_element	return leak-ignore
+	g_markup_parse_context_get_element_stack	return leak-ignore
+	g_markup_parse_context_get_position	noreturn leak-ignore
+	g_markup_parse_context_get_user_data	return leak-ignore
+	g_markup_parse_context_parse	return leak-ignore
+	g_markup_parse_context_pop	return leak-ignore
+	g_markup_parse_context_push	noreturn leak-ignore
+	g_match_info_expand_references	return leak-ignore
+	g_match_info_fetch	return leak-ignore
+	g_match_info_fetch_all	return leak-ignore
+	g_match_info_fetch_named	return leak-ignore
+	g_match_info_fetch_named_pos	return leak-ignore
+	g_match_info_fetch_pos	return leak-ignore
+	g_match_info_free	noreturn leak-ignore
+	g_match_info_get_match_count	return leak-ignore
+	g_match_info_get_regex	return leak-ignore
+	g_match_info_get_string	return leak-ignore
+	g_match_info_is_partial_match	return leak-ignore
+	g_match_info_matches	return leak-ignore
+	g_match_info_next	return leak-ignore
+	g_match_info_ref	return leak-ignore
+	g_match_info_unref	noreturn leak-ignore
+	g_mutex_clear	noreturn
+	g_mutex_init	noreturn
+	g_mutex_lock	noreturn
+	g_mutex_trylock	return
+	g_mutex_unlock	noreturn
+	g_node_child_index	return leak-ignore
+	g_node_child_position	return leak-ignore
+	g_node_children_foreach	noreturn leak-ignore
+	g_node_copy	return leak-ignore
+	g_node_copy_deep	return leak-ignore
+	g_node_depth	return leak-ignore
+	g_node_destroy	noreturn leak-ignore
+	g_node_find	return leak-ignore
+	g_node_find_child	return leak-ignore
+	g_node_first_sibling	return leak-ignore
+	g_node_get_root	return leak-ignore
+	g_node_insert	return leak-ignore
+	g_node_insert_after	return leak-ignore
+	g_node_insert_before	return leak-ignore
+	g_node_is_ancestor	return leak-ignore
+	g_node_last_child	return leak-ignore
+	g_node_last_sibling	return leak-ignore
+	g_node_max_height	return leak-ignore
+	g_node_n_children	return leak-ignore
+	g_node_n_nodes	return leak-ignore
+	g_node_nth_child	return leak-ignore
+	g_node_prepend	return leak-ignore
+	g_node_reverse_children	noreturn leak-ignore
+	g_node_traverse	noreturn leak-ignore
+	g_node_unlink	noreturn leak-ignore
+	g_once_impl	return leak-ignore
+	g_option_context_add_group	noreturn leak-ignore
+	g_option_context_add_main_entries	noreturn leak-ignore
+	g_option_context_get_description	return leak-ignore
+	g_option_context_get_help	return leak-ignore
+	g_option_context_get_help_enabled	return leak-ignore
+	g_option_context_get_ignore_unknown_options	return leak-ignore
+	g_option_context_get_main_group	return leak-ignore
+	g_option_context_get_summary	return leak-ignore
+	g_option_context_parse	return leak-ignore
+	g_option_context_set_description	noreturn leak-ignore
+	g_option_context_set_help_enabled	noreturn leak-ignore
+	g_option_context_set_ignore_unknown_options	noreturn leak-ignore
+	g_option_context_set_main_group	noreturn leak-ignore
+	g_option_context_set_summary	noreturn leak-ignore
+	g_option_context_set_translate_func	noreturn leak-ignore
+	g_option_context_set_translation_domain	noreturn leak-ignore
+	g_option_group_add_entries	noreturn leak-ignore
+	g_option_group_set_error_hook	noreturn leak-ignore
+	g_option_group_set_parse_hooks	noreturn leak-ignore
+	g_option_group_set_translate_func	noreturn leak-ignore
+	g_option_group_set_translation_domain	noreturn leak-ignore
+	g_pattern_spec_equal	return leak-ignore
+	g_private_get	return leak-ignore
+	g_private_replace	noreturn leak-ignore
+	g_private_set	noreturn leak-ignore
+	g_queue_clear	noreturn leak-ignore
+	g_queue_copy	return leak-ignore
+	g_queue_delete_link	noreturn leak-ignore
+	g_queue_find	return leak-ignore
+	g_queue_find_custom	return leak-ignore
+	g_queue_foreach	noreturn leak-ignore
+	g_queue_free_full	noreturn leak-ignore
+	g_queue_get_length	return leak-ignore
+	g_queue_index	return leak-ignore
+	g_queue_init	noreturn leak-ignore
+	g_queue_insert_after	noreturn leak-ignore
+	g_queue_insert_before	noreturn leak-ignore
+	g_queue_insert_sorted	noreturn leak-ignore
+	g_queue_is_empty	return leak-ignore
+	g_queue_link_index	return leak-ignore
+	g_queue_peek_head	return leak-ignore
+	g_queue_peek_head_link	return leak-ignore
+	g_queue_peek_nth	return leak-ignore
+	g_queue_peek_nth_link	return leak-ignore
+	g_queue_peek_tail	return leak-ignore
+	g_queue_peek_tail_link	return leak-ignore
+	g_queue_pop_head	return leak-ignore
+	g_queue_pop_head_link	return leak-ignore
+	g_queue_pop_nth	return leak-ignore
+	g_queue_pop_nth_link	return leak-ignore
+	g_queue_pop_tail	return leak-ignore
+	g_queue_pop_tail_link	return leak-ignore
+	g_queue_push_head	noreturn leak-ignore
+	g_queue_push_head_link	noreturn leak-ignore
+	g_queue_push_nth	noreturn leak-ignore
+	g_queue_push_nth_link	noreturn leak-ignore
+	g_queue_push_tail	noreturn leak-ignore
+	g_queue_push_tail_link	noreturn leak-ignore
+	g_queue_remove	return leak-ignore
+	g_queue_remove_all	return leak-ignore
+	g_queue_reverse	noreturn leak-ignore
+	g_queue_sort	noreturn leak-ignore
+	g_queue_unlink	noreturn leak-ignore
+	g_rw_lock_clear	noreturn leak-ignore
+	g_rw_lock_init	noreturn leak-ignore
+	g_rw_lock_reader_lock	noreturn leak-ignore
+	g_rw_lock_reader_trylock	return leak-ignore
+	g_rw_lock_reader_unlock	noreturn leak-ignore
+	g_rw_lock_writer_lock	noreturn leak-ignore
+	g_rw_lock_writer_trylock	return leak-ignore
+	g_rw_lock_writer_unlock	noreturn leak-ignore
+	g_rand_copy	return leak-ignore
+	g_rand_double	return leak-ignore
+	g_rand_double_range	return leak-ignore
+	g_rand_int	return leak-ignore
+	g_rand_int_range	return leak-ignore
+	g_rand_set_seed	noreturn leak-ignore
+	g_rand_set_seed_array	noreturn leak-ignore
+	g_rec_mutex_clear	noreturn leak-ignore
+	g_rec_mutex_init	noreturn leak-ignore
+	g_rec_mutex_lock	noreturn leak-ignore
+	g_rec_mutex_trylock	return leak-ignore
+	g_rec_mutex_unlock	noreturn leak-ignore
+	g_regex_get_capture_count	return leak-ignore
+	g_regex_get_compile_flags	return leak-ignore
+	g_regex_get_has_cr_or_lf	return leak-ignore
+	g_regex_get_match_flags	return leak-ignore
+	g_regex_get_max_backref	return leak-ignore
+	g_regex_get_pattern	return leak-ignore
+	g_regex_get_string_number	return leak-ignore
+	g_regex_match	return leak-ignore
+	g_regex_match_all	return leak-ignore
+	g_regex_match_all_full	return leak-ignore
+	g_regex_match_full	return leak-ignore
+	g_regex_replace	return leak-ignore
+	g_regex_replace_eval	return leak-ignore
+	g_regex_replace_literal	return leak-ignore
+	g_regex_split	return leak-ignore
+	g_regex_split_full	return leak-ignore
+	g_scanner_cur_line	return leak-ignore
+	g_scanner_cur_position	return leak-ignore
+	g_scanner_cur_token	return leak-ignore
+	g_scanner_cur_value	return leak-ignore
+	g_scanner_destroy	noreturn leak-ignore
+	g_scanner_eof	return leak-ignore
+	g_scanner_error	noreturn leak-ignore
+	g_scanner_get_next_token	return leak-ignore
+	g_scanner_input_file	noreturn leak-ignore
+	g_scanner_input_text	noreturn leak-ignore
+	g_scanner_lookup_symbol	return leak-ignore
+	g_scanner_peek_next_token	return leak-ignore
+	g_scanner_scope_add_symbol	noreturn leak-ignore
+	g_scanner_scope_foreach_symbol	noreturn leak-ignore
+	g_scanner_scope_lookup_symbol	return leak-ignore
+	g_scanner_scope_remove_symbol	noreturn leak-ignore
+	g_scanner_set_scope	return leak-ignore
+	g_scanner_sync_file_offset	noreturn leak-ignore
+	g_scanner_unexp_token	noreturn leak-ignore
+	g_scanner_warn	noreturn leak-ignore
+	g_sequence_append	return leak-ignore
+	g_sequence_foreach	noreturn leak-ignore
+	g_sequence_get_begin_iter	return leak-ignore
+	g_sequence_get_end_iter	return leak-ignore
+	g_sequence_get_iter_at_pos	return leak-ignore
+	g_sequence_get_length	return leak-ignore
+	g_sequence_insert_sorted	return leak-ignore
+	g_sequence_insert_sorted_iter	return leak-ignore
+	g_sequence_lookup	return leak-ignore
+	g_sequence_lookup_iter	return leak-ignore
+	g_sequence_prepend	return leak-ignore
+	g_sequence_search	return leak-ignore
+	g_sequence_search_iter	return leak-ignore
+	g_sequence_sort	noreturn leak-ignore
+	g_sequence_sort_iter	noreturn leak-ignore
+	g_sequence_iter_compare	return leak-ignore
+	g_sequence_iter_get_position	return leak-ignore
+	g_sequence_iter_get_sequence	return leak-ignore
+	g_sequence_iter_is_begin	return leak-ignore
+	g_sequence_iter_is_end	return leak-ignore
+	g_sequence_iter_move	return leak-ignore
+	g_sequence_iter_next	return leak-ignore
+	g_sequence_iter_prev	return leak-ignore
+	g_source_add_child_source	noreturn leak-ignore
+	g_source_add_poll	noreturn leak-ignore
+	g_source_attach	return leak-ignore
+	g_source_destroy	noreturn leak-ignore
+	g_source_get_can_recurse	return leak-ignore
+	g_source_get_context	return leak-ignore
+	g_source_get_current_time	noreturn leak-ignore
+	g_source_get_id	return leak-ignore
+	g_source_get_name	return leak-ignore
+	g_source_get_priority	return leak-ignore
+	g_source_get_time	return leak-ignore
+	g_source_is_destroyed	return leak-ignore
+	g_source_ref	return leak-ignore
+	g_source_remove_child_source	noreturn leak-ignore
+	g_source_remove_poll	noreturn leak-ignore
+	g_source_set_callback	noreturn leak-ignore
+	g_source_set_callback_indirect	noreturn leak-ignore
+	g_source_set_can_recurse	noreturn leak-ignore
+	g_source_set_funcs	noreturn leak-ignore
+	g_source_set_name	noreturn leak-ignore
+	g_source_set_priority	noreturn leak-ignore
+	g_source_unref	noreturn leak-ignore
+	g_string_append	return leak-ignore
+	g_string_append_c	return leak-ignore
+	g_string_append_len	return leak-ignore
+	g_string_append_printf	noreturn leak-ignore
+	g_string_append_unichar	return leak-ignore
+	g_string_append_uri_escaped	return leak-ignore
+	g_string_append_vprintf	noreturn leak-ignore
+	g_string_ascii_down	return leak-ignore
+	g_string_ascii_up	return leak-ignore
+	g_string_assign	return leak-ignore
+	g_string_down	return leak-ignore
+	g_string_equal	return leak-ignore
+	g_string_erase	return leak-ignore
+	g_string_free_to_bytes	return leak-ignore
+	g_string_hash	return leak-ignore
+	g_string_insert	return leak-ignore
+	g_string_insert_c	return leak-ignore
+	g_string_insert_len	return leak-ignore
+	g_string_insert_unichar	return leak-ignore
+	g_string_overwrite	return leak-ignore
+	g_string_overwrite_len	return leak-ignore
+	g_string_prepend	return leak-ignore
+	g_string_prepend_c	return leak-ignore
+	g_string_prepend_len	return leak-ignore
+	g_string_prepend_unichar	return leak-ignore
+	g_string_printf	noreturn leak-ignore
+	g_string_set_size	return leak-ignore
+	g_string_truncate	return leak-ignore
+	g_string_up	return leak-ignore
+	g_string_vprintf	noreturn leak-ignore
+	g_string_chunk_clear	noreturn leak-ignore
+	g_string_chunk_insert	return leak-ignore
+	g_string_chunk_insert_const	return leak-ignore
+	g_string_chunk_insert_len	return leak-ignore
+	g_test_log_buffer_pop	return leak-ignore
+	g_test_log_buffer_push	noreturn leak-ignore
+	g_test_log_msg_free	noreturn leak-ignore
+	g_test_suite_add	noreturn leak-ignore
+	g_test_suite_add_suite	noreturn leak-ignore
+	g_thread_join	return leak-ignore
+	g_thread_ref	return leak-ignore
+	g_thread_unref	noreturn leak-ignore
+	g_thread_pool_get_max_threads	return leak-ignore
+	g_thread_pool_get_num_threads	return leak-ignore
+	g_thread_pool_push	return leak-ignore
+	g_thread_pool_set_max_threads	return leak-ignore
+	g_thread_pool_set_sort_function	noreturn leak-ignore
+	g_thread_pool_unprocessed	return leak-ignore
+	g_time_val_add	noreturn leak-ignore
+	g_time_zone_adjust_time	return leak-ignore
+	g_time_zone_find_interval	return leak-ignore
+	g_time_zone_get_abbreviation	return leak-ignore
+	g_time_zone_get_offset	return leak-ignore
+	g_time_zone_is_dst	return leak-ignore
+	g_time_zone_ref	return leak-ignore
+	g_time_zone_unref	noreturn leak-ignore
+	g_timer_continue	noreturn leak-ignore
+	g_timer_destroy	noreturn leak-ignore
+	g_timer_elapsed	return leak-ignore
+	g_timer_reset	noreturn leak-ignore
+	g_timer_start	noreturn leak-ignore
+	g_timer_stop	noreturn leak-ignore
+	g_tree_destroy	noreturn leak-ignore
+	g_tree_foreach	noreturn leak-ignore
+	g_tree_height	return leak-ignore
+	g_tree_insert	noreturn leak-ignore
+	g_tree_lookup	return leak-ignore
+	g_tree_lookup_extended	return leak-ignore
+	g_tree_nnodes	return leak-ignore
+	g_tree_ref	return leak-ignore
+	g_tree_remove	return leak-ignore
+	g_tree_replace	noreturn leak-ignore
+	g_tree_search	return leak-ignore
+	g_tree_steal	return leak-ignore
+	g_tree_traverse	noreturn leak-ignore
+	g_tree_unref	noreturn leak-ignore
+	g_variant_byteswap	return leak-ignore
+	g_variant_check_format_string	return leak-ignore
+	g_variant_classify	return leak-ignore
+	g_variant_compare	return leak-ignore
+	g_variant_dup_bytestring	return leak-ignore
+	g_variant_dup_bytestring_array	return leak-ignore
+	g_variant_dup_objv	return leak-ignore
+	g_variant_dup_string	return leak-ignore
+	g_variant_dup_strv	return leak-ignore
+	g_variant_equal	return leak-ignore
+	g_variant_get	noreturn leak-ignore
+	g_variant_get_boolean	return leak-ignore
+	g_variant_get_byte	return leak-ignore
+	g_variant_get_bytestring	return leak-ignore
+	g_variant_get_bytestring_array	return leak-ignore
+	g_variant_get_child	noreturn leak-ignore
+	g_variant_get_child_value	return leak-ignore
+	g_variant_get_data	return leak-ignore
+	g_variant_get_double	return leak-ignore
+	g_variant_get_fixed_array	return leak-ignore
+	g_variant_get_handle	return leak-ignore
+	g_variant_get_int16	return leak-ignore
+	g_variant_get_int32	return leak-ignore
+	g_variant_get_int64	return leak-ignore
+	g_variant_get_maybe	return leak-ignore
+	g_variant_get_normal_form	return leak-ignore
+	g_variant_get_objv	return leak-ignore
+	g_variant_get_size	return leak-ignore
+	g_variant_get_string	return leak-ignore
+	g_variant_get_strv	return leak-ignore
+	g_variant_get_type	return leak-ignore
+	g_variant_get_type_string	return leak-ignore
+	g_variant_get_uint16	return leak-ignore
+	g_variant_get_uint32	return leak-ignore
+	g_variant_get_uint64	return leak-ignore
+	g_variant_get_va	noreturn leak-ignore
+	g_variant_get_variant	return leak-ignore
+	g_variant_hash	return leak-ignore
+	g_variant_is_container	return leak-ignore
+	g_variant_is_floating	return leak-ignore
+	g_variant_is_normal_form	return leak-ignore
+	g_variant_is_of_type	return leak-ignore
+	g_variant_lookup	return leak-ignore
+	g_variant_lookup_value	return leak-ignore
+	g_variant_n_children	return leak-ignore
+	g_variant_print	return leak-ignore
+	g_variant_print_string	return leak-ignore
+	g_variant_ref	return leak-ignore
+	g_variant_ref_sink	return leak-ignore
+	g_variant_store	noreturn leak-ignore
+	g_variant_take_ref	return leak-ignore
+	g_variant_unref	noreturn leak-ignore
+	g_variant_builder_add	noreturn leak-ignore
+	g_variant_builder_add_parsed	noreturn leak-ignore
+	g_variant_builder_add_value	noreturn leak-ignore
+	g_variant_builder_clear	noreturn leak-ignore
+	g_variant_builder_close	noreturn leak-ignore
+	g_variant_builder_end	return leak-ignore
+	g_variant_builder_init	noreturn leak-ignore
+	g_variant_builder_open	noreturn leak-ignore
+	g_variant_builder_ref	return leak-ignore
+	g_variant_builder_unref	noreturn leak-ignore
+	g_variant_iter_copy	return leak-ignore
+	g_variant_iter_init	return leak-ignore
+	g_variant_iter_loop	return leak-ignore
+	g_variant_iter_n_children	return leak-ignore
+	g_variant_iter_next	return leak-ignore
+	g_variant_iter_next_value	return leak-ignore
+	g_variant_type_copy	return leak-ignore
+	g_variant_type_dup_string	return leak-ignore
+	g_variant_type_element	return leak-ignore
+	g_variant_type_equal	return leak-ignore
+	g_variant_type_first	return leak-ignore
+	g_variant_type_get_string_length	return leak-ignore
+	g_variant_type_hash	return leak-ignore
+	g_variant_type_is_array	return leak-ignore
+	g_variant_type_is_basic	return leak-ignore
+	g_variant_type_is_container	return leak-ignore
+	g_variant_type_is_definite	return leak-ignore
+	g_variant_type_is_dict_entry	return leak-ignore
+	g_variant_type_is_maybe	return leak-ignore
+	g_variant_type_is_subtype_of	return leak-ignore
+	g_variant_type_is_tuple	return leak-ignore
+	g_variant_type_is_variant	return leak-ignore
+	g_variant_type_key	return leak-ignore
+	g_variant_type_n_items	return leak-ignore
+	g_variant_type_next	return leak-ignore
+	g_variant_type_peek_string	return leak-ignore
+	g_variant_type_value	return leak-ignore
