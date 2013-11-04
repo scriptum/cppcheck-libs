@@ -1,0 +1,505 @@
+alloc[main]:
+	g_ascii_strdown
+	g_ascii_strup
+	g_base64_decode
+	g_base64_decode
+	g_base64_encode
+	g_base64_encode
+	g_bookmark_file_get_description
+	g_bookmark_file_get_mime_type
+	g_bookmark_file_get_title
+	g_bookmark_file_to_data
+	g_build_filename
+	g_build_filenamev
+	g_build_path
+	g_build_pathv
+	g_compute_checksum_for_bytes
+	g_compute_checksum_for_data
+	g_compute_checksum_for_string
+	g_compute_hmac_for_data
+	g_compute_hmac_for_string
+	g_convert
+	g_convert_with_fallback
+	g_convert_with_iconv
+	g_date_time_format
+	g_filename_display_basename
+	g_filename_display_name
+	g_filename_from_uri
+	g_filename_to_uri
+	g_get_codeset
+	g_get_current_dir
+	g_get_locale_variants
+	g_key_file_get_start_group
+	g_key_file_to_data
+	g_malloc
+	g_malloc0
+	g_malloc0_n
+	g_malloc_n
+	g_memdup
+	g_path_get_basename
+	g_path_get_dirname
+	g_slice_alloc
+	g_slice_alloc0
+	g_slice_copy
+	g_strcompress
+	g_strconcat
+	g_strdup
+	g_strdup_printf
+	g_strdup_vprintf
+	g_strescape
+	g_strjoin
+	g_strjoinv
+	g_strndup
+	g_strnfill
+	g_time_val_to_iso8601
+	g_try_malloc
+	g_try_malloc0
+	g_try_malloc0_n
+	g_try_malloc_n
+	g_try_new
+	g_try_new0
+	g_ucs4_to_utf16
+	g_ucs4_to_utf8
+	g_unicode_canonical_decomposition
+	g_utf16_to_ucs4
+	g_utf16_to_utf8
+	g_utf8_casefold
+	g_utf8_collate_key
+	g_utf8_collate_key_for_filename
+	g_utf8_normalize
+	g_utf8_strdown
+	g_utf8_strreverse
+	g_utf8_strup
+	g_utf8_substring
+	g_utf8_to_ucs4
+	g_utf8_to_ucs4_fast
+	g_utf8_to_ucs4_fast
+	g_utf8_to_utf16
+dealloc:
+	g_free
+use:
+	g_register_data
+
+alloc[strv]:
+	g_bookmark_file_get_uris
+	g_key_file_get_groups
+	g_strdupv
+	g_strsplit
+	g_strsplit_set
+	g_uri_list_extract_uris
+dealloc:
+	g_strfreev
+
+alloc:
+	g_thread_pool_new
+dealloc:
+	g_thread_pool_free
+
+alloc:
+	g_string_new
+	g_string_sized_new
+dealloc:
+	g_string_free
+
+alloc:
+	g_pattern_spec_new
+dealloc:
+	g_pattern_spec_free
+
+alloc:
+	g_ptr_array_new
+dealloc:
+	g_ptr_array_free
+
+alloc:
+	g_io_module_scope_new
+dealloc:
+	g_io_module_scope_free
+
+alloc:
+	g_key_file_new
+dealloc:
+	g_key_file_free
+
+alloc:
+	g_mapped_file_new
+dealloc:
+	g_mapped_file_free
+
+alloc:
+	g_markup_parse_context_new
+dealloc:
+	g_markup_parse_context_free
+
+alloc:
+	g_mem_chunk_new
+dealloc:
+	g_mem_chunk_free
+
+alloc:
+	g_mutex_new
+dealloc:
+	g_mutex_free
+
+alloc:
+	g_option_context_new
+dealloc:
+	g_option_context_free
+
+alloc:
+	g_option_group_new
+dealloc:
+	g_option_group_free
+
+alloc:
+	g_queue_new
+dealloc:
+	g_queue_free
+
+alloc:
+	g_rand_new
+dealloc:
+	g_rand_free
+
+alloc:
+	g_sequence_new
+dealloc:
+	g_sequence_free
+
+alloc:
+	g_slice_new
+dealloc:
+	g_slice_free
+
+alloc:
+	g_srv_target_new
+dealloc:
+	g_srv_target_free
+
+alloc:
+	g_string_chunk_new
+dealloc:
+	g_string_chunk_free
+
+alloc:
+	g_test_log_buffer_new
+dealloc:
+	g_test_log_buffer_free
+
+alloc:
+	g_value_array_new
+dealloc:
+	g_value_array_free
+
+alloc:
+	g_variant_iter_new
+dealloc:
+	g_variant_iter_free
+
+alloc:
+	g_variant_type_new
+dealloc:
+	g_variant_type_free
+
+alloc:
+	g_string_chunk_new
+dealloc:
+	g_string_chunk_free
+
+alloc:
+	g_allocator_new
+dealloc:
+	g_allocator_free
+
+alloc:
+	g_array_new
+dealloc:
+	g_array_free
+
+alloc:
+	g_bookmark_file_new
+dealloc:
+	g_bookmark_file_free
+
+alloc:
+	g_byte_array_new
+dealloc:
+	g_byte_array_free
+
+alloc:
+	g_checksum_new
+	g_checksum_copy
+dealloc:
+	g_checksum_free
+
+alloc:
+	g_chunk_new
+dealloc:
+	g_chunk_free
+
+alloc:
+	g_completion_new
+dealloc:
+	g_completion_free
+
+alloc:
+	g_cond_new
+dealloc:
+	g_cond_free
+
+alloc:
+	g_date_new
+	g_date_new_dmy
+	g_date_new_julian
+dealloc:
+	g_date_free
+
+alloc:
+	g_error_new
+dealloc:
+	g_error_free
+
+alloc:
+	g_hmac_new
+dealloc:
+	g_hmac_unref
+
+alloc[gobject]:
+	g_app_launch_context_new
+	g_application_new
+	g_array_sized_new
+	g_async_queue_new
+	g_buffered_input_stream_new
+	g_buffered_output_stream_new
+	g_byte_array_sized_new
+	g_bytes_new
+	g_cache_new
+	g_cancellable_new
+	g_cancellable_source_new
+	g_cclosure_new
+	g_charset_converter_new
+	g_child_watch_source_new
+	g_converter_input_stream_new
+	g_converter_output_stream_new
+	g_credentials_new
+	g_data_input_stream_new
+	g_data_output_stream_new
+	g_date_time_new
+	g_dbus_auth_observer_new
+	g_dbus_connection_new
+	g_dbus_message_new
+	g_dbus_object_manager_client_new
+	g_dbus_object_manager_server_new
+	g_dbus_object_proxy_new
+	g_dbus_object_skeleton_new
+	g_dbus_proxy_new
+	g_emblemed_icon_new
+	g_emblem_new
+	g_file_attribute_info_list_new
+	g_file_attribute_matcher_new
+	g_file_icon_new
+	g_file_info_new
+	g_filename_completer_new
+	g_hash_table_new
+	g_idle_source_new
+	g_inet_address_mask_new
+	g_inet_socket_address_new
+	g_initable_new
+	g_io_channel_unix_new
+	g_io_module_new
+	g_keyfile_settings_backend_new
+	g_main_context_new
+	g_main_loop_new
+	g_main_new
+	g_memory_input_stream_new
+	g_memory_output_stream_new
+	g_memory_settings_backend_new
+	g_menu_item_new
+	g_menu_new
+	g_mount_operation_new
+	g_network_address_new
+	g_network_service_new
+	g_node_new
+	g_null_settings_backend_new
+	g_object_new
+	g_param_spec_pool_new
+	g_pollable_source_new
+	g_private_new
+	g_proxy_address_new
+	g_ptr_array_sized_new
+	g_regex_new
+	g_relation_new
+	g_scanner_new
+	g_settings_new
+	g_signal_new
+	g_signal_type_cclosure_new
+	g_simple_action_group_new
+	g_simple_action_new
+	g_simple_async_result_new
+	g_simple_permission_new
+	g_socket_client_new
+	g_socket_listener_new
+	g_socket_new
+	g_socket_service_new
+	g_source_new
+	g_tcp_wrapper_connection_new
+	g_test_dbus_new
+	g_themed_icon_new
+	g_threaded_socket_service_new
+	g_thread_new
+	g_thread_try_new
+	g_timeout_source_new
+	g_timer_new
+	g_time_zone_new
+	g_tls_client_connection_new
+	g_tls_file_database_new
+	g_tls_password_new
+	g_tls_server_connection_new
+	g_tree_new
+	g_unix_signal_source_new
+	g_variant_builder_new
+	g_variant_new
+	g_zlib_compressor_new
+	g_zlib_decompressor_new
+dealloc:
+	g_object_unref
+use:
+	g_object_ref
+
+functions:
+	g_ascii_isspace		return leak-ignore
+	g_exit			noreturn
+	g_file_test		leak-ignore return
+	g_return_if_fail	noreturn leak-ignore
+	g_return_val_if_fail	noreturn leak-ignore
+	g_strcmp		leak-ignore return
+	gtk_file_chooser_set_current_folder	leak-ignore return
+	g_stpcpy		leak-ignore return
+	g_strstr_len		leak-ignore return
+	g_strrstr		leak-ignore return
+	g_strrstr_len		leak-ignore return
+	g_str_has_prefix	leak-ignore return
+	g_str_has_suffix	leak-ignore return
+	g_strcmp0		leak-ignore return
+	g_strlcpy		leak-ignore return
+	g_strlcat		leak-ignore return
+	g_printf		leak-ignore return
+	g_vprintf		leak-ignore return
+	g_fprintf		leak-ignore return
+	g_vfprintf		leak-ignore return
+	g_sprintf		leak-ignore return
+	g_vsprintf		leak-ignore return
+	g_snprintf		leak-ignore return
+	g_vsnprintf		leak-ignore return
+	g_vasprintf		leak-ignore return
+	g_printf_string_upper_bound	leak-ignore return
+	g_ascii_strcasecmp	leak-ignore return
+	g_ascii_strncasecmp	leak-ignore return
+	g_string_ascii_up	leak-ignore return
+	g_string_ascii_down	leak-ignore return
+	g_strup			leak-ignore return
+	g_strdown		leak-ignore return
+	g_strcasecmp		leak-ignore return
+	g_strncasecmp		leak-ignore return
+	g_strreverse		leak-ignore return
+	g_ascii_strtoll		leak-ignore return
+	g_ascii_strtoull	leak-ignore return
+	g_ascii_strtod		leak-ignore return
+	g_ascii_dtostr		leak-ignore return
+	g_ascii_formatd		leak-ignore return
+	g_strtod		leak-ignore return
+	g_strchug		leak-ignore return
+	g_strchomp		leak-ignore return
+	g_strstrip		leak-ignore return
+	g_strdelimit		leak-ignore return
+	g_strcanon		leak-ignore return
+	g_strv_length		leak-ignore return
+	g_iconv_open		leak-ignore return
+	g_iconv			leak-ignore return
+	g_locale_to_utf8	leak-ignore return
+	g_filename_to_utf8	leak-ignore return
+	g_filename_from_utf8	leak-ignore return
+	g_get_filename_charsets	leak-ignore return
+	g_locale_from_utf8	leak-ignore return
+	g_get_charset		leak-ignore return
+	g_unichar_compose	leak-ignore return
+	g_unichar_decompose	leak-ignore return
+	g_unichar_fully_decompose	leak-ignore return
+	g_unicode_canonical_ordering	leak-ignore return
+	g_unichar_get_mirror_char	leak-ignore return
+	g_utf8_get_char		leak-ignore return
+	g_utf8_get_char_validated	leak-ignore return
+	g_utf8_offset_to_pointer	leak-ignore return
+	g_utf8_pointer_to_offset	leak-ignore return
+	g_utf8_prev_char	leak-ignore return
+	g_utf8_find_next_char	leak-ignore return
+	g_utf8_find_prev_char	leak-ignore return
+	g_utf8_strlen		leak-ignore return
+	g_utf8_strncpy		leak-ignore return
+	g_utf8_strchr		leak-ignore return
+	g_utf8_strrchr		leak-ignore return
+	g_utf8_validate		leak-ignore return
+	g_utf8_collate		leak-ignore return
+	g_unichar_to_utf8	leak-ignore return
+	g_base64_encode_step	leak-ignore return
+	g_base64_encode_close	leak-ignore return
+	g_base64_decode_step	leak-ignore return
+	g_base64_decode_inplace	leak-ignore return
+	g_checksum_reset	leak-ignore noreturn
+	g_checksum_update	leak-ignore noreturn
+	g_checksum_get_string	leak-ignore return
+	g_checksum_get_digest	leak-ignore noreturn
+	g_hmac_update		leak-ignore noreturn
+	g_hmac_get_string	leak-ignore return
+	g_hmac_get_digest	leak-ignore noreturn
+	_			leak-ignore return
+	g_dgettext		leak-ignore return
+	g_dcgettext		leak-ignore return
+	g_dngettext		leak-ignore return
+	g_dpgettext		leak-ignore return
+	g_dpgettext2		leak-ignore return
+	g_strip_context		leak-ignore return
+	g_get_current_time	leak-ignore noreturn
+	g_time_val_add		leak-ignore noreturn
+	g_time_val_from_iso8601	leak-ignore return
+	g_date_clear		leak-ignore noreturn
+	g_date_set_day		leak-ignore noreturn
+	g_date_set_month	leak-ignore noreturn
+	g_date_set_year		leak-ignore noreturn
+	g_date_set_dmy		leak-ignore noreturn
+	g_date_set_julian	leak-ignore noreturn
+	g_date_set_time		leak-ignore noreturn
+	g_date_set_time_t	leak-ignore noreturn
+	g_date_set_time_val	leak-ignore noreturn
+	g_date_set_parse	leak-ignore noreturn
+	g_date_add_days		leak-ignore noreturn
+	g_date_subtract_days	leak-ignore noreturn
+	g_date_add_months	leak-ignore noreturn
+	g_date_subtract_months	leak-ignore noreturn
+	g_date_add_years	leak-ignore noreturn
+	g_date_subtract_years	leak-ignore noreturn
+	g_date_days_between	leak-ignore return
+	g_date_compare		leak-ignore return
+	g_date_clamp		leak-ignore noreturn
+	g_date_order		leak-ignore noreturn
+	g_date_get_day		leak-ignore return
+	g_date_get_month	leak-ignore return
+	g_date_get_year		leak-ignore return
+	g_date_get_julian	leak-ignore return
+	g_date_get_weekday	leak-ignore return
+	g_date_get_day_of_year	leak-ignore return
+	g_date_is_first_of_month	leak-ignore return
+	g_date_is_last_of_month	leak-ignore return
+	g_date_get_monday_week_of_year	leak-ignore return
+	g_date_get_sunday_week_of_year	leak-ignore return
+	g_date_get_iso8601_week_of_year	leak-ignore return
+	g_date_strftime		leak-ignore return
+	g_date_to_struct_tm	leak-ignore noreturn
+	g_date_valid		leak-ignore return
+	
+	
+	
+	
+	
+	
+	
