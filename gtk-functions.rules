@@ -48,7 +48,6 @@ functions:
 	g_hash_table_foreach_steal	return leak-ignore
 	g_hash_table_get_keys	return leak-ignore
 	g_hash_table_get_values	return leak-ignore
-	g_hash_table_insert	noreturn leak-ignore
 	g_hash_table_lookup	return leak-ignore
 	g_hash_table_lookup_extended	return leak-ignore
 	g_hash_table_new_full	return leak-ignore
@@ -80,8 +79,6 @@ functions:
 	g_io_channel_error_from_errno	return leak-ignore
 	g_io_channel_error_quark	return leak-ignore
 	g_key_file_error_quark	return leak-ignore
-	g_list_alloc	return leak-ignore
-	g_list_append	return leak-ignore
 	g_list_concat	return leak-ignore
 	g_list_copy	return leak-ignore
 	g_list_copy_deep	return leak-ignore
@@ -90,9 +87,6 @@ functions:
 	g_list_find_custom	return leak-ignore
 	g_list_first	return leak-ignore
 	g_list_foreach	noreturn leak-ignore
-	g_list_free	noreturn leak-ignore
-	g_list_free_1	noreturn leak-ignore
-	g_list_free_full	noreturn leak-ignore
 	g_list_index	return leak-ignore
 	g_list_insert	return leak-ignore
 	g_list_insert_before	return leak-ignore
@@ -104,7 +98,6 @@ functions:
 	g_list_nth_data	return leak-ignore
 	g_list_nth_prev	return leak-ignore
 	g_list_position	return leak-ignore
-	g_list_prepend	return leak-ignore
 	g_list_remove	return leak-ignore
 	g_list_remove_all	return leak-ignore
 	g_list_remove_link	return leak-ignore
@@ -140,8 +133,6 @@ functions:
 	g_regex_escape_string	return leak-ignore
 	g_regex_match_simple	return leak-ignore
 	g_regex_split_simple	return leak-ignore
-	g_slist_alloc	return leak-ignore
-	g_slist_append	return leak-ignore
 	g_slist_concat	return leak-ignore
 	g_slist_copy	return leak-ignore
 	g_slist_copy_deep	return leak-ignore
@@ -149,9 +140,6 @@ functions:
 	g_slist_find	return leak-ignore
 	g_slist_find_custom	return leak-ignore
 	g_slist_foreach	noreturn leak-ignore
-	g_slist_free	noreturn leak-ignore
-	g_slist_free_1	noreturn leak-ignore
-	g_slist_free_full	noreturn leak-ignore
 	g_slist_index	return leak-ignore
 	g_slist_insert	return leak-ignore
 	g_slist_insert_before	return leak-ignore
@@ -162,7 +150,6 @@ functions:
 	g_slist_nth	return leak-ignore
 	g_slist_nth_data	return leak-ignore
 	g_slist_position	return leak-ignore
-	g_slist_prepend	return leak-ignore
 	g_slist_remove	return leak-ignore
 	g_slist_remove_all	return leak-ignore
 	g_slist_remove_link	return leak-ignore
@@ -351,7 +338,6 @@ functions:
 	g_hash_table_add	noreturn leak-ignore
 	g_hash_table_contains	return leak-ignore
 	g_hash_table_destroy	noreturn leak-ignore
-	g_hash_table_insert	noreturn leak-ignore
 	g_hash_table_lookup_extended	return leak-ignore
 	g_hash_table_remove	return leak-ignore
 	g_hash_table_remove_all	noreturn leak-ignore

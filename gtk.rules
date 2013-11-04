@@ -57,8 +57,6 @@ alloc[main]:
 	g_try_malloc0
 	g_try_malloc0_n
 	g_try_malloc_n
-	g_try_new
-	g_try_new0
 	g_ucs4_to_utf16
 	g_ucs4_to_utf8
 	g_unicode_canonical_decomposition
@@ -83,13 +81,20 @@ alloc[main]:
 	g_key_file_get_integer_list
 	g_key_file_get_double_list
 	g_key_file_get_comment
-	
+	g_new
+	g_new0
+	g_try_new
+	g_try_new0
 dealloc:
 	g_free
 use:
 	g_register_data
 
 alloc[strv]:
+	g_new
+	g_new0
+	g_try_new
+	g_try_new0
 	g_bookmark_file_get_uris
 	g_key_file_get_groups
 	g_key_file_get_keys
@@ -407,3 +412,17 @@ dealloc:
 use:
 	g_object_ref
 
+functions:
+	g_list_alloc	return
+	g_list_append	return
+	g_list_free	noreturn
+	g_list_free_1	noreturn
+	g_list_free_full	noreturn
+	g_list_prepend	return
+	g_slist_alloc	return
+	g_slist_append	return
+	g_slist_free	noreturn
+	g_slist_free_1	noreturn
+	g_slist_free_full	noreturn
+	g_slist_prepend	return
+	g_hash_table_insert	noreturn

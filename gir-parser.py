@@ -4,7 +4,7 @@ dictionary = {}
 with open("gtk.rules") as f:
 	for line in f:
 		if "g_" in line and "\t" in line:
-			dictionary[line.strip()] = True
+			dictionary[line.split()[0].strip()] = True
 # print dictionary
 gir = parse('/usr/share/gir-1.0/GLib-2.0.gir')
 
