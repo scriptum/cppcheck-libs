@@ -13,6 +13,7 @@ alloc[main]:
 	g_build_filenamev
 	g_build_path
 	g_build_pathv
+	g_bytes_unref_to_data
 	g_compute_checksum_for_bytes
 	g_compute_checksum_for_data
 	g_compute_checksum_for_string
@@ -75,6 +76,14 @@ alloc[main]:
 	g_utf8_to_ucs4_fast
 	g_utf8_to_ucs4_fast
 	g_utf8_to_utf16
+	g_key_file_get_locale_string
+	g_key_file_get_value
+	g_key_file_get_string
+	g_key_file_get_boolean_list
+	g_key_file_get_integer_list
+	g_key_file_get_double_list
+	g_key_file_get_comment
+	
 dealloc:
 	g_free
 use:
@@ -83,10 +92,13 @@ use:
 alloc[strv]:
 	g_bookmark_file_get_uris
 	g_key_file_get_groups
+	g_key_file_get_keys
 	g_strdupv
 	g_strsplit
 	g_strsplit_set
 	g_uri_list_extract_uris
+	g_key_file_get_string_list
+	g_key_file_get_locale_string_list
 dealloc:
 	g_strfreev
 
@@ -120,6 +132,9 @@ alloc:
 	g_key_file_new
 dealloc:
 	g_key_file_free
+	g_key_file_unref
+use:
+	g_key_file_ref
 
 alloc:
 	g_mapped_file_new
@@ -223,8 +238,15 @@ dealloc:
 
 alloc:
 	g_byte_array_new
+	g_byte_array_sized_new
+	g_byte_array_new_take
+	g_byte_array_sized_new
+	g_bytes_unref_to_array
 dealloc:
 	g_byte_array_free
+	g_byte_array_unref
+use:
+	g_byte_array_ref
 
 alloc:
 	g_checksum_new
@@ -263,6 +285,21 @@ alloc:
 	g_hmac_new
 dealloc:
 	g_hmac_unref
+use:
+	g_hmac_ref
+
+alloc:
+	g_bytes_new
+	g_bytes_new_take
+	g_bytes_new_static
+	g_bytes_new_with_free_func
+	g_bytes_new_from_bytes
+	g_byte_array_free_to_bytes
+	
+dealloc:
+	g_bytes_unref
+use:
+	g_bytes_ref
 
 alloc[gobject]:
 	g_app_launch_context_new
@@ -271,8 +308,6 @@ alloc[gobject]:
 	g_async_queue_new
 	g_buffered_input_stream_new
 	g_buffered_output_stream_new
-	g_byte_array_sized_new
-	g_bytes_new
 	g_cache_new
 	g_cancellable_new
 	g_cancellable_source_new
@@ -496,7 +531,48 @@ functions:
 	g_date_strftime		leak-ignore return
 	g_date_to_struct_tm	leak-ignore noreturn
 	g_date_valid		leak-ignore return
-	
+	g_byte_array_append	leak-ignore return
+	g_byte_array_prepend	leak-ignore return
+	g_byte_array_remove_index	leak-ignore return
+	g_byte_array_remove_index_fast	leak-ignore return
+	g_byte_array_remove_range	leak-ignore return
+	g_byte_array_sort	leak-ignore noreturn
+	g_byte_array_sort_with_data	leak-ignore noreturn
+	g_byte_array_set_size	leak-ignore return
+	g_bytes_get_data	leak-ignore return
+	g_bytes_get_size	leak-ignore return
+	g_bytes_hash		leak-ignore return
+	g_bytes_equal		leak-ignore return
+	g_bytes_compare		leak-ignore return
+	g_key_file_set_list_separator	leak-ignore noreturn
+	g_key_file_load_from_file	leak-ignore return
+	g_key_file_load_from_data	leak-ignore return
+	g_key_file_load_from_data_dirs	leak-ignore return
+	g_key_file_load_from_dirs	leak-ignore return
+	g_key_file_has_group	leak-ignore return
+	g_key_file_has_key	leak-ignore return
+	g_key_file_get_boolean	leak-ignore return
+	g_key_file_get_integer	leak-ignore return
+	g_key_file_get_int64	leak-ignore return
+	g_key_file_get_uint64	leak-ignore return
+	g_key_file_get_double	leak-ignore return
+	g_key_file_set_value	leak-ignore noreturn
+	g_key_file_set_string	leak-ignore noreturn
+	g_key_file_set_locale_string	leak-ignore noreturn
+	g_key_file_set_boolean	leak-ignore noreturn
+	g_key_file_set_integer	leak-ignore noreturn
+	g_key_file_set_int64	leak-ignore noreturn
+	g_key_file_set_uint64	leak-ignore noreturn
+	g_key_file_set_double	leak-ignore noreturn
+	g_key_file_set_string_list	leak-ignore noreturn
+	g_key_file_set_locale_string_list	leak-ignore noreturn
+	g_key_file_set_boolean_list	leak-ignore noreturn
+	g_key_file_set_integer_list	leak-ignore noreturn
+	g_key_file_set_double_list	leak-ignore noreturn
+	g_key_file_set_comment	leak-ignore return
+	g_key_file_remove_group	leak-ignore return
+	g_key_file_remove_key	leak-ignore return
+	g_key_file_remove_comment	leak-ignore return
 	
 	
 	
