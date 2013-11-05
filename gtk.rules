@@ -313,6 +313,18 @@ dealloc:
 use:
 	g_regex_ref
 
+alloc:
+	g_io_channel_unix_new
+	g_io_channel_win32_new_fd
+	g_io_channel_win32_new_socket
+	g_io_channel_win32_new_messages
+dealloc:
+	g_io_channel_close
+	g_io_channel_shutdown
+	g_io_channel_unref
+use:
+	g_io_channel_ref
+
 alloc[gobject]:
 	g_app_launch_context_new
 	g_application_new
@@ -352,7 +364,6 @@ alloc[gobject]:
 	g_inet_address_mask_new
 	g_inet_socket_address_new
 	g_initable_new
-	g_io_channel_unix_new
 	g_io_module_new
 	g_keyfile_settings_backend_new
 	g_main_context_new
