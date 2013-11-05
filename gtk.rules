@@ -22,6 +22,7 @@ alloc[main]:
 	g_convert
 	g_convert_with_fallback
 	g_convert_with_iconv
+	g_credentials_to_string
 	g_date_time_format
 	g_filename_display_basename
 	g_filename_display_name
@@ -85,6 +86,16 @@ alloc[main]:
 	g_new0
 	g_try_new
 	g_try_new0
+	g_dbus_proxy_get_name_owner
+	g_file_info_get_attribute_as_string
+	g_file_attribute_matcher_to_string
+	g_app_launch_context_get_environment
+	g_app_launch_context_get_startup_notify_id
+	g_filename_completer_get_completion_suffix
+	g_inet_address_mask_to_string
+	g_variant_dup_string
+	g_variant_dup_bytestring
+	g_variant_print
 dealloc:
 	g_free
 use:
@@ -104,6 +115,15 @@ alloc[strv]:
 	g_uri_list_extract_uris
 	g_key_file_get_string_list
 	g_key_file_get_locale_string_list
+	g_file_info_list_attributes
+	g_file_info_get_attribute_stringv
+	g_app_launch_context_get_environment
+	g_filename_completer_get_completions
+	g_io_module_query
+	g_variant_get_strv
+	g_variant_get_objv
+	g_variant_dup_objv
+	g_variant_dup_bytestring_array
 dealloc:
 	g_strfreev
 
@@ -115,6 +135,7 @@ dealloc:
 alloc:
 	g_string_new
 	g_string_sized_new
+	g_variant_print_string
 dealloc:
 	g_string_free
 
@@ -222,19 +243,9 @@ dealloc:
 	g_variant_type_free
 
 alloc:
-	g_string_chunk_new
-dealloc:
-	g_string_chunk_free
-
-alloc:
 	g_allocator_new
 dealloc:
 	g_allocator_free
-
-alloc:
-	g_array_new
-dealloc:
-	g_array_free
 
 alloc:
 	g_bookmark_file_new
@@ -300,7 +311,8 @@ alloc:
 	g_bytes_new_with_free_func
 	g_bytes_new_from_bytes
 	g_byte_array_free_to_bytes
-	
+	g_memory_output_stream_steal_as_bytes
+	g_variant_get_data_as_bytes
 dealloc:
 	g_bytes_unref
 use:
@@ -325,60 +337,273 @@ dealloc:
 use:
 	g_io_channel_ref
 
+alloc:
+	g_main_loop_new
+	g_main_new
+dealloc:
+	g_main_loop_unref
+	g_main_destroy
+use:
+	g_main_loop_ref
+
+alloc:
+	g_main_context_new
+dealloc:
+	g_main_context_unref
+	g_main_destroy
+use:
+	g_main_context_ref
+
+alloc:
+	g_source_new
+	g_idle_source_new
+	g_timeout_source_new
+	g_timeout_source_new_seconds
+	g_child_watch_source_new
+	g_cancellable_source_new
+dealloc:
+	g_source_unref
+use:
+	g_source_ref
+
+alloc:
+	g_hash_table_new_full
+	g_hash_table_new
+dealloc:
+	g_hash_table_destroy
+	g_hash_table_unref
+use:
+	g_hash_table_ref
+
+alloc:
+	g_array_new
+	g_array_sized_new
+dealloc:
+	g_array_free
+	g_array_unref
+use:
+	g_array_ref
+
+alloc:
+	g_async_queue_new
+	g_async_queue_new_full
+dealloc:
+	g_async_queue_unref
+use:
+	g_async_queue_ref
+
+alloc:
+	g_cache_new
+dealloc:
+	g_cache_destroy
+
+alloc:
+	g_cclosure_new
+	g_cclosure_new_swap
+	g_cclosure_new_object
+	g_cclosure_new_object_swap
+	g_closure_new_object
+	g_closure_new_simple
+dealloc:
+	g_closure_unref
+use:
+	g_closure_ref
+
+alloc:
+	g_date_time_new
+	g_date_time_new_now
+	g_date_time_new_now_local
+	g_date_time_new_now_utc
+	g_date_time_new_from_unix_local
+	g_date_time_new_from_unix_utc
+	g_date_time_new_from_timeval_local
+	g_date_time_new_from_timeval_utc
+	g_date_time_new_local
+	g_date_time_new_utc
+	g_date_time_add
+	g_date_time_add_years
+	g_date_time_add_months
+	g_date_time_add_weeks
+	g_date_time_add_days
+	g_date_time_add_hours
+	g_date_time_add_minutes
+	g_date_time_add_seconds
+	g_date_time_add_full
+	g_date_time_to_timezone
+	g_date_time_to_local
+	g_date_time_to_utc
+dealloc:
+	g_date_time_unref
+use:
+	g_date_time_ref
+
+alloc:
+	g_file_attribute_info_list_new
+	g_file_attribute_info_list_dup
+dealloc:
+	g_file_attribute_info_list_unref
+use:
+	g_file_attribute_info_list_ref
+
+alloc:
+	g_file_attribute_matcher_new
+	g_file_attribute_matcher_subtract
+dealloc:
+	g_file_attribute_matcher_unref
+use:
+	g_file_attribute_matcher_ref
+
+alloc[glist]:
+	g_emblemed_icon_get_emblems
+	g_list_alloc
+	g_list_copy_deep
+	g_app_info_get_all
+	g_app_info_get_all_for_type
+	g_app_info_get_fallback_for_type
+	g_app_info_get_recommended_for_type
+	g_io_modules_load_all_in_directory
+	g_io_modules_load_all_in_directory_with_scope
+dealloc:
+	g_list_free
+	g_list_free_1
+	g_list_free_full
+
+alloc:
+	g_variant_new
+	g_variant_new_va
+	g_variant_new_boolean
+	g_variant_new_byte
+	g_variant_new_int16
+	g_variant_new_uint16
+	g_variant_new_int32
+	g_variant_new_uint32
+	g_variant_new_int64
+	g_variant_new_uint64
+	g_variant_new_handle
+	g_variant_new_double
+	g_variant_new_string
+	g_variant_new_take_string
+	g_variant_new_printf
+	g_variant_new_signature
+	g_variant_new_object_path
+	g_variant_new_variant
+	g_variant_new_objv
+	g_variant_new_strv
+	g_variant_new_bytestring
+	g_variant_new_bytestring_array
+	g_variant_new_maybe
+	g_variant_new_array
+	g_variant_new_tuple
+	g_variant_new_dict_entry
+	g_variant_new_fixed_array
+	g_variant_new_from_data
+	g_variant_new_from_bytes
+	g_variant_builder_end
+	g_variant_new_parsed_va
+	g_variant_new_parsed
+dealloc:
+	g_variant_unref
+use:
+	g_variant_ref
+	g_variant_take_ref
+	g_variant_ref_sink
+
+alloc:
+	g_variant_iter_copy
+	g_variant_iter_new
+dealloc:
+	g_variant_iter_free
+
+alloc:
+	g_variant_builder_new
+dealloc:
+	g_variant_builder_unref
+use:
+	g_variant_builder_ref
 alloc[gobject]:
 	g_app_launch_context_new
+	g_app_info_create_from_commandline
+	g_app_info_dup
+	g_app_info_get_icon
+	g_app_info_get_default_for_type
+	g_app_info_get_default_for_uri_scheme
 	g_application_new
-	g_array_sized_new
-	g_async_queue_new
+	g_application_get_dbus_connection
+	g_application_get_default
 	g_buffered_input_stream_new
 	g_buffered_output_stream_new
-	g_cache_new
 	g_cancellable_new
-	g_cancellable_source_new
-	g_cclosure_new
 	g_charset_converter_new
-	g_child_watch_source_new
 	g_converter_input_stream_new
 	g_converter_output_stream_new
 	g_credentials_new
 	g_data_input_stream_new
 	g_data_output_stream_new
-	g_date_time_new
 	g_dbus_auth_observer_new
-	g_dbus_connection_new
+	g_dbus_connection_new_finish
+	g_dbus_connection_new_sync
+	g_dbus_connection_new_for_address_finish
+	g_dbus_connection_new_for_address_sync
 	g_dbus_message_new
-	g_dbus_object_manager_client_new
+	g_dbus_message_new_signal
+	g_dbus_message_new_method_call
+	g_dbus_message_new_method_reply
+	g_dbus_message_new_method_error
+	g_dbus_message_new_method_error_valist
+	g_dbus_message_new_method_error_literal
+	g_dbus_object_manager_client_new_finish
+	g_dbus_object_manager_client_new_sync
+	g_dbus_object_manager_client_new_for_bus_finish
+	g_dbus_object_manager_client_new_for_bus_sync
 	g_dbus_object_manager_server_new
+	g_dbus_object_manager_server_get_connection
 	g_dbus_object_proxy_new
 	g_dbus_object_skeleton_new
-	g_dbus_proxy_new
+	g_dbus_proxy_new_finish
+	g_dbus_proxy_new_sync
+	g_dbus_proxy_new_for_bus_finish
+	g_dbus_proxy_new_for_bus_sync
 	g_emblemed_icon_new
+	g_emblemed_icon_get_icon
 	g_emblem_new
-	g_file_attribute_info_list_new
-	g_file_attribute_matcher_new
+	g_emblem_new_with_origin
+	g_emblem_get_icon
 	g_file_icon_new
+	g_file_icon_get_file
 	g_file_info_new
+	g_file_info_dup
+	g_file_info_get_icon
+	g_file_info_get_symbolic_icon
+	g_file_info_get_attribute_object
+	g_file_info_get_deletion_date
 	g_filename_completer_new
-	g_hash_table_new
-	g_idle_source_new
 	g_inet_address_mask_new
+	g_inet_address_mask_new_from_string
+	g_inet_address_mask_get_address
 	g_inet_socket_address_new
+	g_inet_socket_address_get_address
 	g_initable_new
+	g_initable_new_valist
+	g_initable_newv
 	g_io_module_new
+	g_io_module_scope_new
 	g_keyfile_settings_backend_new
-	g_main_context_new
-	g_main_loop_new
-	g_main_new
 	g_memory_input_stream_new
+	g_memory_input_stream_new_from_data
+	g_memory_input_stream_new_from_bytes
 	g_memory_output_stream_new
+	g_memory_output_stream_new_resizable
 	g_memory_settings_backend_new
+	g_null_settings_backend_new
 	g_menu_item_new
+	g_menu_item_new_section
+	g_menu_item_new_submenu
+	g_menu_item_new_from_model
 	g_menu_new
 	g_mount_operation_new
 	g_network_address_new
 	g_network_service_new
 	g_node_new
-	g_null_settings_backend_new
 	g_object_new
 	g_param_spec_pool_new
 	g_pollable_source_new
@@ -398,14 +623,12 @@ alloc[gobject]:
 	g_socket_listener_new
 	g_socket_new
 	g_socket_service_new
-	g_source_new
 	g_tcp_wrapper_connection_new
 	g_test_dbus_new
 	g_themed_icon_new
 	g_threaded_socket_service_new
 	g_thread_new
 	g_thread_try_new
-	g_timeout_source_new
 	g_timer_new
 	g_time_zone_new
 	g_tls_client_connection_new
@@ -414,8 +637,6 @@ alloc[gobject]:
 	g_tls_server_connection_new
 	g_tree_new
 	g_unix_signal_source_new
-	g_variant_builder_new
-	g_variant_new
 	g_zlib_compressor_new
 	g_zlib_decompressor_new
 dealloc:
@@ -424,11 +645,7 @@ use:
 	g_object_ref
 
 functions:
-	g_list_alloc	return
 	g_list_append	return
-	g_list_free	noreturn
-	g_list_free_1	noreturn
-	g_list_free_full	noreturn
 	g_list_prepend	return
 	g_slist_alloc	return
 	g_slist_append	return
