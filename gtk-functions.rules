@@ -3,7 +3,6 @@ functions:
 	g_array_get_element_size	return leak-ignore
 	g_array_insert_vals	return leak-ignore
 	g_array_prepend_vals	return leak-ignore
-	g_array_ref	return leak-ignore
 	g_array_remove_index	return leak-ignore
 	g_array_remove_index_fast	return leak-ignore
 	g_array_remove_range	return leak-ignore
@@ -11,8 +10,6 @@ functions:
 	g_array_set_size	return leak-ignore
 	g_array_sort	noreturn leak-ignore
 	g_array_sort_with_data	noreturn leak-ignore
-	g_array_unref	noreturn leak-ignore
-	g_async_queue_new_full	return leak-ignore
 	g_bookmark_file_error_quark	return leak-ignore
 	g_byte_array_append	return leak-ignore
 	g_byte_array_prepend	return leak-ignore
@@ -41,7 +38,6 @@ functions:
 	g_dir_open	return leak-ignore
 	g_hash_table_add	noreturn leak-ignore
 	g_hash_table_contains	return leak-ignore
-	g_hash_table_destroy	noreturn leak-ignore
 	g_hash_table_find	return leak-ignore
 	g_hash_table_foreach	noreturn leak-ignore
 	g_hash_table_foreach_remove	return leak-ignore
@@ -50,15 +46,12 @@ functions:
 	g_hash_table_get_values	return leak-ignore
 	g_hash_table_lookup	return leak-ignore
 	g_hash_table_lookup_extended	return leak-ignore
-	g_hash_table_new_full	return leak-ignore
-	g_hash_table_ref	return leak-ignore
 	g_hash_table_remove	return leak-ignore
 	g_hash_table_remove_all	noreturn leak-ignore
 	g_hash_table_replace	noreturn leak-ignore
 	g_hash_table_size	return leak-ignore
 	g_hash_table_steal	return leak-ignore
 	g_hash_table_steal_all	noreturn leak-ignore
-	g_hash_table_unref	noreturn leak-ignore
 	g_hook_alloc	return leak-ignore
 	g_hook_destroy	return leak-ignore
 	g_hook_destroy_link	noreturn leak-ignore
@@ -81,7 +74,6 @@ functions:
 	g_key_file_error_quark	return leak-ignore
 	g_list_concat	return leak-ignore
 	g_list_copy	return leak-ignore
-	g_list_copy_deep	return leak-ignore
 	g_list_delete_link	return leak-ignore
 	g_list_find	return leak-ignore
 	g_list_find_custom	return leak-ignore
@@ -110,11 +102,9 @@ functions:
 	g_mapped_file_new_from_fd	return leak-ignore
 	g_once_init_enter	return leak-ignore
 	g_once_init_leave	noreturn leak-ignore
-	g_ptr_array_add	noreturn leak-ignore
 	g_ptr_array_foreach	noreturn leak-ignore
 	g_ptr_array_new_full	return leak-ignore
 	g_ptr_array_new_with_free_func	return leak-ignore
-	g_ptr_array_ref	return leak-ignore
 	g_ptr_array_remove	return leak-ignore
 	g_ptr_array_remove_fast	return leak-ignore
 	g_ptr_array_remove_index	return leak-ignore
@@ -124,7 +114,6 @@ functions:
 	g_ptr_array_set_size	noreturn leak-ignore
 	g_ptr_array_sort	noreturn leak-ignore
 	g_ptr_array_sort_with_data	noreturn leak-ignore
-	g_ptr_array_unref	noreturn leak-ignore
 	g_rand_new_with_seed	return leak-ignore
 	g_rand_new_with_seed_array	return leak-ignore
 	g_regex_check_replacement	return leak-ignore
@@ -199,7 +188,6 @@ functions:
 	g_access	return leak-ignore
 	g_array_get_element_size	return leak-ignore
 	g_array_set_clear_func	noreturn leak-ignore
-	g_array_unref	noreturn leak-ignore
 	g_ascii_digit_value	return
 	g_ascii_dtostr	return leak-ignore
 	g_ascii_formatd	return leak-ignore
@@ -337,7 +325,6 @@ functions:
 	g_getenv	return leak-ignore
 	g_hash_table_add	noreturn leak-ignore
 	g_hash_table_contains	return leak-ignore
-	g_hash_table_destroy	noreturn leak-ignore
 	g_hash_table_lookup_extended	return leak-ignore
 	g_hash_table_remove	return leak-ignore
 	g_hash_table_remove_all	noreturn leak-ignore
@@ -345,7 +332,6 @@ functions:
 	g_hash_table_size	return leak-ignore
 	g_hash_table_steal	return leak-ignore
 	g_hash_table_steal_all	noreturn leak-ignore
-	g_hash_table_unref	noreturn leak-ignore
 	g_hook_destroy	return leak-ignore
 	g_hook_destroy_link	noreturn leak-ignore
 	g_hook_free	noreturn leak-ignore
@@ -424,13 +410,11 @@ functions:
 	g_printf_string_upper_bound	return leak-ignore
 	g_propagate_error	noreturn leak-ignore
 	g_propagate_prefixed_error	noreturn leak-ignore
-	g_ptr_array_add	noreturn leak-ignore
 	g_ptr_array_remove	return leak-ignore
 	g_ptr_array_remove_fast	return leak-ignore
 	g_ptr_array_remove_range	noreturn leak-ignore
 	g_ptr_array_set_free_func	noreturn leak-ignore
 	g_ptr_array_set_size	noreturn leak-ignore
-	g_ptr_array_unref	noreturn leak-ignore
 	g_qsort_with_data	noreturn leak-ignore
 	g_quark_from_static_string	return leak-ignore
 	g_quark_from_string	return leak-ignore
@@ -503,7 +487,6 @@ functions:
 	g_strdelimit	return leak-ignore
 	g_strdown	return leak-ignore
 	g_strerror	return
-	g_string_new_len	return leak-ignore
 	g_strip_context	return leak-ignore
 	g_strlcat	return leak-ignore
 	g_strlcpy	return leak-ignore
@@ -564,7 +547,6 @@ functions:
 	g_timeout_add_full	return leak-ignore
 	g_timeout_add_seconds	return leak-ignore
 	g_timeout_add_seconds_full	return leak-ignore
-	g_timeout_source_new_seconds	return
 	g_trash_stack_height	return leak-ignore
 	g_trash_stack_push	noreturn leak-ignore
 	g_try_realloc	return leak-ignore
@@ -652,7 +634,6 @@ functions:
 	g_async_queue_push_sorted	noreturn leak-ignore
 	g_async_queue_push_sorted_unlocked	noreturn leak-ignore
 	g_async_queue_push_unlocked	noreturn leak-ignore
-	g_async_queue_ref	return leak-ignore
 	g_async_queue_ref_unlocked	noreturn leak-ignore
 	g_async_queue_sort	noreturn leak-ignore
 	g_async_queue_sort_unlocked	noreturn leak-ignore
@@ -663,7 +644,6 @@ functions:
 	g_async_queue_try_pop	return leak-ignore
 	g_async_queue_try_pop_unlocked	return leak-ignore
 	g_async_queue_unlock	noreturn leak-ignore
-	g_async_queue_unref	noreturn leak-ignore
 	g_async_queue_unref_and_unlock	noreturn leak-ignore
 	g_bookmark_file_add_application	noreturn leak-ignore
 	g_bookmark_file_add_group	noreturn leak-ignore
@@ -745,15 +725,6 @@ functions:
 	g_date_subtract_years	noreturn leak-ignore
 	g_date_to_struct_tm	noreturn leak-ignore
 	g_date_valid	return leak-ignore
-	g_date_time_add	return leak-ignore
-	g_date_time_add_days	return leak-ignore
-	g_date_time_add_full	return leak-ignore
-	g_date_time_add_hours	return leak-ignore
-	g_date_time_add_minutes	return leak-ignore
-	g_date_time_add_months	return leak-ignore
-	g_date_time_add_seconds	return leak-ignore
-	g_date_time_add_weeks	return leak-ignore
-	g_date_time_add_years	return leak-ignore
 	g_date_time_difference	return leak-ignore
 	g_date_time_get_day_of_month	return leak-ignore
 	g_date_time_get_day_of_week	return leak-ignore
@@ -771,13 +742,8 @@ functions:
 	g_date_time_get_year	return leak-ignore
 	g_date_time_get_ymd	noreturn leak-ignore
 	g_date_time_is_daylight_savings	return leak-ignore
-	g_date_time_ref	return leak-ignore
-	g_date_time_to_local	return leak-ignore
 	g_date_time_to_timeval	return leak-ignore
-	g_date_time_to_timezone	return leak-ignore
 	g_date_time_to_unix	return leak-ignore
-	g_date_time_to_utc	return leak-ignore
-	g_date_time_unref	noreturn leak-ignore
 	g_dir_close	noreturn leak-ignore
 	g_dir_read_name	return leak-ignore
 	g_dir_rewind	noreturn leak-ignore
@@ -802,7 +768,6 @@ functions:
 	g_hook_list_marshal_check	noreturn leak-ignore
 	g_iconv	return leak-ignore
 	g_iconv_close	return leak-ignore
-	g_io_channel_close	noreturn leak-ignore
 	g_io_channel_flush	return leak-ignore
 	g_io_channel_get_buffer_condition	return leak-ignore
 	g_io_channel_get_buffer_size	return leak-ignore
@@ -818,7 +783,6 @@ functions:
 	g_io_channel_read_line_string	return leak-ignore
 	g_io_channel_read_to_end	return leak-ignore
 	g_io_channel_read_unichar	return leak-ignore
-	g_io_channel_ref	return leak-ignore
 	g_io_channel_seek	return leak-ignore
 	g_io_channel_seek_position	return leak-ignore
 	g_io_channel_set_buffer_size	noreturn leak-ignore
@@ -827,9 +791,7 @@ functions:
 	g_io_channel_set_encoding	return leak-ignore
 	g_io_channel_set_flags	return leak-ignore
 	g_io_channel_set_line_term	noreturn leak-ignore
-	g_io_channel_shutdown	return leak-ignore
 	g_io_channel_unix_get_fd	return leak-ignore
-	g_io_channel_unref	noreturn leak-ignore
 	g_io_channel_write	return leak-ignore
 	g_io_channel_write_chars	return leak-ignore
 	g_io_channel_write_unichar	return leak-ignore
@@ -879,19 +841,15 @@ functions:
 	g_main_context_prepare	return leak-ignore
 	g_main_context_push_thread_default	noreturn leak-ignore
 	g_main_context_query	return leak-ignore
-	g_main_context_ref	return leak-ignore
 	g_main_context_release	noreturn leak-ignore
 	g_main_context_remove_poll	noreturn leak-ignore
 	g_main_context_set_poll_func	noreturn leak-ignore
-	g_main_context_unref	noreturn leak-ignore
 	g_main_context_wait	return leak-ignore
 	g_main_context_wakeup	noreturn leak-ignore
 	g_main_loop_get_context	return leak-ignore
 	g_main_loop_is_running	return leak-ignore
 	g_main_loop_quit	noreturn leak-ignore
-	g_main_loop_ref	return leak-ignore
 	g_main_loop_run	noreturn leak-ignore
-	g_main_loop_unref	noreturn leak-ignore
 	g_mapped_file_get_bytes	return leak-ignore
 	g_mapped_file_get_contents	return leak-ignore
 	g_mapped_file_get_length	return leak-ignore
@@ -1003,12 +961,6 @@ functions:
 	g_queue_pop_nth_link	return leak-ignore
 	g_queue_pop_tail	return leak-ignore
 	g_queue_pop_tail_link	return leak-ignore
-	g_queue_push_head	noreturn leak-ignore
-	g_queue_push_head_link	noreturn leak-ignore
-	g_queue_push_nth	noreturn leak-ignore
-	g_queue_push_nth_link	noreturn leak-ignore
-	g_queue_push_tail	noreturn leak-ignore
-	g_queue_push_tail_link	noreturn leak-ignore
 	g_queue_remove	return leak-ignore
 	g_queue_remove_all	return leak-ignore
 	g_queue_reverse	noreturn leak-ignore
@@ -1105,7 +1057,6 @@ functions:
 	g_source_get_priority	return leak-ignore
 	g_source_get_time	return leak-ignore
 	g_source_is_destroyed	return leak-ignore
-	g_source_ref	return leak-ignore
 	g_source_remove_child_source	noreturn leak-ignore
 	g_source_remove_poll	noreturn leak-ignore
 	g_source_set_callback	noreturn leak-ignore
@@ -1114,7 +1065,6 @@ functions:
 	g_source_set_funcs	noreturn leak-ignore
 	g_source_set_name	noreturn leak-ignore
 	g_source_set_priority	noreturn leak-ignore
-	g_source_unref	noreturn leak-ignore
 	g_string_append	return leak-ignore
 	g_string_append_c	return leak-ignore
 	g_string_append_len	return leak-ignore
@@ -1195,10 +1145,6 @@ functions:
 	g_variant_check_format_string	return leak-ignore
 	g_variant_classify	return leak-ignore
 	g_variant_compare	return leak-ignore
-	g_variant_dup_bytestring	return leak-ignore
-	g_variant_dup_bytestring_array	return leak-ignore
-	g_variant_dup_objv	return leak-ignore
-	g_variant_dup_string	return leak-ignore
 	g_variant_dup_strv	return leak-ignore
 	g_variant_equal	return leak-ignore
 	g_variant_get	noreturn leak-ignore
@@ -1217,10 +1163,8 @@ functions:
 	g_variant_get_int64	return leak-ignore
 	g_variant_get_maybe	return leak-ignore
 	g_variant_get_normal_form	return leak-ignore
-	g_variant_get_objv	return leak-ignore
 	g_variant_get_size	return leak-ignore
 	g_variant_get_string	return leak-ignore
-	g_variant_get_strv	return leak-ignore
 	g_variant_get_type	return leak-ignore
 	g_variant_get_type_string	return leak-ignore
 	g_variant_get_uint16	return leak-ignore
@@ -1236,24 +1180,14 @@ functions:
 	g_variant_lookup	return leak-ignore
 	g_variant_lookup_value	return leak-ignore
 	g_variant_n_children	return leak-ignore
-	g_variant_print	return leak-ignore
-	g_variant_print_string	return leak-ignore
-	g_variant_ref	return leak-ignore
-	g_variant_ref_sink	return leak-ignore
 	g_variant_store	noreturn leak-ignore
-	g_variant_take_ref	return leak-ignore
-	g_variant_unref	noreturn leak-ignore
 	g_variant_builder_add	noreturn leak-ignore
 	g_variant_builder_add_parsed	noreturn leak-ignore
 	g_variant_builder_add_value	noreturn leak-ignore
 	g_variant_builder_clear	noreturn leak-ignore
 	g_variant_builder_close	noreturn leak-ignore
-	g_variant_builder_end	return leak-ignore
 	g_variant_builder_init	noreturn leak-ignore
 	g_variant_builder_open	noreturn leak-ignore
-	g_variant_builder_ref	return leak-ignore
-	g_variant_builder_unref	noreturn leak-ignore
-	g_variant_iter_copy	return leak-ignore
 	g_variant_iter_init	return leak-ignore
 	g_variant_iter_loop	return leak-ignore
 	g_variant_iter_n_children	return leak-ignore

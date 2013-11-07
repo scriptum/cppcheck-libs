@@ -52,6 +52,13 @@ for func in gir.getElementsByTagName('function') + gir.getElementsByTagName('met
 	if f_name not in dictionary:
 		print "\t", f_name + "\t" + ret
 
+
+
 # for methods in gir.getElementsByTagName('record'):
-# for method in gir.getElementsByTagName('method'):
-	# print getAttr(method, 'c:identifier')
+
+
+# for func in gir.getElementsByTagName('constructor') + gir.getElementsByTagName('method') + gir.getElementsByTagName('function'):
+	# ret = func.getElementsByTagName('return-value')[0]
+	# ret_type = getType(ret)
+	# if (ret_type == "gpointer" or "*" in ret_type) and "const" not in ret_type:
+		# print getAttr(func, 'c:identifier')
