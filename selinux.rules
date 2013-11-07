@@ -1,0 +1,4 @@
+alloc:
+	selinux_alloc
+dealloc:
+	freecon
