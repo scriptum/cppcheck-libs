@@ -3,10 +3,12 @@ dictionary = {}
 
 with open("gtk.rules") as f:
 	for line in f:
-		if "g_" in line and "\t" in line:
+		if "\t" in line and not line.strip() == "":
 			dictionary[line.split()[0].strip()] = True
 # print dictionary
-gir = parse('/usr/share/gir-1.0/GLib-2.0.gir')
+# exit(0)
+xml_glib = parse('/usr/share/gir-1.0/GLib-2.0.gir')
+xml_gtk = parse('/usr/share/gir-1.0/Gtk-2.0.gir')
 
 memory = []
 
@@ -31,7 +33,7 @@ def getOwner(node):
 
 print "functions:"
 
-for func in gir.getElementsByTagName('function') + gir.getElementsByTagName('method'):
+for func in xml_glib.getElementsByTagName('function') + xml_glib.getElementsByTagName('method') + xml_gtk.getElementsByTagName('function') + xml_gtk.getElementsByTagName('method'):
 	param_has_ptr = False
 	try:
 		for param in func.getElementsByTagName('parameter'):
@@ -47,8 +49,8 @@ for func in gir.getElementsByTagName('function') + gir.getElementsByTagName('met
 	else:
 		ret = 'return'
 	f_name = getAttr(func, 'c:identifier')
-	if func.parentNode.nodeName == "record" or param_has_ptr:
-		ret += ' leak-ignore'
+	#if func.parentNode.nodeName == "record" or param_has_ptr:
+	ret += ' leak-ignore'
 	if f_name not in dictionary:
 		print "\t", f_name + "\t" + ret
 
@@ -57,8 +59,13 @@ for func in gir.getElementsByTagName('function') + gir.getElementsByTagName('met
 # for methods in gir.getElementsByTagName('record'):
 
 
-# for func in gir.getElementsByTagName('constructor') + gir.getElementsByTagName('method') + gir.getElementsByTagName('function'):
-	# ret = func.getElementsByTagName('return-value')[0]
-	# ret_type = getType(ret)
-	# if (ret_type == "gpointer" or "*" in ret_type) and "const" not in ret_type:
-		# print getAttr(func, 'c:identifier')
+# for rec in gir.getElementsByTagName('record'):
+	# a = False
+	# for func in rec.getElementsByTagName('constructor'):
+		# ret = func.getElementsByTagName('return-value')[0]
+		# ret_type = getType(ret)
+		# if (ret_type == "gpointer" or "*" in ret_type) and "const" not in ret_type:
+			# a = True
+			# print getAttr(func, 'c:identifier'), ret_type
+	# if a:
+		# print rec.toxml()

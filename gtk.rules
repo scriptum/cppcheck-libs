@@ -2,8 +2,6 @@ alloc[main]:
 	g_ascii_strdown
 	g_ascii_strup
 	g_base64_decode
-	g_base64_decode
-	g_base64_encode
 	g_base64_encode
 	g_bookmark_file_get_description
 	g_bookmark_file_get_mime_type
@@ -96,6 +94,38 @@ alloc[main]:
 	g_variant_dup_string
 	g_variant_dup_bytestring
 	g_variant_print
+	g_datalist_id_dup_data
+	g_dir_make_tmp
+	g_filename_from_utf8
+	g_filename_to_utf8
+	g_file_read_link
+	g_find_program_in_path
+	g_format_size
+	g_format_size_for_display
+	g_format_size_full
+	g_hostname_to_ascii
+	g_hostname_to_unicode
+	g_locale_from_utf8
+	g_locale_to_utf8
+	g_markup_escape_text
+	g_markup_printf_escaped
+	g_markup_vprintf_escaped
+	g_match_info_expand_references
+	g_match_info_fetch
+	g_match_info_fetch_named
+	g_option_context_get_help
+	g_regex_escape_nul
+	g_regex_escape_string
+	g_regex_replace
+	g_regex_replace_eval
+	g_regex_replace_literal
+	g_shell_quote
+	g_shell_unquote
+	g_uri_escape_string
+	g_uri_parse_scheme
+	g_uri_unescape_segment
+	g_uri_unescape_string
+	g_variant_type_dup_string
 dealloc:
 	g_free
 use:
@@ -103,6 +133,8 @@ use:
 
 alloc[strv]:
 	g_bookmark_file_get_uris
+	g_bookmark_file_get_groups
+	g_bookmark_file_get_applications
 	g_key_file_get_groups
 	g_key_file_get_keys
 	g_strdupv
@@ -120,6 +152,16 @@ alloc[strv]:
 	g_variant_get_objv
 	g_variant_dup_objv
 	g_variant_dup_bytestring_array
+	g_environ_setenv
+	g_environ_unsetenv
+	g_get_environ
+	g_listenv
+	g_match_info_fetch_all
+	g_regex_split
+	g_regex_split_full
+	g_regex_split_simple
+	g_regex_split_simple
+	g_variant_dup_strv
 dealloc:
 	g_strfreev
 
@@ -137,17 +179,35 @@ dealloc:
 	g_string_free
 
 alloc:
+	g_error_copy
+	g_error_new_valist
+	g_error_new_literal
+	g_error_new
+dealloc:
+	g_error_free
+
+alloc:
 	g_pattern_spec_new
 dealloc:
 	g_pattern_spec_free
 
 alloc:
 	g_ptr_array_new
+	g_ptr_array_new_full
+	g_ptr_array_new_with_free_func
 dealloc:
 	g_ptr_array_free
 	g_ptr_array_unref
 use:
 	g_ptr_array_ref
+
+#alloc:
+#	g_match_info_new
+#dealloc:
+#	g_match_info_unref
+#	g_match_info_free
+#use:
+#	g_match_info_ref
 
 alloc:
 	g_io_module_scope_new
@@ -164,8 +224,12 @@ use:
 
 alloc:
 	g_mapped_file_new
+	g_mapped_file_new_from_fd
 dealloc:
 	g_mapped_file_free
+	g_mapped_file_unref
+use:
+	g_mapped_file_ref
 
 alloc:
 	g_markup_parse_context_new
@@ -194,11 +258,15 @@ dealloc:
 
 alloc:
 	g_queue_new
+	g_queue_copy
 dealloc:
 	g_queue_free
 
 alloc:
 	g_rand_new
+	g_rand_copy
+	g_rand_new_with_seed
+	g_rand_new_with_seed_array
 dealloc:
 	g_rand_free
 
@@ -227,6 +295,12 @@ alloc:
 dealloc:
 	g_test_log_buffer_free
 
+#alloc:
+#	g_test_create_case
+
+#alloc:
+#	g_test_create_suite
+
 alloc:
 	g_value_array_new
 dealloc:
@@ -239,6 +313,11 @@ dealloc:
 
 alloc:
 	g_variant_type_new
+	g_variant_type_copy
+	g_variant_type_new_array
+	g_variant_type_new_dict_entry
+	g_variant_type_new_maybe
+	g_variant_type_new_tuple
 dealloc:
 	g_variant_type_free
 
@@ -298,11 +377,27 @@ dealloc:
 	g_error_free
 
 alloc:
+	g_hook_alloc
+use:
+	g_hook_ref
+dealloc:
+	g_hook_unref
+	g_hook_destroy
+	g_hook_free
+
+alloc:
 	g_hmac_new
+	g_hmac_copy
 dealloc:
 	g_hmac_unref
 use:
 	g_hmac_ref
+
+alloc:
+	g_dir_open
+	g_dir_rewind
+dealloc:
+	g_dir_close
 
 alloc:
 	g_bytes_new
@@ -313,6 +408,7 @@ alloc:
 	g_byte_array_free_to_bytes
 	g_memory_output_stream_steal_as_bytes
 	g_variant_get_data_as_bytes
+	g_mapped_file_get_bytes
 dealloc:
 	g_bytes_unref
 use:
@@ -330,6 +426,7 @@ alloc:
 	g_io_channel_win32_new_fd
 	g_io_channel_win32_new_socket
 	g_io_channel_win32_new_messages
+	g_io_channel_new_file
 dealloc:
 	g_io_channel_close
 	g_io_channel_shutdown
@@ -361,6 +458,7 @@ alloc:
 	g_timeout_source_new_seconds
 	g_child_watch_source_new
 	g_cancellable_source_new
+	g_io_create_watch
 dealloc:
 	g_source_unref
 use:
@@ -456,6 +554,7 @@ use:
 alloc[glist]:
 	g_emblemed_icon_get_emblems
 	g_list_alloc
+	g_list_copy
 	g_list_copy_deep
 	g_app_info_get_all
 	g_app_info_get_all_for_type
@@ -463,10 +562,22 @@ alloc[glist]:
 	g_app_info_get_recommended_for_type
 	g_io_modules_load_all_in_directory
 	g_io_modules_load_all_in_directory_with_scope
+	g_hash_table_get_keys
+	g_hash_table_get_values
+	
 dealloc:
 	g_list_free
 	g_list_free_1
 	g_list_free_full
+
+alloc:
+	g_slist_alloc
+	g_slist_copy
+	g_slist_copy_deep
+dealloc:
+	g_slist_free
+	g_slist_free_1
+	g_slist_free_full
 
 alloc:
 	g_variant_new
@@ -501,6 +612,10 @@ alloc:
 	g_variant_builder_end
 	g_variant_new_parsed_va
 	g_variant_new_parsed
+	g_variant_byteswap
+	g_variant_get_child_value
+	g_variant_get_normal_form
+	g_variant_parse
 dealloc:
 	g_variant_unref
 use:
@@ -520,6 +635,45 @@ dealloc:
 	g_variant_builder_unref
 use:
 	g_variant_builder_ref
+
+alloc:
+	g_thread_new
+	g_thread_try_new
+dealloc:
+	g_thread_unref
+use:
+	g_thread_ref
+
+alloc:
+	g_tree_new
+	g_tree_new_full
+	g_tree_new_with_data
+dealloc:
+	g_tree_unref
+use:
+	g_tree_ref
+
+alloc:
+	g_time_zone_new
+	g_time_zone_new_local
+	g_time_zone_new_utc
+dealloc:
+	g_time_zone_unref
+use:
+	g_time_zone_ref
+
+alloc:
+	g_node_new
+	g_node_copy
+	g_node_copy_deep
+dealloc:
+	g_node_destroy
+
+alloc:
+	g_timer_new
+dealloc:
+	g_timer_destroy
+
 alloc[gobject]:
 	g_app_launch_context_new
 	g_app_info_create_from_commandline
@@ -564,10 +718,8 @@ alloc[gobject]:
 	g_dbus_proxy_new_for_bus_finish
 	g_dbus_proxy_new_for_bus_sync
 	g_emblemed_icon_new
-	g_emblemed_icon_get_icon
 	g_emblem_new
 	g_emblem_new_with_origin
-	g_emblem_get_icon
 	g_file_icon_new
 	g_file_icon_get_file
 	g_file_info_new
@@ -603,7 +755,6 @@ alloc[gobject]:
 	g_mount_operation_new
 	g_network_address_new
 	g_network_service_new
-	g_node_new
 	g_object_new
 	g_param_spec_pool_new
 	g_pollable_source_new
@@ -627,15 +778,10 @@ alloc[gobject]:
 	g_test_dbus_new
 	g_themed_icon_new
 	g_threaded_socket_service_new
-	g_thread_new
-	g_thread_try_new
-	g_timer_new
-	g_time_zone_new
 	g_tls_client_connection_new
 	g_tls_file_database_new
 	g_tls_password_new
 	g_tls_server_connection_new
-	g_tree_new
 	g_unix_signal_source_new
 	g_zlib_compressor_new
 	g_zlib_decompressor_new
@@ -645,19 +791,49 @@ use:
 	g_object_ref
 
 functions:
+	g_hash_table_insert	noreturn
+	g_hash_table_replace	noreturn
 	g_list_append	return
+	g_list_insert_before	return
+	g_list_insert	return
+	g_list_insert_sorted	return
+	g_list_insert_sorted_with_data	return
 	g_list_prepend	return
+	g_node_insert_after	noreturn
+	g_node_insert_before	noreturn
+	g_node_insert	noreturn
+	g_node_prepend	noreturn
+	g_ptr_array_add	noreturn
+	g_queue_push_head_link	noreturn
+	g_queue_push_head	noreturn
+	g_queue_push_nth_link	noreturn
+	g_queue_push_nth	noreturn
+	g_queue_push_tail_link	noreturn
+	g_queue_push_tail	noreturn
+	g_sequence_append	noreturn
+	g_sequence_insert_before	noreturn
+	g_sequence_insert_sorted_iter	noreturn
+	g_sequence_insert_sorted	noreturn
+	g_sequence_prepend	noreturn
 	g_slist_alloc	return
 	g_slist_append	return
-	g_slist_free	noreturn
-	g_slist_free_1	noreturn
-	g_slist_free_full	noreturn
+	g_slist_insert_before	return
+	g_slist_insert	return
+	g_slist_insert_sorted	return
+	g_slist_insert_sorted_with_data	return
 	g_slist_prepend	return
-	g_hash_table_insert	noreturn
-	g_ptr_array_add	noreturn
-	g_queue_push_head	noreturn
-	g_queue_push_head_link	noreturn
-	g_queue_push_nth	noreturn
-	g_queue_push_nth_link	noreturn
-	g_queue_push_tail	noreturn
-	g_queue_push_tail_link	noreturn
+	gtk_list_store_set	noreturn
+	gtk_list_store_set_valist	noreturn
+	gtk_list_store_set_value	noreturn
+	gtk_list_store_set_valuesv	noreturn
+	gtk_box_pack_end	noreturn
+	gtk_box_pack_end_defaults	noreturn
+	gtk_box_pack_start	noreturn
+	gtk_box_pack_start_defaults	noreturn
+	gtk_cell_layout_pack_end	noreturn
+	gtk_cell_layout_pack_start	noreturn
+	gtk_tree_view_column_pack_end	noreturn
+	gtk_tree_view_column_pack_start	noreturn
+	g_variant_builder_add_value	noreturn
+	gtk_box_set_child_packing	noreturn
+	gtk_clipboard_request_contents	noreturn
