@@ -279,6 +279,7 @@ alloc:
 	g_slice_new
 dealloc:
 	g_slice_free
+	g_slice_free1
 
 alloc:
 	g_srv_target_new
@@ -791,49 +792,50 @@ use:
 	g_object_ref
 
 functions:
-	g_hash_table_insert	noreturn
-	g_hash_table_replace	noreturn
-	g_list_append	return
-	g_list_insert_before	return
-	g_list_insert	return
-	g_list_insert_sorted	return
-	g_list_insert_sorted_with_data	return
-	g_list_prepend	return
-	g_node_insert_after	noreturn
-	g_node_insert_before	noreturn
-	g_node_insert	noreturn
-	g_node_prepend	noreturn
-	g_ptr_array_add	noreturn
-	g_queue_push_head_link	noreturn
-	g_queue_push_head	noreturn
-	g_queue_push_nth_link	noreturn
-	g_queue_push_nth	noreturn
-	g_queue_push_tail_link	noreturn
-	g_queue_push_tail	noreturn
-	g_sequence_append	noreturn
-	g_sequence_insert_before	noreturn
-	g_sequence_insert_sorted_iter	noreturn
-	g_sequence_insert_sorted	noreturn
-	g_sequence_prepend	noreturn
-	g_slist_alloc	return
-	g_slist_append	return
-	g_slist_insert_before	return
-	g_slist_insert	return
-	g_slist_insert_sorted	return
-	g_slist_insert_sorted_with_data	return
-	g_slist_prepend	return
-	gtk_list_store_set	noreturn
-	gtk_list_store_set_valist	noreturn
-	gtk_list_store_set_value	noreturn
-	gtk_list_store_set_valuesv	noreturn
-	gtk_box_pack_end	noreturn
-	gtk_box_pack_end_defaults	noreturn
-	gtk_box_pack_start	noreturn
-	gtk_box_pack_start_defaults	noreturn
-	gtk_cell_layout_pack_end	noreturn
-	gtk_cell_layout_pack_start	noreturn
-	gtk_tree_view_column_pack_end	noreturn
-	gtk_tree_view_column_pack_start	noreturn
-	g_variant_builder_add_value	noreturn
-	gtk_box_set_child_packing	noreturn
-	gtk_clipboard_request_contents	noreturn
+	g_exit	noreturn
+	g_hash_table_insert
+	g_hash_table_replace
+	g_list_append
+	g_list_insert_before
+	g_list_insert
+	g_list_insert_sorted
+	g_list_insert_sorted_with_data
+	g_list_prepend
+	g_node_insert_after
+	g_node_insert_before
+	g_node_insert
+	g_node_prepend
+	g_ptr_array_add
+	g_queue_push_head_link
+	g_queue_push_head
+	g_queue_push_nth_link
+	g_queue_push_nth
+	g_queue_push_tail_link
+	g_queue_push_tail
+	g_sequence_append
+	g_sequence_insert_before
+	g_sequence_insert_sorted_iter
+	g_sequence_insert_sorted
+	g_sequence_prepend
+	g_slist_alloc
+	g_slist_append
+	g_slist_insert_before
+	g_slist_insert
+	g_slist_insert_sorted
+	g_slist_insert_sorted_with_data
+	g_slist_prepend
+	gtk_list_store_set
+	gtk_list_store_set_valist
+	gtk_list_store_set_value
+	gtk_list_store_set_valuesv
+	gtk_box_pack_end
+	gtk_box_pack_end_defaults
+	gtk_box_pack_start
+	gtk_box_pack_start_defaults
+	gtk_cell_layout_pack_end
+	gtk_cell_layout_pack_start
+	gtk_tree_view_column_pack_end
+	gtk_tree_view_column_pack_start
+	g_variant_builder_add_value
+	gtk_box_set_child_packing
+	gtk_clipboard_request_contents

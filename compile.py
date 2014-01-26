@@ -48,8 +48,6 @@ for v in funcs:
 	for vv in opts[1:]:
 		if vv == "leak-ignore":
 			print "\t\t<leak-ignore/>"
-		elif vv == "return":
-			print "\t\t<noreturn>false</noreturn>"
 		elif vv == "noreturn":
 			print "\t\t<noreturn>true</noreturn>"
 	print "\t</function>"
