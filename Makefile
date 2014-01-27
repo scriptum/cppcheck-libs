@@ -1,11 +1,11 @@
-TARGETS = geany.cfg gtk.cfg selinux.cfg
+TARGETS = geany.cfg glib.cfg selinux.cfg
 COMPILER = python compile.py
 all: $(TARGETS)
 
-geany.cfg: geany.rules gtk.rules gtk-functions.rules
+geany.cfg: geany.rules glib.cfg
 	/bin/cat $^ | $(COMPILER) > $@
 
-gtk.cfg: gtk.rules gtk-functions.rules
+glib.cfg: glib.rules glib-functions.rules
 	/bin/cat $^ | $(COMPILER) > $@
 
 selinux.cfg: selinux.rules

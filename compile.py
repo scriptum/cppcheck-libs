@@ -45,11 +45,15 @@ for key in allocs:
 for v in funcs:
 	opts = v.split()
 	print "\t<function name=\""+opts[0]+"\">"
+	noret = False
 	for vv in opts[1:]:
 		if vv == "leak-ignore":
 			print "\t\t<leak-ignore/>"
 		elif vv == "noreturn":
+			noret = True
 			print "\t\t<noreturn>true</noreturn>"
+	if not noret:
+		print "\t\t<noreturn>false</noreturn>"
 	print "\t</function>"
 
 print "</def>"
