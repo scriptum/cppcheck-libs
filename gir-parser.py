@@ -42,15 +42,15 @@ for func in xml_glib.getElementsByTagName('function') + xml_glib.getElementsByTa
 				param_has_ptr = True
 	except:
 		pass
-	ret = func.getElementsByTagName('return-value')[0]
-	ret_type = getType(ret)
-	if ret_type == "void":
-		ret = 'noreturn'
-	else:
-		ret = 'return'
+	# ret = func.getElementsByTagName('return-value')[0]
+	# ret_type = getType(ret)
+	# if ret_type == "void":
+		# ret = 'noreturn'
+	# else:
+		# ret = 'return'
 	f_name = getAttr(func, 'c:identifier')
 	#if func.parentNode.nodeName == "record" or param_has_ptr:
-	ret += ' leak-ignore'
+	ret = ' leak-ignore'
 	if f_name not in dictionary:
 		print "\t", f_name + "\t" + ret
 
