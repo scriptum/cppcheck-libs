@@ -2706,8 +2706,6 @@ functions:
 	gtk_mount_operation_is_showing leak-ignore
 	gtk_mount_operation_set_parent leak-ignore
 	gtk_mount_operation_set_screen leak-ignore
-	gtk_notebook_append_page leak-ignore
-	gtk_notebook_append_page_menu leak-ignore
 	gtk_notebook_get_action_widget leak-ignore
 	gtk_notebook_get_current_page leak-ignore
 	gtk_notebook_get_group leak-ignore
@@ -3283,8 +3281,6 @@ functions:
 	gtk_style_set_background leak-ignore
 	gtk_style_set_font leak-ignore
 	gtk_style_unref leak-ignore
-	gtk_table_attach leak-ignore
-	gtk_table_attach_defaults leak-ignore
 	gtk_table_get_col_spacing leak-ignore
 	gtk_table_get_default_col_spacing leak-ignore
 	gtk_table_get_default_row_spacing leak-ignore
@@ -4257,7 +4253,6 @@ functions:
 	gtk_window_set_default leak-ignore
 	gtk_window_set_default_size leak-ignore
 	gtk_window_set_deletable leak-ignore
-	gtk_window_set_destroy_with_parent leak-ignore
 	gtk_window_set_focus leak-ignore
 	gtk_window_set_focus_on_map leak-ignore
 	gtk_window_set_frame_dimensions leak-ignore
@@ -4283,7 +4278,6 @@ functions:
 	gtk_window_set_skip_taskbar_hint leak-ignore
 	gtk_window_set_startup_id leak-ignore
 	gtk_window_set_title leak-ignore
-	gtk_window_set_transient_for leak-ignore
 	gtk_window_set_type_hint leak-ignore
 	gtk_window_set_urgency_hint leak-ignore
 	gtk_window_set_wmclass leak-ignore

@@ -35,11 +35,28 @@ for line in sys.stdin:
 
 print "<?xml version=\"1.0\"?>\n<def>"
 
+if len(sys.argv) > 1:
+	print "\t<include><![CDATA["
+	with open(sys.argv[1], 'r') as f:
+		print (f.read())
+	print "\t]]></include>"
+
 for key in allocs:
 	print "\t<memory>";
 	for k in allocs[key]:
 		for vv in allocs[key][k]:
-			print "\t\t<"+k+">"+vv+"</"+k+">"
+			init = ''
+			name = vv
+			if k == "alloc":
+				try:
+					name, init = vv.split()
+					if init == 'noinit':
+						init = ''
+					else:
+						init = ' init="true"'
+				except:
+					init = ' init="true"'
+			print "\t\t<"+k+init+">"+name+"</"+k+">"
 	print "\t</memory>"
 
 for v in funcs:

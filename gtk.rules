@@ -31,14 +31,14 @@ alloc[main]:
 	g_get_locale_variants
 	g_key_file_get_start_group
 	g_key_file_to_data
-	g_malloc
+	g_malloc noinit
 	g_malloc0
 	g_malloc0_n
-	g_malloc_n
+	g_malloc_n noinit
 	g_memdup
 	g_path_get_basename
 	g_path_get_dirname
-	g_slice_alloc
+	g_slice_alloc noinit
 	g_slice_alloc0
 	g_slice_copy
 	g_strcompress
@@ -52,10 +52,10 @@ alloc[main]:
 	g_strndup
 	g_strnfill
 	g_time_val_to_iso8601
-	g_try_malloc
+	g_try_malloc noinit
 	g_try_malloc0
 	g_try_malloc0_n
-	g_try_malloc_n
+	g_try_malloc_n noinit
 	g_ucs4_to_utf16
 	g_ucs4_to_utf8
 	g_unicode_canonical_decomposition
@@ -80,9 +80,9 @@ alloc[main]:
 	g_key_file_get_integer_list
 	g_key_file_get_double_list
 	g_key_file_get_comment
-	g_new
+	g_new noinit
 	g_new0
-	g_try_new
+	g_try_new noinit
 	g_try_new0
 	g_dbus_proxy_get_name_owner
 	g_file_info_get_attribute_as_string
@@ -371,11 +371,6 @@ alloc:
 	g_date_new_julian
 dealloc:
 	g_date_free
-
-alloc:
-	g_error_new
-dealloc:
-	g_error_free
 
 alloc:
 	g_hook_alloc
@@ -679,7 +674,6 @@ alloc[gobject]:
 	g_app_launch_context_new
 	g_app_info_create_from_commandline
 	g_app_info_dup
-	g_app_info_get_icon
 	g_app_info_get_default_for_type
 	g_app_info_get_default_for_uri_scheme
 	g_application_new
@@ -765,7 +759,6 @@ alloc[gobject]:
 	g_relation_new
 	g_scanner_new
 	g_settings_new
-	g_signal_new
 	g_signal_type_cclosure_new
 	g_simple_action_group_new
 	g_simple_action_new
@@ -788,6 +781,7 @@ alloc[gobject]:
 	g_zlib_decompressor_new
 dealloc:
 	g_object_unref
+	gtk_widget_destroy
 use:
 	g_object_ref
 
@@ -839,3 +833,11 @@ functions:
 	g_variant_builder_add_value
 	gtk_box_set_child_packing
 	gtk_clipboard_request_contents
+	gtk_window_set_transient_for
+	gtk_window_set_attached_to
+	gtk_window_set_destroy_with_parent
+	gtk_table_attach
+	gtk_table_attach_defaults
+	gtk_notebook_append_page
+	g_object_ref
+	g_object_unref
