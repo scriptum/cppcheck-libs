@@ -1,0 +1,341 @@
+[tests/selinux/checkpolicy-2.2/checkmodule.c:117]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/checkpolicy-2.2/checkpolicy.c:483]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/checkpolicy-2.2/checkpolicy.c:599]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/checkpolicy-2.2/module_compiler.c:1227]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/checkpolicy-2.2/module_compiler.c:1484]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:1588]: (style) The scope of the variable 'id' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:1612]: (style) The scope of the variable 'id' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:1859]: (style) The scope of the variable 'id' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:1861]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:1879]: (style) The scope of the variable 'id' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:1881]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:333]: (style) The scope of the variable 'cladatum' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:357]: (style) The scope of the variable 'cladatum' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:389]: (style) The scope of the variable 'cladatum' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:421]: (style) The scope of the variable 'cladatum' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:4263]: (error) Memory pointed to by 'id_queue' is freed twice.
+[tests/selinux/checkpolicy-2.2/policy_define.c:4349]: (error) Memory pointed to by 'id_queue' is freed twice.
+[tests/selinux/checkpolicy-2.2/policy_define.c:4497]: (error) Memory pointed to by 'id_queue' is freed twice.
+[tests/selinux/checkpolicy-2.2/policy_define.c:453]: (style) The scope of the variable 'cladatum' can be reduced.
+[tests/selinux/checkpolicy-2.2/policy_define.c:827]: (style) The scope of the variable 'datum' can be reduced.
+[tests/selinux/checkpolicy-2.2/queue.c:127]: (style) The scope of the variable 'ret' can be reduced.
+[tests/selinux/checkpolicy-2.2/queue.c:147]: (style) The scope of the variable 'ret' can be reduced.
+[tests/selinux/checkpolicy-2.2/test/dismod.c:296]: (style) The scope of the variable 'first_attrib' can be reduced.
+[tests/selinux/checkpolicy-2.2/test/dismod.c:296]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/checkpolicy-2.2/test/dismod.c:344]: (style) The scope of the variable 'bitmap' can be reduced.
+[tests/selinux/checkpolicy-2.2/test/dismod.c:416]: (style) The scope of the variable 'role' can be reduced.
+[tests/selinux/checkpolicy-2.2/test/dismod.c:416]: (style) The scope of the variable 'type' can be reduced.
+[tests/selinux/checkpolicy-2.2/test/dismod.c:416]: (style) The scope of the variable 'user' can be reduced.
+[tests/selinux/checkpolicy-2.2/test/dismod.c:802]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/checkpolicy-2.2/test/dispol.c:314]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/checkpolicy-2.2/test/dispol.c:546]: (error) Resource leak: out_fp
+[tests/selinux/libselinux-2.2.2/src/audit2why.c:307]: (style) The scope of the variable 'strObj' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/audit2why.c:68]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/avc.c:976]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/avc_internal.c:225]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/avc_internal.c:252]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/avc_sidtab.c:126]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/libselinux-2.2.2/src/booleans.c:352]: (style) The scope of the variable 'name1' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/booleans.c:551]: (style) The scope of the variable 'ret' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/compute_av.c:53]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/compute_user.c:49]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/context.c:102]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/context.c:153]: (style) The scope of the variable 'p' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/context.c:38]: (error) Dereferencing 'n' after it is deallocated / released
+[tests/selinux/libselinux-2.2.2/src/context.c:39]: (error) Dereferencing 'n' after it is deallocated / released
+[tests/selinux/libselinux-2.2.2/src/deny_unknown.c:34]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/get_context_list.c:120]: (style) The scope of the variable 'conrole' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/get_context_list.c:120]: (style) The scope of the variable 'contype' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/get_context_list.c:289]: (style) Variable 'buf' is assigned a value that is never used.
+[tests/selinux/libselinux-2.2.2/src/getenforce.c:34]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/is_customizable_type.c:16]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/label_android_property.c:223]: (style) The scope of the variable 'spec' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/label_android_property.c:54]: (style) The scope of the variable 'curr_spec' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/label_db.c:108]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/label_db.c:108]: (warning) %a in format string (no. 1) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_db.c:108]: (warning) %a in format string (no. 2) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_db.c:108]: (warning) %a in format string (no. 3) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_db.c:108]: (warning) %a in format string (no. 4) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_db.c:174]: (style) The scope of the variable 'spec' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/label_file.c:173]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/label_file.c:173]: (warning) %a in format string (no. 1) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_file.c:173]: (warning) %a in format string (no. 2) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_file.c:173]: (warning) %a in format string (no. 3) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_file.c:534] -> [tests/selinux/libselinux-2.2.2/src/label_file.c:536]: (performance) Variable 'status' is reassigned a value before the old one has been used.
+[tests/selinux/libselinux-2.2.2/src/label_file.c:549]: (style) The scope of the variable 'last_area' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/label_file.c:550]: (style) The scope of the variable 'spec' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/label_file.c:551]: (style) The scope of the variable 'stem' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/label_file.c:74]: (style) The scope of the variable 'curr_spec' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/label_media.c:151]: (style) The scope of the variable 'spec' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/label_media.c:47]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/label_media.c:47]: (warning) %a in format string (no. 1) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_media.c:47]: (warning) %a in format string (no. 2) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_x.c:178]: (style) The scope of the variable 'spec' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/label_x.c:49]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/label_x.c:49]: (warning) %a in format string (no. 1) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_x.c:49]: (warning) %a in format string (no. 2) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/label_x.c:49]: (warning) %a in format string (no. 3) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/matchpathcon.c:238]: (style) The scope of the variable 'len' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/policyvers.c:39]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/query_user_context.c:24]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
+[tests/selinux/libselinux-2.2.2/src/query_user_context.c:27]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
+[tests/selinux/libselinux-2.2.2/src/query_user_context.c:40]: (style) The scope of the variable 'response' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/query_user_context.c:41]: (style) The scope of the variable 'choice' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/query_user_context.c:50]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
+[tests/selinux/libselinux-2.2.2/src/query_user_context.c:53]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
+[tests/selinux/libselinux-2.2.2/src/query_user_context.c:84]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
+[tests/selinux/libselinux-2.2.2/src/query_user_context.c:87]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
+[tests/selinux/libselinux-2.2.2/src/selinux_check_securetty_context.c:12]: (style) The scope of the variable 'end' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/selinux_check_securetty_context.c:14]: (style) The scope of the variable 'len' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/selinux_config.c:156]: (style) The scope of the variable 'intptr' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/selinux_config.c:158]: (style) The scope of the variable 'len' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/selinux_config.c:159]: (style) The scope of the variable 'end' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/selinux_config.c:159]: (style) The scope of the variable 'value' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/setrans_client.c:60]: (error) Mismatching allocation and deallocation: fd
+[tests/selinux/libselinux-2.2.2/src/setrans_client.c:71]: (error) Mismatching allocation and deallocation: fd
+[tests/selinux/libselinux-2.2.2/src/stringrep.c:246]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/stringrep.c:255]: (portability) Non reentrant function 'readdir' called. For threadsafe applications it is recommended to use the reentrant replacement function 'readdir_r'.
+[tests/selinux/libselinux-2.2.2/src/stringrep.c:272]: (portability) Non reentrant function 'readdir' called. For threadsafe applications it is recommended to use the reentrant replacement function 'readdir_r'.
+[tests/selinux/libselinux-2.2.2/src/stringrep.c:282]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/stringrep.c:292]: (portability) Non reentrant function 'readdir' called. For threadsafe applications it is recommended to use the reentrant replacement function 'readdir_r'.
+[tests/selinux/libselinux-2.2.2/src/stringrep.c:510]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:166]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:181]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:184]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:207]: (warning) %Lu in format string (no. 1) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:207]: (warning) %Lu in format string (no. 2) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:207]: (warning) %Lu in format string (no. 3) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:207]: (warning) %Lu in format string (no. 4) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:207]: (warning) %Lu in format string (no. 5) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:207]: (warning) %Lu in format string (no. 6) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:217]: (warning) %Lu in format string (no. 1) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:217]: (warning) %Lu in format string (no. 2) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:217]: (warning) %Lu in format string (no. 3) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:217]: (warning) %Lu in format string (no. 4) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:217]: (warning) %Lu in format string (no. 5) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/avcstat.c:217]: (warning) %Lu in format string (no. 6) requires 'unsigned long long' but the argument type is 'unsigned long long'.
+[tests/selinux/libselinux-2.2.2/utils/getconlist.c:24]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libselinux-2.2.2/utils/getdefaultcon.c:54]: (error) Memory leak: level
+[tests/selinux/libselinux-2.2.2/utils/getdefaultcon.c:54]: (error) Memory leak: role
+[tests/selinux/libselinux-2.2.2/utils/getdefaultcon.c:54]: (error) Memory leak: service
+[tests/selinux/libselinux-2.2.2/utils/getfilecon.c:9]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libselinux-2.2.2/utils/getpidcon.c:17]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/utils/matchpathcon.c:148]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libselinux-2.2.2/utils/sefcontext_compile.c:51]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/utils/setfilecon.c:8]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libselinux-2.2.2/utils/togglesebool.c:26]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libselinux-2.2.2/utils/togglesebool.c:81]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/selinux/libsemanage-2.2/src/database_llist.c:227]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsemanage-2.2/src/database_llist.c:306]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsemanage-2.2/src/database_llist.c:321]: (style) The scope of the variable 'prev' can be reduced.
+[tests/selinux/libsemanage-2.2/src/database_llist.c:76]: (style) The scope of the variable 'prev' can be reduced.
+[tests/selinux/libsemanage-2.2/src/database_policydb.c:191]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsemanage-2.2/src/database_policydb.c:322]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsemanage-2.2/src/database_policydb.c:323]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsemanage-2.2/src/database_policydb.c:324]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsemanage-2.2/src/database_policydb.c:335]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsemanage-2.2/src/database_policydb.c:336]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsemanage-2.2/src/debug.c:90]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsemanage-2.2/src/direct_api.c:1384]: (error) Memory leak: module_filename
+[tests/selinux/libsemanage-2.2/src/direct_api.c:1401]: (error) Memory leak: module_filename
+[tests/selinux/libsemanage-2.2/src/direct_api.c:1419]: (error) Memory leak: module_filename
+[tests/selinux/libsemanage-2.2/src/direct_api.c:250]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsemanage-2.2/src/direct_api.c:469]: (style) The scope of the variable 'nBuf' can be reduced.
+[tests/selinux/libsemanage-2.2/src/direct_api.c:496]: (error) Common realloc mistake: 'uncompress' nulled but not freed upon failure
+[tests/selinux/libsemanage-2.2/src/direct_api.c:623]: (style) The scope of the variable 'ofilename' can be reduced.
+[tests/selinux/libsemanage-2.2/src/direct_api.c:651]: (style) The scope of the variable 'ofilename' can be reduced.
+[tests/selinux/libsemanage-2.2/src/genhomedircon.c:1074]: (error) Memory leak: s.fallback_user
+[tests/selinux/libsemanage-2.2/src/genhomedircon.c:1074]: (error) Memory leak: s.fallback_user_level
+[tests/selinux/libsemanage-2.2/src/genhomedircon.c:1074]: (error) Memory leak: s.fallback_user_prefix
+[tests/selinux/libsemanage-2.2/src/genhomedircon.c:138]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/libsemanage-2.2/src/genhomedircon.c:150]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/libsemanage-2.2/src/genhomedircon.c:231] -> [tests/selinux/libsemanage-2.2/src/genhomedircon.c:231]: (style) Same expression on both sides of '&&'.
+[tests/selinux/libsemanage-2.2/src/genhomedircon.c:334] -> [tests/selinux/libsemanage-2.2/src/genhomedircon.c:336]: (performance) Variable 'path' is reassigned a value before the old one has been used.
+[tests/selinux/libsemanage-2.2/src/genhomedircon.c:342] -> [tests/selinux/libsemanage-2.2/src/genhomedircon.c:344]: (performance) Variable 'path' is reassigned a value before the old one has been used.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:1568]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:1871]: (style) The scope of the variable 'retval' can be reduced.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:1950]: (style) The scope of the variable 'temp' can be reduced.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:1963]: (style) The scope of the variable 'temp' can be reduced.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:2170]: (style) Checking if unsigned variable 'buf_len' is less than zero.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:2192]: (style) Checking if unsigned variable 'buf_len' is less than zero.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:2215]: (style) The scope of the variable 'line_len' can be reduced.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:2216]: (style) The scope of the variable 'sanity_check' can be reduced.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:2236]: (style) Checking if unsigned variable 'buf_len' is less than zero.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:231]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:2558]: (style) The scope of the variable 'line_len' can be reduced.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:276]: (style) The scope of the variable 'fd' can be reduced.
+[tests/selinux/libsemanage-2.2/src/semanage_store.c:977]: (style) Obsolete function 'vfork' called. It is recommended to use the function 'fork' instead.
+[tests/selinux/libsemanage-2.2/src/seusers_local.c:24]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libsemanage-2.2/src/seusers_local.c:25]: (style) The scope of the variable 'size' can be reduced.
+[tests/selinux/libsemanage-2.2/src/users_local.c:31]: (style) The scope of the variable 'sename' can be reduced.
+[tests/selinux/libsemanage-2.2/src/utilities.c:308]: (error) Memory leak: current
+[tests/selinux/libsemanage-2.2/tests/test_semanage_store.c:156] -> [tests/selinux/libsemanage-2.2/tests/test_semanage_store.c:159]: (performance) Variable 'err' is reassigned a value before the old one has been used.
+[tests/selinux/libsepol-2.2/src/avtab.c:354]: (warning) %d in format string (no. 3) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/libsepol-2.2/src/avtab.c:354]: (warning) %d in format string (no. 5) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/libsepol-2.2/src/booleans.c:113]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsepol-2.2/src/conditional.c:144]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libsepol-2.2/src/conditional.c:348]: (style) The scope of the variable 'j' can be reduced.
+[tests/selinux/libsepol-2.2/src/conditional.c:349]: (style) The scope of the variable 'k' can be reduced.
+[tests/selinux/libsepol-2.2/src/conditional.c:445]: (style) The scope of the variable 'ret' can be reduced.
+[tests/selinux/libsepol-2.2/src/debug.c:73]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsepol-2.2/src/ebitmap.c:325]: (style) The scope of the variable 'temp' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:1031]: (style) The scope of the variable 'ret' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:1035]: (style) The scope of the variable 'new_id' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:1760]: (style) The scope of the variable 'conflict' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:2149]: (style) The scope of the variable 'l' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:2208]: (style) The scope of the variable 'l' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:2303]: (style) The scope of the variable 'l' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:2359]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:2360]: (style) The scope of the variable 'tnode' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:2868]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:3193]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:3439]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:873]: (style) The scope of the variable 'ret' can be reduced.
+[tests/selinux/libsepol-2.2/src/expand.c:874]: (style) The scope of the variable 'new_id' can be reduced.
+[tests/selinux/libsepol-2.2/src/genbools.c:35]: (style) The scope of the variable 'name1' can be reduced.
+[tests/selinux/libsepol-2.2/src/hierarchy.c:100]: (style) The scope of the variable 'datum_name' can be reduced.
+[tests/selinux/libsepol-2.2/src/hierarchy.c:100]: (style) The scope of the variable 'parent_name' can be reduced.
+[tests/selinux/libsepol-2.2/src/hierarchy.c:100]: (style) The scope of the variable 'tmp' can be reduced.
+[tests/selinux/libsepol-2.2/src/hierarchy.c:101]: (style) The scope of the variable 'datum_name' can be reduced.
+[tests/selinux/libsepol-2.2/src/hierarchy.c:101]: (style) The scope of the variable 'parent_name' can be reduced.
+[tests/selinux/libsepol-2.2/src/hierarchy.c:101]: (style) The scope of the variable 'tmp' can be reduced.
+[tests/selinux/libsepol-2.2/src/hierarchy.c:99]: (style) The scope of the variable 'datum_name' can be reduced.
+[tests/selinux/libsepol-2.2/src/hierarchy.c:99]: (style) The scope of the variable 'parent_name' can be reduced.
+[tests/selinux/libsepol-2.2/src/hierarchy.c:99]: (style) The scope of the variable 'tmp' can be reduced.
+[tests/selinux/libsepol-2.2/src/interfaces.c:129]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsepol-2.2/src/interfaces.c:233]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsepol-2.2/src/link.c:2024]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libsepol-2.2/src/link.c:2493]: (style) The scope of the variable 'decl' can be reduced.
+[tests/selinux/libsepol-2.2/src/link.c:672]: (style) The scope of the variable 'scope' can be reduced.
+[tests/selinux/libsepol-2.2/src/link.c:714]: (style) The scope of the variable 'scope' can be reduced.
+[tests/selinux/libsepol-2.2/src/mls.c:113]: (style) The scope of the variable 'range' can be reduced.
+[tests/selinux/libsepol-2.2/src/mls.c:172]: (style) The scope of the variable 'range' can be reduced.
+[tests/selinux/libsepol-2.2/src/mls.c:172]: (style) The scope of the variable 'wrote_sep' can be reduced.
+[tests/selinux/libsepol-2.2/src/module.c:349]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libsepol-2.2/src/module.c:951]: (style) Variable 'len' is assigned a value that is never used.
+[tests/selinux/libsepol-2.2/src/nodes.c:165]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsepol-2.2/src/policydb.c:1274]: (style) The scope of the variable 'gtmp' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:1971]: (style) The scope of the variable 'le' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:1973]: (style) The scope of the variable 'nexpr' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:1975]: (style) The scope of the variable 'depth' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:1975]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:2465]: (style) The scope of the variable 'nel' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:2466]: (style) The scope of the variable 'l' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:2468]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:2546]: (style) The scope of the variable 'nel' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:2547]: (style) The scope of the variable 'l' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:2549]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:3276]: (style) The scope of the variable 'len' can be reduced.
+[tests/selinux/libsepol-2.2/src/policydb.c:652]: (style) The scope of the variable 'cur' can be reduced.
+[tests/selinux/libsepol-2.2/src/ports.c:157]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsepol-2.2/src/roles.c:19]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsepol-2.2/src/services.c:1079]: (style) The scope of the variable 'class' can be reduced.
+[tests/selinux/libsepol-2.2/src/services.c:179]: (style) The scope of the variable 'len' can be reduced.
+[tests/selinux/libsepol-2.2/src/services.c:180]: (style) The scope of the variable 'p' can be reduced.
+[tests/selinux/libsepol-2.2/src/services.c:1988] -> [tests/selinux/libsepol-2.2/src/services.c:1990]: (performance) Buffer 'mysids2' is being written before its old content has been used.
+[tests/selinux/libsepol-2.2/src/services.c:319]: (style) The scope of the variable 'new_class_buf_len' can be reduced.
+[tests/selinux/libsepol-2.2/src/services.c:320]: (style) The scope of the variable 'buf_used' can be reduced.
+[tests/selinux/libsepol-2.2/src/services.c:320]: (style) The scope of the variable 'len' can be reduced.
+[tests/selinux/libsepol-2.2/src/services.c:781] -> [tests/selinux/libsepol-2.2/src/services.c:782]: (warning) Possible null pointer dereference: new_buf - otherwise it is redundant to check it against null.
+[tests/selinux/libsepol-2.2/src/sidtab.c:174]: (style) The scope of the variable 'last' can be reduced.
+[tests/selinux/libsepol-2.2/src/users.c:300]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsepol-2.2/src/users.c:311]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/selinux/libsepol-2.2/src/write.c:106]: (style) The scope of the variable 'items2' can be reduced.
+[tests/selinux/libsepol-2.2/src/write.c:107]: (style) The scope of the variable 'set' can be reduced.
+[tests/selinux/libsepol-2.2/src/write.c:110]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libsepol-2.2/src/write.c:1214]: (style) The scope of the variable 'items' can be reduced.
+[tests/selinux/libsepol-2.2/src/write.c:1214]: (style) The scope of the variable 'nel' can be reduced.
+[tests/selinux/libsepol-2.2/src/write.c:1283]: (style) The scope of the variable 'items' can be reduced.
+[tests/selinux/libsepol-2.2/src/write.c:1283]: (style) The scope of the variable 'nel' can be reduced.
+[tests/selinux/libsepol-2.2/src/write.c:1390]: (style) The scope of the variable 'len' can be reduced.
+[tests/selinux/libsepol-2.2/src/write.c:537]: (style) The scope of the variable 'len' can be reduced.
+[tests/selinux/libsepol-2.2/src/write.c:868]: (style) The scope of the variable 'items' can be reduced.
+[tests/selinux/libsepol-2.2/src/write.c:881] -> [tests/selinux/libsepol-2.2/src/write.c:885]: (performance) Variable 'items' is reassigned a value before the old one has been used.
+[tests/selinux/libsepol-2.2/tests/test-common.c:153]: (style) The scope of the variable 'my_flavor' can be reduced.
+[tests/selinux/libsepol-2.2/tests/test-common.c:153]: (style) The scope of the variable 'my_primary' can be reduced.
+[tests/selinux/libsepol-2.2/tests/test-common.c:153]: (style) The scope of the variable 'my_value' can be reduced.
+[tests/selinux/libsepol-2.2/tests/test-common.c:218]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/libsepol-2.2/tests/test-common.c:218]: (warning) %d in format string (no. 3) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/libsepol-2.2/tests/test-common.c:32]: (style) The scope of the variable 'found' can be reduced.
+[tests/selinux/libsepol-2.2/tests/test-common.c:45]: (warning) %d in format string (no. 3) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/libsepol-2.2/tests/test-downgrade.c:130]: (style) The scope of the variable 'version' can be reduced.
+[tests/selinux/libsepol-2.2/tests/test-linker-roles.c:147]: (error) Array 'decls[2]' accessed at index 2, which is out of bounds.
+[tests/selinux/libsepol-2.2/tests/test-linker-roles.c:163] -> [tests/selinux/libsepol-2.2/tests/test-linker-roles.c:165]: (performance) Variable 'role' is reassigned a value before the old one has been used.
+[tests/selinux/libsepol-2.2/tests/test-linker-roles.c:175] -> [tests/selinux/libsepol-2.2/tests/test-linker-roles.c:177]: (performance) Variable 'role' is reassigned a value before the old one has been used.
+[tests/selinux/libsepol-2.2/tests/test-linker-roles.c:187] -> [tests/selinux/libsepol-2.2/tests/test-linker-roles.c:189]: (performance) Variable 'role' is reassigned a value before the old one has been used.
+[tests/selinux/libsepol-2.2/tests/test-linker-roles.c:196]: (error) Array 'decls[2]' accessed at index 2, which is out of bounds.
+[tests/selinux/libsepol-2.2/tests/test-linker-roles.c:200] -> [tests/selinux/libsepol-2.2/tests/test-linker-roles.c:203]: (performance) Variable 'role' is reassigned a value before the old one has been used.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcscolor.c:181]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcscolor.c:234]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcscolor.c:295] -> [tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcscolor.c:295]: (warning) Possible null pointer dereference: color_str - otherwise it is redundant to check it against null.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:1519]: (style) The scope of the variable 'ltrans' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:1519]: (style) The scope of the variable 'utrans' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:1627]: (style) The scope of the variable 'lraw' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:1627]: (style) The scope of the variable 'uraw' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:188]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:193]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:232]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:469]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:481]: (error) Memory leak: constraint
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:508]: (error) Memory leak: constraint
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstransd.c:407]: (style) The scope of the variable 'ret' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mls_level.c:102]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mls_level.c:144]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/policycoreutils-2.2.5/newrole/hashtab.c:233]: (style) The scope of the variable 'last' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/newrole/hashtab.c:289]: (warning) %d in format string (no. 4) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:1073]: (portability) Non reentrant function 'ttyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'ttyname_r'.
+[tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:363]: (portability) Non reentrant function 'getspnam' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getspnam_r'.
+[tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:378]: (portability) Non reentrant function 'crypt' called. For threadsafe applications it is recommended to use the reentrant replacement function 'crypt_r'.
+[tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:434]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/selinux/policycoreutils-2.2.5/restorecond/restorecond.c:207]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/selinux/policycoreutils-2.2.5/restorecond/stringslist.c:72]: (style) The scope of the variable 'prev' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/restorecond/user.c:118]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/restorecond/user.c:228]: (error) Memory leak: in
+[tests/selinux/policycoreutils-2.2.5/restorecond/user.c:266]: (error) Memory leak: c
+[tests/selinux/policycoreutils-2.2.5/restorecond/utmpwatcher.c:87]: (portability) Non reentrant function 'getpwnam' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwnam_r'.
+[tests/selinux/policycoreutils-2.2.5/restorecond/watch.c:148]: (style) The scope of the variable 'prev' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/run_init/open_init_pty.c:312]: (style) The scope of the variable 'nwritten' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/run_init/open_init_pty.c:360]: (style) The scope of the variable 'nwritten' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/run_init/run_init.c:192]: (portability) Non reentrant function 'getspnam' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getspnam_r'.
+[tests/selinux/policycoreutils-2.2.5/run_init/run_init.c:210]: (portability) Non reentrant function 'crypt' called. For threadsafe applications it is recommended to use the reentrant replacement function 'crypt_r'.
+[tests/selinux/policycoreutils-2.2.5/run_init/run_init.c:256]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:364]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:367]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:374]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:389]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:399]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:784]: (portability) Non reentrant function 'readdir' called. For threadsafe applications it is recommended to use the reentrant replacement function 'readdir_r'.
+[tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:866]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:586]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:586]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:658]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:661]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:665]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:668]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:672]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:675]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:679]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:682]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/semodule_link/semodule_link.c:82]: (style) The scope of the variable 'outfile' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/semodule_package/semodule_unpackage.c:45]: (style) The scope of the variable 'fp' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/semodule_package/semodule_unpackage.c:47]: (style) The scope of the variable 'fcdata' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/sepolicy/search.c:706]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:146]: (error) Possible null pointer dereference: bufp
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:175]: (style) The scope of the variable 'c' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:175]: (style) The scope of the variable 'opt' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:180]: (portability) Non reentrant function 'ttyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'ttyname_r'.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:196]: (style) The scope of the variable 'pol_name' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:66]: (style) The scope of the variable 'pid' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:73]: (portability) Non reentrant function 'readdir' called. For threadsafe applications it is recommended to use the reentrant replacement function 'readdir_r'.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:398]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:399]: (style) The scope of the variable 'p' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:502]: (style) The scope of the variable 'len' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:649]: (style) The scope of the variable 'found' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:649]: (style) The scope of the variable 'index' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:663]: (style) Variable 'num' is assigned a value that is never used.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:666]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:672]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:684]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:691]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/setsebool/setsebool.c:279]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/selinux/policycoreutils-2.2.5/setsebool/setsebool.c:37]: (style) The scope of the variable 'clflag' can be reduced.

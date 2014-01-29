@@ -1,0 +1,1141 @@
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:1151]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:1248]: (style) The scope of the variable 'j' can be reduced.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:1249]: (style) The scope of the variable 'half' can be reduced.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:190]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:190]: (warning) scanf without field width limits can crash with huge input data.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:191]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:210]: (warning) scanf without field width limits can crash with huge input data.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:212]: (warning) scanf without field width limits can crash with huge input data.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:216]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:243]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:253]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:857]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:857]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:858]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:862]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:886]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/clients/bitmap/bitmap.c:887]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/clients/emacs/emacs.c:566]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/emacs/emacs.c:576]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/emacs/emacs.c:578]: (style) Clarify calculation precedence for '-' and '?'.
+[tests/std/X.V11R1/clients/gnuplot/graphics.c:368]: (style) Variable 't' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/gnuplot/graphics.c:60]: (style) The scope of the variable 'tics' can be reduced.
+[tests/std/X.V11R1/clients/gnuplot/graphics.c:60]: (style) The scope of the variable 'xnorm' can be reduced.
+[tests/std/X.V11R1/clients/gnuplot/help.c:194]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/clients/gnuplot/help.c:220]: (style) Unused variable: name_buf
+[tests/std/X.V11R1/clients/gnuplot/help.c:221]: (style) Unused variable: offset
+[tests/std/X.V11R1/clients/gnuplot/help.c:222]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/clients/gnuplot/help.c:257]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/clients/gnuplot/help.c:261]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/gnuplot/help.c:262]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/clients/gnuplot/texindex.c:1037]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/gnuplot/texindex.c:1040]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/gnuplot/texindex.c:197]: (style) Unused variable: p
+[tests/std/X.V11R1/clients/gnuplot/texindex.c:566]: (style) The scope of the variable 'bracelevel' can be reduced.
+[tests/std/X.V11R1/clients/gnuplot/texindex.c:611]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/clients/gnuplot/texindex.c:849]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:152]: (warning) Redundant code: Found a statement that begins with string constant.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:165]: (warning) Redundant code: Found a statement that begins with string constant.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:389]: (style) Variable 'wi' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:447]: (warning) Redundant code: Found a statement that begins with string constant.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:478]: (warning) Redundant code: Found a statement that begins with string constant.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:509]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:512]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:625]: (style) Variable 'queuesize' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:713]: (style) Unused variable: pat
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:714]: (style) Unused variable: len
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:776]: (warning) %x in format string (no. 1) requires 'unsigned int' but the argument type is 'union'.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:785]: (warning) %x in format string (no. 1) requires 'unsigned int' but the argument type is 'union'.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:785]: (warning) %x in format string (no. 6) requires 'unsigned int' but the argument type is 'char *'.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:795]: (warning) %d in format string (no. 3) requires 'int' but the argument type is 'struct Anonymous4'.
+[tests/std/X.V11R1/clients/gnuplot/x11term.c:795]: (warning) %x in format string (no. 1) requires 'unsigned int' but the argument type is 'union'.
+[tests/std/X.V11R1/clients/puzzle/VEGview.c:51]: (style) The scope of the variable 'data' can be reduced.
+[tests/std/X.V11R1/clients/uwm/GetButton.c:294]: (error) Common realloc mistake: 'icon_str' nulled but not freed upon failure
+[tests/std/X.V11R1/clients/uwm/GetButton.c:70]: (style) The scope of the variable 'key_char' can be reduced.
+[tests/std/X.V11R1/clients/uwm/Iconify.c:56]: (style) The scope of the variable 'icon_x' can be reduced.
+[tests/std/X.V11R1/clients/uwm/Iconify.c:56]: (style) The scope of the variable 'icon_y' can be reduced.
+[tests/std/X.V11R1/clients/uwm/Iconify.c:57]: (style) The scope of the variable 'icon_h' can be reduced.
+[tests/std/X.V11R1/clients/uwm/Iconify.c:57]: (style) The scope of the variable 'icon_w' can be reduced.
+[tests/std/X.V11R1/clients/uwm/Iconify.c:58]: (style) The scope of the variable 'icon_bdr' can be reduced.
+[tests/std/X.V11R1/clients/uwm/Iconify.c:65]: (style) Unused variable: iconifying
+[tests/std/X.V11R1/clients/uwm/Iconify.c:76]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/uwm/Icons.c:176]: (style) Unused variable: icon
+[tests/std/X.V11R1/clients/uwm/Icons.c:181]: (style) Unused variable: depth
+[tests/std/X.V11R1/clients/uwm/Icons.c:251]: (error) Uninitialized variable: icon_y
+[tests/std/X.V11R1/clients/uwm/Move.c:83]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/uwm/Move.c:84]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/uwm/NewIconify.c:140]: (style) Variable 'init_ulx' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/uwm/NewIconify.c:141]: (style) Variable 'init_uly' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/uwm/NewIconify.c:142]: (style) Variable 'init_lrx' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/uwm/NewIconify.c:143]: (style) Variable 'init_lry' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/uwm/NewIconify.c:48]: (style) Unused variable: name
+[tests/std/X.V11R1/clients/uwm/NewIconify.c:88]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/uwm/NewIconify.c:89]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/uwm/Push.c:94]: (style) Unused variable: rinfo
+[tests/std/X.V11R1/clients/uwm/Raise.c:53]: (style) The scope of the variable 'status' can be reduced.
+[tests/std/X.V11R1/clients/uwm/Resize.c:105]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/uwm/Resize.c:106]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/uwm/Resize.c:121]: (style) Variable 'defwidth' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/uwm/Resize.c:122]: (style) Variable 'defheight' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/uwm/Resize.c:412]: (style) Variable 'x2' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/uwm/Resize.c:415]: (style) Variable 'y2' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/uwm/Resize.c:73]: (style) Unused variable: assoc
+[tests/std/X.V11R1/clients/uwm/Restart.c:46]: (style) Unused variable: button_event
+[tests/std/X.V11R1/clients/xclock/xclock.c:108]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/clients/xclock/xclock.c:110]: (style) The scope of the variable 'filename' can be reduced.
+[tests/std/X.V11R1/clients/xclock/xclock.c:111]: (style) The scope of the variable 'f' can be reduced.
+[tests/std/X.V11R1/clients/xclock/xclock.c:115]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/clients/xclock/xclock.c:160]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xedit/EDiskSrc.c:132]: (style) The scope of the variable 'count' can be reduced.
+[tests/std/X.V11R1/clients/xedit/ps.c:175]: (style) The scope of the variable 'end' can be reduced.
+[tests/std/X.V11R1/clients/xedit/ps.c:317]: (style) The scope of the variable 'ddir' can be reduced.
+[tests/std/X.V11R1/clients/xedit/ps.c:580]: (style) The scope of the variable 'cb' can be reduced.
+[tests/std/X.V11R1/clients/xedit/ps.c:710]: (style) Unused variable: i
+[tests/std/X.V11R1/clients/xedit/util.c:78]: (style) Unused variable: edittype
+[tests/std/X.V11R1/clients/xfd/wsimple.c:130]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xfd/wsimple.c:320]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xfd/wsimple.c:322]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xfd/wsimple.c:538]: (style) The scope of the variable 'status' can be reduced.
+[tests/std/X.V11R1/clients/xfd/wsimple.c:542]: (style) The scope of the variable 'temp' can be reduced.
+[tests/std/X.V11R1/clients/xfd/wsimple.c:595]: (style) The scope of the variable 'temp' can be reduced.
+[tests/std/X.V11R1/clients/xhost/xhost.c:211]: (portability) Non reentrant function 'gethostbyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'gethostbyname_r'.
+[tests/std/X.V11R1/clients/xhost/xhost.c:211]: (style) Obsolete function 'gethostbyname' called. It is recommended to use the function 'getaddrinfo' instead.
+[tests/std/X.V11R1/clients/xhost/xhost.c:234]: (style) The scope of the variable 'hp' can be reduced.
+[tests/std/X.V11R1/clients/xhost/xhost.c:253]: (portability) Non reentrant function 'gethostbyaddr' called. For threadsafe applications it is recommended to use the reentrant replacement function 'gethostbyaddr_r'.
+[tests/std/X.V11R1/clients/xhost/xhost.c:253]: (style) Obsolete function 'gethostbyaddr' called. It is recommended to use the function 'getnameinfo' instead.
+[tests/std/X.V11R1/clients/xload/xload.c:136]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xload/xload.c:84]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/clients/xload/xload.c:86]: (style) The scope of the variable 'filename' can be reduced.
+[tests/std/X.V11R1/clients/xload/xload.c:87]: (style) The scope of the variable 'f' can be reduced.
+[tests/std/X.V11R1/clients/xload/xload.c:91]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/clients/xlsfonts/dsimple.c:130]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xlsfonts/dsimple.c:320]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xlsfonts/dsimple.c:322]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xmh/alloc.c:287]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/clients/xmh/alloc.c:304]: (style) The scope of the variable 'j' can be reduced.
+[tests/std/X.V11R1/clients/xmh/bbox.c:128]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/xmh/bbox.c:194]: (style) The scope of the variable 'button' can be reduced.
+[tests/std/X.V11R1/clients/xmh/EDiskSrc.c:174]: (style) The scope of the variable 'count' can be reduced.
+[tests/std/X.V11R1/clients/xmh/folder.c:40]: (style) The scope of the variable 'toc' can be reduced.
+[tests/std/X.V11R1/clients/xmh/mlist.c:115]: (style) The scope of the variable 'first' can be reduced.
+[tests/std/X.V11R1/clients/xmh/mlist.c:115]: (style) The scope of the variable 'second' can be reduced.
+[tests/std/X.V11R1/clients/xmh/msg.c:101]: (style) The scope of the variable 'length' can be reduced.
+[tests/std/X.V11R1/clients/xmh/msg.c:101]: (style) The scope of the variable 'str' can be reduced.
+[tests/std/X.V11R1/clients/xmh/msg.c:128]: (error) Uninitialized variable: lastPos
+[tests/std/X.V11R1/clients/xmh/msg.c:157]: (style) The scope of the variable 'ptr' can be reduced.
+[tests/std/X.V11R1/clients/xmh/msg.c:162]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/clients/xmh/msg.c:230]: (style) The scope of the variable 'str' can be reduced.
+[tests/std/X.V11R1/clients/xmh/msg.c:630]: (style) The scope of the variable 'argv' can be reduced.
+[tests/std/X.V11R1/clients/xmh/msg.c:648]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xmh/msg.c:64]: (style) The scope of the variable 'msg' can be reduced.
+[tests/std/X.V11R1/clients/xmh/msg.c:65]: (style) The scope of the variable 'str' can be reduced.
+[tests/std/X.V11R1/clients/xmh/pick.c:242]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/clients/xmh/pick.c:313]: (style) The scope of the variable 'entry' can be reduced.
+[tests/std/X.V11R1/clients/xmh/screen.c:108]: (style) The scope of the variable 'changed' can be reduced.
+[tests/std/X.V11R1/clients/xmh/screen.c:108]: (style) The scope of the variable 'reapable' can be reduced.
+[tests/std/X.V11R1/clients/xmh/screen.c:108]: (style) The scope of the variable 'value' can be reduced.
+[tests/std/X.V11R1/clients/xmh/screen.c:328]: (style) Variable 'x' is not assigned a value.
+[tests/std/X.V11R1/clients/xmh/screen.c:328]: (style) Variable 'y' is not assigned a value.
+[tests/std/X.V11R1/clients/xmh/screen.c:329]: (style) Variable 'height' is not assigned a value.
+[tests/std/X.V11R1/clients/xmh/screen.c:329]: (style) Variable 'width' is not assigned a value.
+[tests/std/X.V11R1/clients/xmh/screen.c:357]: (style) Variable 'geometry' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/xmh/screen.c:393]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/xmh/toc.c:123]: (style) The scope of the variable 'toc' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:229]: (style) The scope of the variable 'toc2' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:307]: (style) The scope of the variable 'mlist' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:357]: (style) The scope of the variable 'msg2' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:633]: (style) The scope of the variable 'str' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:765]: (style) The scope of the variable 'ptr' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:766]: (style) The scope of the variable 'firstmessage' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:767]: (style) The scope of the variable 'fid' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:77]: (style) The scope of the variable 'ptr2' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:78]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:811]: (style) The scope of the variable 'delta' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:811]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:811]: (style) The scope of the variable 'length' can be reduced.
+[tests/std/X.V11R1/clients/xmh/toc.c:859]: (style) The scope of the variable 'm' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocfuncs.c:104]: (style) The scope of the variable 'vscrn' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocfuncs.c:135]: (style) The scope of the variable 'vscrn' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocfuncs.c:137]: (style) The scope of the variable 'msg' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocfuncs.c:166]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocfuncs.c:167]: (style) The scope of the variable 'mlist' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocfuncs.c:168]: (style) The scope of the variable 'msg' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocfuncs.c:316]: (style) The scope of the variable 'nscrn' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocfuncs.c:318]: (style) The scope of the variable 'msg' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocfuncs.c:39]: (style) The scope of the variable 'fate' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocfuncs.c:72]: (style) The scope of the variable 'fate' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:108]: (style) The scope of the variable 'argv' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:145]: (style) The scope of the variable 'm' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:169]: (style) The scope of the variable 'str' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:170]: (style) The scope of the variable 'toc' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:196]: (style) The scope of the variable 'lines' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:227]: (style) The scope of the variable 'ptr2' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:227]: (style) The scope of the variable 'ptr' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:241]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:249]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:261]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:285]: (style) The scope of the variable 'msgid' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:285]: (style) The scope of the variable 'newval' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:331]: (style) The scope of the variable 'l' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:355]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:41]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:453]: (style) Obsolete function 'utime' called. It is recommended to use the function 'utimensat' instead.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:485]: (style) The scope of the variable 'msg' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:506]: (style) The scope of the variable 'str' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tocutil.c:545]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/clients/xmh/tsource.c:44]: (style) The scope of the variable 'm' can be reduced.
+[tests/std/X.V11R1/clients/xmh/tsource.c:85]: (style) The scope of the variable 'count' can be reduced.
+[tests/std/X.V11R1/clients/xmh/util.c:434]: (style) The scope of the variable 'diff' can be reduced.
+[tests/std/X.V11R1/clients/xprop/dsimple.c:130]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xprop/dsimple.c:320]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xprop/dsimple.c:322]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xprop/xprop.c:1086]: (style) The scope of the variable 'prop' can be reduced.
+[tests/std/X.V11R1/clients/xprop/xprop.c:108]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/clients/xprop/xprop.c:1118]: (error) Uninitialized struct member: t.extra_value
+[tests/std/X.V11R1/clients/xprop/xprop.c:1118]: (error) Uninitialized struct member: t.thunk_count
+[tests/std/X.V11R1/clients/xprop/xprop.c:361]: (warning) %lu in format string (no. 1) requires 'unsigned long' but the argument type is 'long'.
+[tests/std/X.V11R1/clients/xprop/xprop.c:483]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/clients/xprop/xprop.c:527]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xprop/xprop.c:77]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/clients/xprop/xprop.c:906]: (style) The scope of the variable 'format_char' can be reduced.
+[tests/std/X.V11R1/clients/xpr/xpr.c:1200]: (style) The scope of the variable 'ffcount' can be reduced.
+[tests/std/X.V11R1/clients/xpr/xpr.c:1202]: (style) The scope of the variable 'hex' can be reduced.
+[tests/std/X.V11R1/clients/xpr/xpr.c:838]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/clients/xrdb/xrdb.c:107]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/clients/xrdb/xrdb.c:127]: (style) Unused variable: s
+[tests/std/X.V11R1/clients/xrdb/xrdb.c:129]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/clients/xrdb/xrdb.c:133]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xrdb/xrdb.c:133]: (style) Variable 'i' is assigned a value that is never used.
+[tests/std/X.V11R1/clients/xrefresh/xrefresh.c:47]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xsetroot/wsimple.c:130]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xsetroot/wsimple.c:320]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xsetroot/wsimple.c:322]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xsetroot/wsimple.c:538]: (style) The scope of the variable 'status' can be reduced.
+[tests/std/X.V11R1/clients/xsetroot/wsimple.c:542]: (style) The scope of the variable 'temp' can be reduced.
+[tests/std/X.V11R1/clients/xsetroot/wsimple.c:595]: (style) The scope of the variable 'temp' can be reduced.
+[tests/std/X.V11R1/clients/xterm/button.c:931]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/clients/xterm/main.c:1038]: (portability) Non reentrant function 'ttyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'ttyname_r'.
+[tests/std/X.V11R1/clients/xterm/main.c:1063]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/clients/xterm/main.c:1223]: (portability) Non reentrant function 'getpwnam' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwnam_r'.
+[tests/std/X.V11R1/clients/xterm/main.c:320]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/clients/xterm/main.c:336]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/clients/xterm/main.c:632]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/clients/xterm/main.c:634]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/clients/xterm/main.c:67]: (portability) Non reentrant function 'ttyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'ttyname_r'.
+[tests/std/X.V11R1/clients/xterm/misc.c:364]: (style) The scope of the variable 'fp' can be reduced.
+[tests/std/X.V11R1/clients/xterm/misc.c:366]: (style) The scope of the variable 'k' can be reduced.
+[tests/std/X.V11R1/clients/xterm/misc.c:366]: (style) The scope of the variable 'temp' can be reduced.
+[tests/std/X.V11R1/clients/xterm/misc.c:566]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/clients/xterm/misc.c:569]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/clients/xterm/misc.c:832]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xterm/misc.c:834]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xterm/resize.c:279]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xterm/Tekproc.c:1392]: (portability) Non reentrant function 'localtime' called. For threadsafe applications it is recommended to use the reentrant replacement function 'localtime_r'.
+[tests/std/X.V11R1/clients/xwd/dsimple.c:130]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xwd/dsimple.c:320]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xwd/dsimple.c:322]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xwininfo/dsimple.c:130]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xwininfo/dsimple.c:320]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xwininfo/dsimple.c:322]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xwud/dsimple.c:130]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/clients/xwud/dsimple.c:320]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/clients/xwud/dsimple.c:322]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/extensions/server/bezier.c:195]: (style) The scope of the variable 'n' can be reduced.
+[tests/std/X.V11R1/extensions/server/zoid.c:85]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/extensions/test/zoidtest.c:215]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/fonts/compiler/fc.c:160]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/fonts/compiler/fc.c:46]: (style) Obsolete function 'gets' called. It is recommended to use the function 'fgets' instead.
+[tests/std/X.V11R1/fonts/compiler/fc.c:53]: (style) Obsolete function 'gets' called. It is recommended to use the function 'fgets' instead.
+[tests/std/X.V11R1/lib/CLX/socket.c:32]: (style) The scope of the variable 'addr' can be reduced.
+[tests/std/X.V11R1/lib/CLX/socket.c:34]: (style) The scope of the variable 'addrlen' can be reduced.
+[tests/std/X.V11R1/lib/CLX/socket.c:36]: (portability) Non reentrant function 'gethostbyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'gethostbyname_r'.
+[tests/std/X.V11R1/lib/CLX/socket.c:36]: (style) Obsolete function 'gethostbyname' called. It is recommended to use the function 'getaddrinfo' instead.
+[tests/std/X.V11R1/lib/CLX/socket.c:43]: (portability) Non reentrant function 'gethostbyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'gethostbyname_r'.
+[tests/std/X.V11R1/lib/CLX/socket.c:43]: (style) Obsolete function 'gethostbyname' called. It is recommended to use the function 'getaddrinfo' instead.
+[tests/std/X.V11R1/lib/CLX/socket.c:58]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/CLX/socket.c:74]: (error) Resource leak: fd
+[tests/std/X.V11R1/lib/CLX/socket.c:85]: (error) Mismatching allocation and deallocation: fd
+[tests/std/X.V11R1/lib/oldXMenu/Activate.c:303]: (style) Obsolete function 'usleep' called. It is recommended to use the 'nanosleep' or 'setitimer' function instead.
+[tests/std/X.V11R1/lib/oldXMenu/Activate.c:325]: (style) Obsolete function 'usleep' called. It is recommended to use the 'nanosleep' or 'setitimer' function instead.
+[tests/std/X.V11R1/lib/oldXMenu/AddPane.c:50]: (error) Memory leak: pane
+[tests/std/X.V11R1/lib/oldXMenu/ChgSel.c:32]: (style) The scope of the variable 'label_length' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/ChgSel.c:33]: (style) The scope of the variable 'label_width' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:109]: (style) Unused variable: screen_def
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:121]: (style) Unused variable: p_bdr_pixel
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:122]: (style) Unused variable: s_bdr_pixel
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:123]: (style) Unused variable: p_frg_pixel
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:124]: (style) Variable 's_frg_pixel' is not assigned a value.
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:125]: (style) Unused variable: bkgnd_pixel
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:127]: (style) Unused variable: height
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:127]: (style) Unused variable: width
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:128]: (style) Unused variable: bitmap
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:129]: (style) Unused variable: x_hot
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:129]: (style) Unused variable: y_hot
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:130]: (style) Unused variable: status
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:150]: (error) Memory leak: menu
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:159]: (error) Memory leak: menu
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:159]: (error) Memory leak: pane
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:236] -> [tests/std/X.V11R1/lib/oldXMenu/Create.c:230]: (style) Found duplicate branches for 'if' and 'else'.
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:258] -> [tests/std/X.V11R1/lib/oldXMenu/Create.c:253]: (style) Found duplicate branches for 'if' and 'else'.
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:355] -> [tests/std/X.V11R1/lib/oldXMenu/Create.c:350]: (style) Found duplicate branches for 'if' and 'else'.
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:378] -> [tests/std/X.V11R1/lib/oldXMenu/Create.c:373]: (style) Found duplicate branches for 'if' and 'else'.
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:67]: (style) Unused variable: i
+[tests/std/X.V11R1/lib/oldXMenu/Create.c:68]: (style) Unused variable: j
+[tests/std/X.V11R1/lib/oldXMenu/Error.c:28]: (error) Pointer to local array variable returned.
+[tests/std/X.V11R1/lib/oldXMenu/InsPane.c:59]: (error) Memory leak: pane
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:186]: (style) The scope of the variable 'pq_index' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:187]: (style) The scope of the variable 'sq_index' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:188]: (style) The scope of the variable 'p_ptr' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:189]: (style) The scope of the variable 's_ptr' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:190]: (style) The scope of the variable 'valuemask' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:515]: (style) The scope of the variable 'change_mask' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:516]: (style) The scope of the variable 'changes' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:663]: (style) The scope of the variable 'changes' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:664]: (style) The scope of the variable 'change_mask' can be reduced.
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:720] -> [tests/std/X.V11R1/lib/oldXMenu/Internal.c:722]: (performance) Variable 'changes' is reassigned a value before the old one has been used.
+[tests/std/X.V11R1/lib/oldXMenu/Internal.c:722]: (error) Memory leak: changes
+[tests/std/X.V11R1/lib/oldXMenu/Recomp.c:27]: (style) The scope of the variable 's_num' can be reduced.
+[tests/std/X.V11R1/lib/oldXrm/Conversion.c:255]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/lib/oldXrm/Quarks.c:142]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXrm/Quarks.c:179]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/oldXrm/Quarks.c:180]: (style) The scope of the variable 'oneName' can be reduced.
+[tests/std/X.V11R1/lib/oldXrm/Xrm.c:119]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXrm/Xrm.c:129]: (style) The scope of the variable 'db' can be reduced.
+[tests/std/X.V11R1/lib/oldXrm/Xrm.c:130]: (style) The scope of the variable 'pBucket' can be reduced.
+[tests/std/X.V11R1/lib/oldXrm/Xrm.c:141]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/lib/oldXrm/Xrm.c:427]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/oldXrm/XrmConvert.c:142]: (style) Obsolete function 'bcmp' called. It is recommended to use the function 'memcmp' instead.
+[tests/std/X.V11R1/lib/oldXrm/XrmConvert.c:175]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXrm/XrmConvert.c:180]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXrm/XrmConvert.c:192]: (style) The scope of the variable 'msg' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Actions.c:140]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Actions.c:636]: (style) The scope of the variable 'n' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/ArgList.c:38]: (warning) %x in format string (no. 2) requires 'unsigned int' but the argument type is 'char *'.
+[tests/std/X.V11R1/lib/oldXtk/AsciiSink.c:241]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/AsciiSink.c:425]: (style) Checking if unsigned variable 'w' is less than zero.
+[tests/std/X.V11R1/lib/oldXtk/AsciiSink.c:432]: (style) Checking if unsigned variable 'w' is less than zero.
+[tests/std/X.V11R1/lib/oldXtk/ButtonBox.c:175]: (style) The scope of the variable 'count' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/ButtonBox.c:175]: (style) The scope of the variable 'lh' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/ButtonBox.c:175]: (style) The scope of the variable 'lw' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/ButtonBox.c:297]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/ButtonBox.c:549]: (style) The scope of the variable 'found' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Clock.c:308]: (portability) Non reentrant function 'localtime' called. For threadsafe applications it is recommended to use the reentrant replacement function 'localtime_r'.
+[tests/std/X.V11R1/lib/oldXtk/Clock.c:321]: (portability) Non reentrant function 'localtime' called. For threadsafe applications it is recommended to use the reentrant replacement function 'localtime_r'.
+[tests/std/X.V11R1/lib/oldXtk/Clock.c:322]: (style) Obsolete function 'asctime' called. It is recommended to use the function 'strftime' instead.
+[tests/std/X.V11R1/lib/oldXtk/Clock.c:396]: (portability) Non reentrant function 'localtime' called. For threadsafe applications it is recommended to use the reentrant replacement function 'localtime_r'.
+[tests/std/X.V11R1/lib/oldXtk/Clock.c:403]: (portability) Non reentrant function 'localtime' called. For threadsafe applications it is recommended to use the reentrant replacement function 'localtime_r'.
+[tests/std/X.V11R1/lib/oldXtk/Clock.c:420]: (style) Obsolete function 'asctime' called. It is recommended to use the function 'strftime' instead.
+[tests/std/X.V11R1/lib/oldXtk/Clock.c:823]: (style) The scope of the variable 'valuemask' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Command.c:222]: (style) The scope of the variable 'gray_bits' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/DiskSrc.c:119]: (style) The scope of the variable 'readPos' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/DiskSrc.c:165]: (style) The scope of the variable 'tmpPtr' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/DiskSrc.c:189]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXtk/DiskSrc.c:224]: (style) The scope of the variable 'whiteSpace' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Event.c:113]: (style) The scope of the variable 'result' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Form.c:174]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Form.c:174]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Form.c:175]: (style) The scope of the variable 'sub2' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Form.c:177]: (style) The scope of the variable 'result' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Load.c:311] -> [tests/std/X.V11R1/lib/oldXtk/Load.c:312]: (warning) Possible null pointer dereference: data - otherwise it is redundant to check it against null.
+[tests/std/X.V11R1/lib/oldXtk/Load.c:382]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXtk/Load.c:388]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXtk/Menu.c:235]: (style) The scope of the variable 'borderWidth' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Menu.c:237]: (style) The scope of the variable 'newheight' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Menu.c:237]: (style) The scope of the variable 'newwidth' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Menu.c:631]: (style) The scope of the variable 'valuemask' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Resources.c:144]: (style) The scope of the variable 'arg' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Resources.c:252]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXtk/Resources.c:258]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXtk/Resources.c:67]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXtk/Resources.c:69]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXtk/Resources.c:84]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXtk/Resources.c:86]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXtk/Resources.c:97]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/std/X.V11R1/lib/oldXtk/Scroll.c:564]: (style) The scope of the variable 'pixmap_bits' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/ScrollMgr.c:431]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/ScrollWin.c:179]: (style) The scope of the variable 'lh' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/ScrollWin.c:179]: (style) The scope of the variable 'lw' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/TextActs.c:246]: (style) The scope of the variable 'maxp' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/TextActs.c:477]: (style) The scope of the variable 'ptr' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/TextActs.c:74]: (style) The scope of the variable 'ptr' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:1034]: (style) The scope of the variable 'ptr' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:1079]: (style) The scope of the variable 'info' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:1131]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:1132]: (style) The scope of the variable 'updateFrom' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:1132]: (style) The scope of the variable 'updateTo' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:1147]: (style) Array index 'i' is used before limits check.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:1429]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:1480]: (style) The scope of the variable 's2' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:215]: (style) The scope of the variable 'tempResult' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:218]: (style) The scope of the variable 'nend' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:298]: (style) The scope of the variable 'linePos' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:328]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:328]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:329]: (style) The scope of the variable 'width' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:331]: (style) The scope of the variable 'startPos' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:404]: (style) The scope of the variable 'first' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:404]: (style) The scope of the variable 'last' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:570]: (style) The scope of the variable 'width' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:669]: (style) The scope of the variable 'endPos' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/Text.c:731]: (style) The scope of the variable 'sarray' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/TextKinds.c:152]: (style) The scope of the variable 'tmpName' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/TextKinds.c:161]: (style) Obsolete function 'tmpnam' called. It is recommended to use 'tmpfile', 'mkstemp' or 'mkdtemp' instead.
+[tests/std/X.V11R1/lib/oldXtk/VPane.c:411]: (style) The scope of the variable 'data' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/VPane.c:775]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/VPane.c:790]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/oldXtk/VPane.c:806]: (style) Unused variable: i
+[tests/std/X.V11R1/lib/oldX/XDraw.c:178]: (style) The scope of the variable 'p0x' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:178]: (style) The scope of the variable 'p0y' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:181]: (style) The scope of the variable 'p3x' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:181]: (style) The scope of the variable 'p3y' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:182]: (style) The scope of the variable 'flag' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:183]: (style) The scope of the variable 'successor_x' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:184]: (style) The scope of the variable 'successor_y' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:185]: (style) The scope of the variable 'increment' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:186]: (style) The scope of the variable 'diffx' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:186]: (style) The scope of the variable 'diffy' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:187]: (style) The scope of the variable 'lmajoraxis' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:192]: (style) struct or union member 'Anonymous1::low' is never used.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:201]: (style) The scope of the variable 'ecf_flag_set' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:202]: (style) The scope of the variable 'count' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:516]: (style) The scope of the variable 'p' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:517]: (style) The scope of the variable 'pcount' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:593]: (style) The scope of the variable 'p' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:594]: (style) The scope of the variable 'pcount' can be reduced.
+[tests/std/X.V11R1/lib/oldX/XDraw.c:595]: (style) The scope of the variable 'closed' can be reduced.
+[tests/std/X.V11R1/lib/X/Context.c:139]: (error) Common realloc mistake: 'DspArray' nulled but not freed upon failure
+[tests/std/X.V11R1/lib/X/Context.c:96]: (style) The scope of the variable 'CurHash' can be reduced.
+[tests/std/X.V11R1/lib/X/Context.c:96]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/Xrm/Conversion.c:256]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/lib/Xrm/Quarks.c:144]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xrm/Quarks.c:181]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/Xrm/Quarks.c:182]: (style) The scope of the variable 'oneName' can be reduced.
+[tests/std/X.V11R1/lib/Xrm/Xrm.c:117]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xrm/Xrm.c:127]: (style) The scope of the variable 'db' can be reduced.
+[tests/std/X.V11R1/lib/Xrm/Xrm.c:128]: (style) The scope of the variable 'pBucket' can be reduced.
+[tests/std/X.V11R1/lib/Xrm/Xrm.c:139]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/lib/Xrm/Xrm.c:369]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/lib/Xrm/Xrm.c:474]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/Xrm/XrmConvert.c:142]: (style) Obsolete function 'bcmp' called. It is recommended to use the function 'memcmp' instead.
+[tests/std/X.V11R1/lib/Xrm/XrmConvert.c:175]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xrm/XrmConvert.c:180]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xrm/XrmConvert.c:192]: (style) The scope of the variable 'msg' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/ArgList.c:36]: (warning) %x in format string (no. 2) requires 'unsigned int' but the argument type is 'long'.
+[tests/std/X.V11R1/lib/Xtk/AsciiSink.c:254]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/AsciiSink.c:344]: (style) Variable 'sink' is assigned a value that is never used.
+[tests/std/X.V11R1/lib/Xtk/AsciiSink.c:446]: (style) Checking if unsigned variable 'wid' is less than zero.
+[tests/std/X.V11R1/lib/Xtk/AsciiSink.c:453]: (style) Checking if unsigned variable 'wid' is less than zero.
+[tests/std/X.V11R1/lib/Xtk/ButtonBox.c:273]: (style) The scope of the variable 'borderWidth' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/ButtonBox.c:273]: (style) The scope of the variable 'height' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/ButtonBox.c:273]: (style) The scope of the variable 'width' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/ButtonBox.c:274]: (style) The scope of the variable 'bbw' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/clients/xbuttonbox/xbuttonbox.c:41]: (style) Unused variable: dpy
+[tests/std/X.V11R1/lib/Xtk/clients/xclock/xclock.c:66]: (style) Variable 'w' is assigned a value that is never used.
+[tests/std/X.V11R1/lib/Xtk/clients/xload/xload.c:62]: (style) Variable 'w' is assigned a value that is never used.
+[tests/std/X.V11R1/lib/Xtk/Clock.c:143]: (portability) Non reentrant function 'localtime' called. For threadsafe applications it is recommended to use the reentrant replacement function 'localtime_r'.
+[tests/std/X.V11R1/lib/Xtk/Clock.c:147]: (portability) Non reentrant function 'localtime' called. For threadsafe applications it is recommended to use the reentrant replacement function 'localtime_r'.
+[tests/std/X.V11R1/lib/Xtk/Clock.c:148]: (style) Obsolete function 'asctime' called. It is recommended to use the function 'strftime' instead.
+[tests/std/X.V11R1/lib/Xtk/Clock.c:240]: (portability) Non reentrant function 'localtime' called. For threadsafe applications it is recommended to use the reentrant replacement function 'localtime_r'.
+[tests/std/X.V11R1/lib/Xtk/Clock.c:249]: (portability) Non reentrant function 'localtime' called. For threadsafe applications it is recommended to use the reentrant replacement function 'localtime_r'.
+[tests/std/X.V11R1/lib/Xtk/Clock.c:266]: (style) Obsolete function 'asctime' called. It is recommended to use the function 'strftime' instead.
+[tests/std/X.V11R1/lib/Xtk/Conversion.c:371]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/lib/Xtk/DiskSrc.c:126]: (style) The scope of the variable 'readPos' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/DiskSrc.c:172]: (style) The scope of the variable 'tmpPtr' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/DiskSrc.c:196]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/DiskSrc.c:231]: (style) The scope of the variable 'whiteSpace' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/DiskSrc.c:305]: (style) The scope of the variable 'tmpName' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/DiskSrc.c:323]: (style) Obsolete function 'tmpnam' called. It is recommended to use 'tmpfile', 'mkstemp' or 'mkdtemp' instead.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:254]: (style) The scope of the variable 'uid' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:255]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:256]: (style) The scope of the variable 'pw' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:257]: (style) The scope of the variable 'filename' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:279]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:302]: (style) The scope of the variable 'flag' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:559]: (style) Variable 'values' is assigned a value that is never used.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:585]: (style) The scope of the variable 'oldhints' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:673]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:673]: (style) The scope of the variable 'ptr' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:681]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/lib/Xtk/Initialize.c:703]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:233]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:342]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:385]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:396]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:431]: (style) The scope of the variable 'child' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:471]: (style) The scope of the variable 'child' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:516] -> [tests/std/X.V11R1/lib/Xtk/Intrinsic.c:513]: (style) Found duplicate branches for 'if' and 'else'.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:526]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:665]: (style) The scope of the variable 'tcl' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:721]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:734]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Intrinsic.c:801]: (style) The scope of the variable 'p2' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Label.c:325]: (style) Variable 'reqlw' is assigned a value that is never used.
+[tests/std/X.V11R1/lib/Xtk/Load.c:212]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Load.c:216]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Quarks.c:128]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Quarks.c:178]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Quarks.c:179]: (style) The scope of the variable 'oneName' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:169]: (style) The scope of the variable 'arg' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:175]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:288]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:294]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:300]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:529]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:533]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:548]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:56]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:58]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:73]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:75]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Resources.c:86]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/std/X.V11R1/lib/Xtk/Text.c:1015]: (style) The scope of the variable 'info' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:1069]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:1070]: (style) The scope of the variable 'updateFrom' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:1070]: (style) The scope of the variable 'updateTo' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:1085]: (style) Array index 'i' is used before limits check.
+[tests/std/X.V11R1/lib/Xtk/Text.c:1309] -> [tests/std/X.V11R1/lib/Xtk/Text.c:1311]: (performance) Variable 'result' is reassigned a value before the old one has been used.
+[tests/std/X.V11R1/lib/Xtk/Text.c:1458]: (style) The scope of the variable 'ptr' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:1673]: (style) The scope of the variable 'maxp' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:1976]: (style) The scope of the variable 'ptr' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:2171]: (style) Unused variable: ptr
+[tests/std/X.V11R1/lib/Xtk/Text.c:2172]: (style) Unused variable: text
+[tests/std/X.V11R1/lib/Xtk/Text.c:232]: (style) The scope of the variable 'tempResult' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:235]: (style) The scope of the variable 'nend' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:315]: (style) The scope of the variable 'linePos' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:345]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:345]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:346]: (style) The scope of the variable 'width' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:348]: (style) The scope of the variable 'startPos' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:421]: (style) The scope of the variable 'first' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:421]: (style) The scope of the variable 'last' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:583]: (style) The scope of the variable 'width' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:681]: (style) The scope of the variable 'endPos' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:743]: (style) The scope of the variable 'sarray' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Text.c:969]: (style) The scope of the variable 'ptr' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/TextKinds.c:119] -> [tests/std/X.V11R1/lib/Xtk/TextKinds.c:129]: (performance) Variable 'tw' is reassigned a value before the old one has been used.
+[tests/std/X.V11R1/lib/Xtk/TMparse.c:410]: (style) The scope of the variable 'start' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/TMstate.c:120]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned long'.
+[tests/std/X.V11R1/lib/Xtk/TMstate.c:206]: (style) The scope of the variable 'found' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/TMstate.c:42]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/TMstate.c:430]: (style) The scope of the variable 'j' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/VPane.c:301]: (error) Invalid number of character ({) when these macros are defined: ''.
+[tests/std/X.V11R1/lib/Xtk/Xrm.c:116]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/Xtk/Xrm.c:127]: (style) The scope of the variable 'pBucket' can be reduced.
+[tests/std/X.V11R1/lib/Xtk/Xrm.c:138]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/lib/Xtk/Xrm.c:424]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/X/XConnDis.c:167]: (portability) Non reentrant function 'gethostbyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'gethostbyname_r'.
+[tests/std/X.V11R1/lib/X/XConnDis.c:167]: (style) Obsolete function 'gethostbyname' called. It is recommended to use the function 'getaddrinfo' instead.
+[tests/std/X.V11R1/lib/X/XConnDis.c:181]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XConnDis.c:209]: (error) Mismatching allocation and deallocation: fd
+[tests/std/X.V11R1/lib/X/XConnDis.c:42]: (style) The scope of the variable 'addr' can be reduced.
+[tests/std/X.V11R1/lib/X/XConnDis.c:44]: (style) The scope of the variable 'addrlen' can be reduced.
+[tests/std/X.V11R1/lib/X/XConnDis.c:46]: (portability) Non reentrant function 'gethostbyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'gethostbyname_r'.
+[tests/std/X.V11R1/lib/X/XConnDis.c:46]: (style) Obsolete function 'gethostbyname' called. It is recommended to use the function 'getaddrinfo' instead.
+[tests/std/X.V11R1/lib/X/XConnDis.c:63]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/lib/X/XFont.c:24]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XFontInfo.c:17]: (style) The scope of the variable 'fs' can be reduced.
+[tests/std/X.V11R1/lib/X/XFontInfo.c:41]: (error) Common realloc mistake: 'finfo' nulled but not freed upon failure
+[tests/std/X.V11R1/lib/X/XFontInfo.c:43]: (error) Common realloc mistake: 'flist' nulled but not freed upon failure
+[tests/std/X.V11R1/lib/X/XFontNames.c:15]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/X/XFontNames.c:16]: (style) The scope of the variable 'length' can be reduced.
+[tests/std/X.V11R1/lib/X/XGetDflt.c:113]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/lib/X/XGetDflt.c:114]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/lib/X/XGetDflt.c:46]: (style) The scope of the variable 'cmp' can be reduced.
+[tests/std/X.V11R1/lib/X/XGetDflt.c:83]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/lib/X/XGetFPath.c:14]: (style) The scope of the variable 'nbytes' can be reduced.
+[tests/std/X.V11R1/lib/X/XGetFPath.c:17]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/X/XGetFPath.c:18]: (style) The scope of the variable 'length' can be reduced.
+[tests/std/X.V11R1/lib/X/XGetHints.c:231]: (style) The scope of the variable 'len_class' can be reduced.
+[tests/std/X.V11R1/lib/X/XGetHints.c:231]: (style) The scope of the variable 'len_name' can be reduced.
+[tests/std/X.V11R1/lib/X/XGetHints.c:255]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/std/X.V11R1/lib/X/XGetPntMap.c:30]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XGetPntMap.c:44]: (style) The scope of the variable 'nbytes' can be reduced.
+[tests/std/X.V11R1/lib/X/XImUtil.c:141]: (style) The scope of the variable 'chhi' can be reduced.
+[tests/std/X.V11R1/lib/X/XImUtil.c:239]: (style) Unused variable: byte_offset
+[tests/std/X.V11R1/lib/X/XImUtil.c:601]: (style) The scope of the variable 'dp' can be reduced.
+[tests/std/X.V11R1/lib/X/XImUtil.c:601]: (style) The scope of the variable 'dst' can be reduced.
+[tests/std/X.V11R1/lib/X/XImUtil.c:601]: (style) The scope of the variable 'tmp' can be reduced.
+[tests/std/X.V11R1/lib/X/XImUtil.c:602]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/lib/X/XImUtil.c:603]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/lib/X/XImUtil.c:604]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/X/XImUtil.c:604]: (style) The scope of the variable 'nbytes' can be reduced.
+[tests/std/X.V11R1/lib/X/XImUtil.c:78]: (style) The scope of the variable 'sp' can be reduced.
+[tests/std/X.V11R1/lib/X/XKeyBind.c:122]: (style) The scope of the variable 'nbd' can be reduced.
+[tests/std/X.V11R1/lib/X/XKeyBind.c:156]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XKeyBind.c:246]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XListExt.c:16]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/X/XListExt.c:17]: (style) The scope of the variable 'length' can be reduced.
+[tests/std/X.V11R1/lib/X/XListExt.c:19]: (style) The scope of the variable 'rlen' can be reduced.
+[tests/std/X.V11R1/lib/X/XLoadFont.c:20]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XLookupCol.c:25]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XModMap.c:53]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XParseCol.c:28]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XPolyReg.c:199]: (style) The scope of the variable 'dx' can be reduced.
+[tests/std/X.V11R1/lib/X/XPolyReg.c:375]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/X/XPolyReg.c:449]: (style) The scope of the variable 'fixWAET' can be reduced.
+[tests/std/X.V11R1/lib/X/XPolyReg.c:454]: (style) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[tests/std/X.V11R1/lib/X/XPolyReg.c:487]: (style) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[tests/std/X.V11R1/lib/X/XPolyReg.c:533]: (style) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[tests/std/X.V11R1/lib/X/XPutImage.c:111]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XPutImage.c:147]: (style) The scope of the variable 'row_addr' can be reduced.
+[tests/std/X.V11R1/lib/X/XPutImage.c:182]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XPutImage.c:252]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XQuTree.c:17]: (style) The scope of the variable 'nbytes' can be reduced.
+[tests/std/X.V11R1/lib/X/XRdBitF.c:112]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/lib/X/XRdBitF.c:122]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/lib/X/XRdBitF.c:59]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/lib/X/XRdBitF.c:59]: (warning) scanf without field width limits can crash with huge input data.
+[tests/std/X.V11R1/lib/X/XRdBitF.c:60]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/lib/X/XRdBitF.c:79]: (warning) scanf without field width limits can crash with huge input data.
+[tests/std/X.V11R1/lib/X/XRdBitF.c:81]: (warning) scanf without field width limits can crash with huge input data.
+[tests/std/X.V11R1/lib/X/XRdBitF.c:85]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/lib/X/XRegion.c:408]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XSetPntMap.c:23]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/lib/X/XTextExt16.c:184]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/X/XTextExt.c:183]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/lib/X/XWrBitF.c:69]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/lib/X/XWrBitF.c:74]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:1088]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:1089]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:1131]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:1132]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:1172]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:1173]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:1405]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:1421]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:530]: (style) The scope of the variable 'pts' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:531]: (style) The scope of the variable 'nPts' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:532]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:533]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:626]: (style) The scope of the variable 'pSeg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:627]: (style) The scope of the variable 'nSeg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:628]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:629]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:690]: (style) The scope of the variable 'pRect' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:691]: (style) The scope of the variable 'nRect' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:692]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:693]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:733]: (style) The scope of the variable 'pArc' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:734]: (style) The scope of the variable 'nArc' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:735]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:736]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:815]: (style) The scope of the variable 'pRect' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:816]: (style) The scope of the variable 'nRect' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:817]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:818]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:859]: (style) The scope of the variable 'pArc' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:860]: (style) The scope of the variable 'nArc' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:861]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apolloGC.c:862]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:1089]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:1089]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:1167]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:1168]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:1237]: (style) The scope of the variable 'test' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:360]: (style) The scope of the variable 'disp_len_ret' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:360]: (style) The scope of the variable 'n_entries' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:369]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:464]: (style) Unused variable: i
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:689]: (style) Unused variable: i
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:690]: (style) Variable 'map' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:731]: (style) The scope of the variable 'pshortSav' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:732]: (style) The scope of the variable 'plongScr' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:733]: (style) The scope of the variable 'plongSav' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:734]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:780]: (style) The scope of the variable 'pshortScr' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:781]: (style) The scope of the variable 'pshortSav' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:782]: (style) The scope of the variable 'plongScr' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:783]: (style) The scope of the variable 'plongSav' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/apollo_io.c:784]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/apollo/gpr_tmgr.c:44]: (style) The scope of the variable 'newGPR_ecValue' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbbitblt.c:552]: (warning) Redundant assignment of 'tmpSrc' to itself.
+[tests/std/X.V11R1/server/ddx/cfb/cfbfillsp.c:117]: (style) The scope of the variable 'addrl' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbfillsp.c:241]: (style) The scope of the variable 'iline' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbfillsp.c:248]: (style) The scope of the variable 'pdst' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbfillsp.c:253]: (style) The scope of the variable 'srcStartOver' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbfillsp.c:253]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbfillsp.c:376]: (style) Variable 'srcStartOver' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/cfb/cfbfillsp.c:520]: (style) The scope of the variable 'iline' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbfillsp.c:525]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbfillsp.c:527]: (style) The scope of the variable 'psrcS' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbgc.c:208]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbgetsp.c:53]: (style) The scope of the variable 'psrc' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbgetsp.c:58]: (style) The scope of the variable 'xEnd' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbgetsp.c:62]: (style) The scope of the variable 'srcBit' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbgetsp.c:63]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfboldmfb.c:229]: (style) The scope of the variable 'pwFinal' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfboldmfb.c:229]: (style) The scope of the variable 'pwNew' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfboldmfb.c:230]: (style) The scope of the variable 't' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfboldmfb.c:231]: (style) The scope of the variable 'size' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbpixmap.c:115]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/cfb/cfbpixmap.c:69]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/cfb/cfbpntwin.c:205]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbpntwin.c:206]: (style) The scope of the variable 'h' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbpntwin.c:215]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbpntwin.c:356]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbpntwin.c:357]: (style) The scope of the variable 'h' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbpntwin.c:87]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbpntwin.c:88]: (style) The scope of the variable 'h' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbwindow.c:193]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/ddx/cfb/cfbwindow.c:57] -> [tests/std/X.V11R1/server/ddx/cfb/cfbwindow.c:53]: (style) Found duplicate branches for 'if' and 'else'.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedcparea.c:167]: (style) Variable 'pptSrc' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedcparea.c:93]: (style) Unused variable: ppt
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedcursor.c:149]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedcursor.c:248]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aeddline.c:112]: (style) Variable 'xorg' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aeddline.c:113]: (style) Variable 'yorg' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillrct.c:76]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillrct.c:76]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillrct.c:83]: (style) Unused variable: rop
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillsp.c:194]: (style) Unused variable: iline
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillsp.c:239]: (style) Variable 'tlwidth' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillsp.c:93]: (style) Unused variable: addrlBase
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillsp.c:94]: (style) Unused variable: nlwidth
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillsp.c:95]: (style) Unused variable: addrl
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillsp.c:96]: (style) Unused variable: startmask
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillsp.c:97]: (style) Unused variable: endmask
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedfillsp.c:98]: (style) Unused variable: nlmiddle
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgc.c:213]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgc.c:574]: (style) Variable 'rrop' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:120]: (style) The scope of the variable 'inlen' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:143]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:76]: (style) Unused variable: psrc
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:77]: (style) Unused variable: tmpSrc
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:78]: (style) Unused variable: psrcBase
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:79]: (style) Unused variable: widthSrc
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:80]: (style) Unused variable: pptLast
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:81]: (style) Unused variable: pptT
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:82]: (style) Unused variable: xEnd
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:83]: (style) Unused variable: nstart
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:84]: (style) Unused variable: nend
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:85]: (style) Unused variable: srcStartOver
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:86]: (style) Unused variable: endmask
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:86]: (style) Unused variable: nl
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:86]: (style) Unused variable: nlMiddle
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:86]: (style) Unused variable: srcBit
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:86]: (style) Unused variable: startmask
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:87]: (style) Unused variable: w
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedgetsp.c:89]: (style) Unused variable: pdstNext
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:116]: (style) Unused variable: widthDst
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:253]: (style) Unused variable: ppos
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:256]: (style) Unused variable: xpos
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:258]: (style) Unused variable: clip
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:259]: (style) Unused variable: leftEdge
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:259]: (style) Unused variable: rightEdge
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:260]: (style) Unused variable: bottomEdge
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:260]: (style) Unused variable: topEdge
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:261]: (style) Unused variable: glyphRow
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:263]: (style) Unused variable: glyphCol
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:267]: (style) The scope of the variable 'glx' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedimggblt.c:267]: (style) The scope of the variable 'gly' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedio.c:126]: (style) The scope of the variable 'code' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedio.c:127]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedio.c:127]: (style) The scope of the variable 'len' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedio.c:128]: (style) Unused variable: def
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedio.c:143]: (error) Resource leak: code
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedio.c:172] -> [tests/std/X.V11R1/server/ddx/ibm/aed/aedio.c:176]: (performance) Variable 'i' is reassigned a value before the old one has been used.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedio.c:176]: (style) Variable 'i' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpntarea.c:144]: (style) Unused variable: n
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpntarea.c:221]: (style) Unused variable: n
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpntarea.c:221]: (style) Unused variable: skip
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpntarea.c:224]: (style) Unused variable: tilePassedHeight
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpntarea.c:226]: (style) The scope of the variable 'h' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpntarea.c:226]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpntarea.c:278]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpntwin.c:133]: (style) Unused variable: merge
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpntwin.c:135]: (style) Unused variable: n
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpushpxl.c:133]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpushpxl.c:53]: (style) Unused variable: tmpGC
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpushpxl.c:54]: (style) Unused variable: origPix
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpushpxl.c:54]: (style) Unused variable: workPix
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedpushpxl.c:63]: (style) Variable 'pWin' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedscrinit.c:88]: (style) Unused variable: staticColormap
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:134]: (style) The scope of the variable 'outlen' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:134]: (style) The scope of the variable 'skip' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:78]: (style) Unused variable: pdstBase
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:79]: (style) Unused variable: widthDst
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:80]: (style) Unused variable: pbox
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:80]: (style) Unused variable: pboxLast
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:80]: (style) Unused variable: pboxTest
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:81]: (style) Unused variable: pptLast
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:82]: (style) Unused variable: pptT
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:83]: (style) Unused variable: alu
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:84]: (style) Unused variable: prgnDst
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:85]: (style) Unused variable: xEnd
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:85]: (style) Unused variable: xStart
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:86]: (style) Unused variable: yMax
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedsetsp.c:91]: (style) The scope of the variable 'bits' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedwindow.c:102]: (style) Unused variable: pptSrc
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedwindow.c:103]: (style) Unused variable: ppt
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedwindow.c:113]: (style) Variable 'pwinRoot' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedwindow.c:245]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/aed/aedwindow.c:83] -> [tests/std/X.V11R1/server/ddx/ibm/aed/aedwindow.c:79]: (style) Found duplicate branches for 'if' and 'else'.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16flsp.c:198]: (style) The scope of the variable 'addrl' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16flsp.c:205]: (style) The scope of the variable 'src' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16flsp.c:97]: (style) The scope of the variable 'addrl' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16gc.c:185]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16gc.c:186]: (style) The scope of the variable 'xrot' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16gc.c:186]: (style) The scope of the variable 'yrot' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16gc.c:508]: (style) Variable 'rrop' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16igblt.c:134]: (style) Unused variable: oldAlu
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16igblt.c:135]: (style) Unused variable: oldFillStyle
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16igblt.c:159]: (error) Uninitialized variable: rrop
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16igblt.c:174]: (style) Variable 'rrop' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16igblt.c:268]: (style) The scope of the variable 'tmpGlyph' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16igblt.c:482]: (style) The scope of the variable 'tmpGlyph' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16line.c:142]: (style) The scope of the variable 'nline' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16pgblt.c:249]: (style) The scope of the variable 'tmpGlyph' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16pgblt.c:438]: (style) The scope of the variable 'tmpGlyph' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16pnta.c:134]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16pnta.c:135]: (style) The scope of the variable 'h' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16pnta.c:144]: (style) The scope of the variable 'iy' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16pntw.c:78]: (style) The scope of the variable 'h' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16pntw.c:78]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/apa16/apa16win.c:97] -> [tests/std/X.V11R1/server/ddx/ibm/apa16/apa16win.c:93]: (style) Found duplicate branches for 'if' and 'else'.
+[tests/std/X.V11R1/server/ddx/ibm/rt/malloc.c:519]: (style) Unused variable: e
+[tests/std/X.V11R1/server/ddx/ibm/rt/plumber.c:96]: (warning) %d in format string (no. 3) requires 'int' but the argument type is 'long'.
+[tests/std/X.V11R1/server/ddx/ibm/rt/plumber.c:96]: (warning) %lx in format string (no. 1) requires 'unsigned long' but the argument type is 'char *'.
+[tests/std/X.V11R1/server/ddx/ibm/rt/rtcursor.c:81]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/ibm/rt/rtio.c:191]: (style) The scope of the variable 'test' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/rt/rtio.c:81]: (style) The scope of the variable 'adjustCentiSecs' can be reduced.
+[tests/std/X.V11R1/server/ddx/ibm/rt/rtkeyboard.c:109]: (style) Unused variable: i
+[tests/std/X.V11R1/server/ddx/ibm/rt/rtmouse.c:139]: (error) Resource leak: mdev
+[tests/std/X.V11R1/server/ddx/lk201/lk201.c:146]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/lk201/lk201.c:66]: (style) The scope of the variable 'bits' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbclip.c:114]: (style) Boolean result is used in bitwise operation. Clarify expression with parentheses.
+[tests/std/X.V11R1/server/ddx/mfb/mfbclip.c:49]: (style) The scope of the variable 'pwLineStart' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbclip.c:50]: (style) The scope of the variable 'irectLineStart' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillrct.c:53]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillrct.c:53]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:155]: (style) The scope of the variable 'addrl' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:239]: (style) The scope of the variable 'addrl' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:323]: (style) The scope of the variable 'addrl' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:329]: (style) The scope of the variable 'src' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:413]: (style) The scope of the variable 'addrl' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:419]: (style) The scope of the variable 'src' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:503]: (style) The scope of the variable 'addrl' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:509]: (style) The scope of the variable 'src' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:71]: (style) The scope of the variable 'addrl' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:737]: (style) Variable 'src' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:755]: (style) The scope of the variable 'iline' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:762]: (style) The scope of the variable 'pdst' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:767]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:928]: (style) The scope of the variable 'iline' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:931]: (style) The scope of the variable 'pdst' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbfillsp.c:936]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbgc.c:183]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbgc.c:184]: (style) The scope of the variable 'xrot' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbgc.c:184]: (style) The scope of the variable 'yrot' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbgetsp.c:54]: (style) The scope of the variable 'psrc' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbgetsp.c:59]: (style) The scope of the variable 'xEnd' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbgetsp.c:63]: (style) The scope of the variable 'srcBit' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbgetsp.c:64]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbgetsp.c:66]: (style) The scope of the variable 'pdstNext' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbimage.c:121]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbimage.c:121]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbimage.c:162]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/mfb/mfbline.c:508]: (style) The scope of the variable 'nbox' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbline.c:771]: (style) The scope of the variable 'oc1' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpixmap.c:117]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpixmap.c:151]: (style) The scope of the variable 'bits' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpixmap.c:71]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpntarea.c:195]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpntarea.c:196]: (style) The scope of the variable 'h' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpntarea.c:205]: (style) The scope of the variable 'iy' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpntarea.c:67]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpntarea.c:68]: (style) The scope of the variable 'h' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpntwin.c:115]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpntwin.c:116]: (style) The scope of the variable 'h' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpntwin.c:124]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpolypnt.c:58]: (style) The scope of the variable 'nbox' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpolypnt.c:69]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpolypnt.c:70]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpushpxl.c:49]: (style) The scope of the variable 'ibEnd' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbpushpxl.c:51]: (style) The scope of the variable 'pwEnd' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbtegblt.c:86]: (style) The scope of the variable 'hTmp' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbtile.c:65]: (style) The scope of the variable 'w' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbtile.c:66]: (style) The scope of the variable 'h' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbtile.c:75]: (style) The scope of the variable 'iy' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbwindow.c:205]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/ddx/mfb/mfbwindow.c:60] -> [tests/std/X.V11R1/server/ddx/mfb/mfbwindow.c:56]: (style) Found duplicate branches for 'if' and 'else'.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:255]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:265]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:297]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:423]: (style) The scope of the variable 'x2' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:423]: (style) The scope of the variable 'y2' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:502]: (style) Variable 'poly' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:82]: (style) The scope of the variable 'j' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:86]: (style) The scope of the variable 'cptAll' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:88]: (style) The scope of the variable 'dx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:88]: (style) The scope of the variable 'dy' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:88]: (style) The scope of the variable 'xMax' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:88]: (style) The scope of the variable 'xMin' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:88]: (style) The scope of the variable 'xOrg' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:88]: (style) The scope of the variable 'yMax' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:88]: (style) The scope of the variable 'yMin' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:88]: (style) The scope of the variable 'yOrg' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:89]: (style) The scope of the variable 'count' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:89]: (style) The scope of the variable 'gcmode' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:89]: (style) The scope of the variable 'ifirst' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miarc.c:89]: (style) The scope of the variable 'ilast' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:290]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:307]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:60]: (style) The scope of the variable 'prect' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:634]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:634]: (style) The scope of the variable 'linelength' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:634]: (style) The scope of the variable 'srcx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:634]: (style) The scope of the variable 'srcy' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:636]: (style) The scope of the variable 'pbits' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:637]: (style) The scope of the variable 'gcv' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:66]: (style) The scope of the variable 'xMin' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibitblt.c:683]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/mi/mibstore.c:140]: (style) Variable 'pBack' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/mi/mibstore.c:549]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibstore.c:626]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mibstore.c:773]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/mi/midash.c:73]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/midash.c:73]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/midash.c:74]: (style) The scope of the variable 'adx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/midash.c:74]: (style) The scope of the variable 'ady' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/midash.c:74]: (style) The scope of the variable 'signdx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/midash.c:74]: (style) The scope of the variable 'signdy' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/midash.c:75]: (style) The scope of the variable 'e1' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/midash.c:75]: (style) The scope of the variable 'e2' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/midash.c:75]: (style) The scope of the variable 'e' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mifillrct.c:51]: (style) The scope of the variable 'height' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mifillrct.c:52]: (style) The scope of the variable 'width' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mifillrct.c:60]: (style) The scope of the variable 'pw' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mifpolycon.c:79]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miglblt.c:76]: (style) The scope of the variable 'pglyph' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miglblt.c:77]: (style) The scope of the variable 'gHeight' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miglblt.c:77]: (style) The scope of the variable 'gWidth' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miglblt.c:78]: (style) The scope of the variable 'nbyGlyphWidth' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miglblt.c:79]: (style) The scope of the variable 'nbyPadGlyph' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/milines.c:582]: (style) Variable 'p' is assigned a value that is never used.
+[tests/std/X.V11R1/server/ddx/mi/milines.c:637]: (style) The scope of the variable 'dx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/milines.c:637]: (style) The scope of the variable 'dy' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/milines.c:769]: (style) The scope of the variable 'c' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/milines.c:769]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/milines.c:771]: (style) The scope of the variable 'dx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/milines.c:771]: (style) The scope of the variable 'dy' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/milines.c:774]: (style) The scope of the variable 'pPts' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mipoly.c:52]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mipoly.c:52]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mipolycon.c:118]: (style) The scope of the variable 'dx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mipolycon.c:141]: (style) The scope of the variable 'dx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mipolycon.c:60]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mipolygen.c:62]: (style) The scope of the variable 'fixWAET' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mipolyutil.c:209]: (style) The scope of the variable 'dx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mipushpxl.c:55]: (style) The scope of the variable 'ibEnd' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mipushpxl.c:57]: (style) The scope of the variable 'pwEnd' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miregion.c:151]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/mi/miregion.c:1587]: (style) The scope of the variable 'nThisBand' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miregion.c:1589]: (style) The scope of the variable 'yThisBand' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miregion.c:714]: (style) The scope of the variable 'x1' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/miregion.c:715]: (style) The scope of the variable 'x2' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:115]: (style) The scope of the variable 'width' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:41]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:41]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:46]: (style) The scope of the variable 'dx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:46]: (style) The scope of the variable 'dy' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:47]: (style) The scope of the variable 'adx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:47]: (style) The scope of the variable 'ady' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:48]: (style) The scope of the variable 'signdx' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:48]: (style) The scope of the variable 'signdy' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:52]: (style) The scope of the variable 'e1' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:52]: (style) The scope of the variable 'e2' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:52]: (style) The scope of the variable 'e' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:54]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/server/ddx/mi/mizerline.c:54]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/server/ddx/qvss/qvss_io.c:347]: (style) The scope of the variable 'adjustCentiSecs' can be reduced.
+[tests/std/X.V11R1/server/ddx/qvss/qvss_io.c:579]: (style) The scope of the variable 'x' can be reduced.
+[tests/std/X.V11R1/server/ddx/qvss/qvss_io.c:579]: (style) The scope of the variable 'y' can be reduced.
+[tests/std/X.V11R1/server/ddx/qvss/qvss_io.c:664]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/ddx/qvss/qvss_io.c:723]: (style) The scope of the variable 'test' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunCG2C.c:80]: (style) struct or union member 'Anonymous0::csr_pad' is never used.
+[tests/std/X.V11R1/server/ddx/sun/sunCG2C.c:88]: (style) struct or union member 'Anonymous1::ppm_pad' is never used.
+[tests/std/X.V11R1/server/ddx/sun/sunCG2M.c:57]: (style) struct or union member 'Anonymous0::pad' is never used.
+[tests/std/X.V11R1/server/ddx/sun/sunCG2M.c:65]: (style) struct or union member 'Anonymous1::pad' is never used.
+[tests/std/X.V11R1/server/ddx/sun/sunCursor.c:840]: (style) The scope of the variable 'scrX' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunCursor.c:840]: (style) The scope of the variable 'scrY' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:1098]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:1099]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:1141]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:1142]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:1182]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:1183]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:1499]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:1515]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:543]: (style) The scope of the variable 'pts' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:544]: (style) The scope of the variable 'nPts' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:545]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:546]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:639]: (style) The scope of the variable 'pSeg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:640]: (style) The scope of the variable 'nSeg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:641]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:642]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:703]: (style) The scope of the variable 'pRect' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:704]: (style) The scope of the variable 'nRect' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:705]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:706]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:746]: (style) The scope of the variable 'pArc' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:747]: (style) The scope of the variable 'nArc' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:748]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:749]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:828]: (style) The scope of the variable 'pRect' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:829]: (style) The scope of the variable 'nRect' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:830]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:831]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:872]: (style) The scope of the variable 'pArc' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:873]: (style) The scope of the variable 'nArc' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:874]: (style) The scope of the variable 'xorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunGC.c:875]: (style) The scope of the variable 'yorg' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunInit.c:253]: (style) The scope of the variable 'test' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunInit.c:444]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunIo.c:110]: (style) The scope of the variable 'numPtrEvents' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunIo.c:112]: (style) The scope of the variable 'numKbdEvents' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunIo.c:120]: (style) The scope of the variable 'ptrPriv' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunIo.c:121]: (style) The scope of the variable 'kbdPriv' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunIo.c:122]: (style) The scope of the variable 'lastEvent' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunIo.c:125]: (style) The scope of the variable 'lastType' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunKbd.c:366]: (style) The scope of the variable 'delta' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunMouse.c:102]: (style) The scope of the variable 'fd' can be reduced.
+[tests/std/X.V11R1/server/ddx/sun/sunMouse.c:322]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1047]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1171]: (style) The scope of the variable 'b' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1171]: (style) The scope of the variable 'g' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1226]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1226]: (style) The scope of the variable 'shift' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:122]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/dix/colormap.c:1291]: (style) The scope of the variable 'pDst' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1408]: (style) The scope of the variable 'p' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1408]: (style) The scope of the variable 'pDst' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:162]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/dix/colormap.c:1637]: (warning) Assignment of function parameter has no effect outside the function.
+[tests/std/X.V11R1/server/dix/colormap.c:163]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/dix/colormap.c:1783]: (style) The scope of the variable 'npixNew' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1913]: (style) The scope of the variable 'pix' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1917]: (style) The scope of the variable 'pblue' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1917]: (style) The scope of the variable 'pgreen' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1917]: (style) The scope of the variable 'pred' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1918]: (style) The scope of the variable 'ChgBlue' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1918]: (style) The scope of the variable 'ChgGreen' can be reduced.
+[tests/std/X.V11R1/server/dix/colormap.c:1918]: (style) The scope of the variable 'ChgRed' can be reduced.
+[tests/std/X.V11R1/server/dix/dispatch.c:1046]: (style) The scope of the variable 'reply' can be reduced.
+[tests/std/X.V11R1/server/dix/dispatch.c:1170]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/dispatch.c:1223]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/dix/dispatch.c:1998]: (style) The scope of the variable 'result' can be reduced.
+[tests/std/X.V11R1/server/dix/dispatch.c:2101]: (style) The scope of the variable 'retval' can be reduced.
+[tests/std/X.V11R1/server/dix/dispatch.c:2146]: (style) The scope of the variable 'retval' can be reduced.
+[tests/std/X.V11R1/server/dix/dispatch.c:2357]: (style) The scope of the variable 'retval' can be reduced.
+[tests/std/X.V11R1/server/dix/dispatch.c:2819]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/dispatch.c:468]: (style) The scope of the variable 'result' can be reduced.
+[tests/std/X.V11R1/server/dix/dispatch.c:719]: (style) The scope of the variable 'len' can be reduced.
+[tests/std/X.V11R1/server/dix/dispatch.c:747]: (style) The scope of the variable 'result' can be reduced.
+[tests/std/X.V11R1/server/dix/events.c:1665]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/events.c:1755]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/events.c:2463]: (style) The scope of the variable 'j' can be reduced.
+[tests/std/X.V11R1/server/dix/events.c:2488]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/dix/events.c:2492]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/events.c:2501]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/events.c:2515]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/dix/events.c:2537]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/dix/events.c:2538]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/dix/events.c:2794]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/events.c:3220]: (style) The scope of the variable 'count' can be reduced.
+[tests/std/X.V11R1/server/dix/events.c:3220]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/dix/events.c:3220]: (style) The scope of the variable 'xmax' can be reduced.
+[tests/std/X.V11R1/server/dix/events.c:3220]: (style) The scope of the variable 'xmin' can be reduced.
+[tests/std/X.V11R1/server/dix/events.c:3220]: (style) The scope of the variable 'ymax' can be reduced.
+[tests/std/X.V11R1/server/dix/events.c:3220]: (style) The scope of the variable 'ymin' can be reduced.
+[tests/std/X.V11R1/server/dix/events.c:3715]: (style) The scope of the variable 'eventFrom' can be reduced.
+[tests/std/X.V11R1/server/dix/events.c:698]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/dix/events.c:884]: (style) The scope of the variable 'deliveries' can be reduced.
+[tests/std/X.V11R1/server/dix/extension.c:129]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/dix/extension.c:193]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/extension.c:212]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/dix/extension.c:241]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/dix/fonts.c:164]: (style) The scope of the variable 'nscr' can be reduced.
+[tests/std/X.V11R1/server/dix/fonts.c:345]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/fonts.c:500]: (style) The scope of the variable 'pxci' can be reduced.
+[tests/std/X.V11R1/server/dix/fonts.c:655]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/dix/gc.c:477]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/dix/gc.c:920]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/gc.c:97]: (style) The scope of the variable 'index' can be reduced.
+[tests/std/X.V11R1/server/dix/property.c:185]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/property.c:207]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/property.c:216]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/property.c:224]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/property.c:226]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/property.c:321]: (style) The scope of the variable 'ind' can be reduced.
+[tests/std/X.V11R1/server/dix/property.c:321]: (style) The scope of the variable 'len' can be reduced.
+[tests/std/X.V11R1/server/dix/property.c:321]: (style) The scope of the variable 'n' can be reduced.
+[tests/std/X.V11R1/server/dix/property.c:458]: (error) Uninitialized variable: pAtoms
+[tests/std/X.V11R1/server/dix/resource.c:226]: (style) The scope of the variable 'head' can be reduced.
+[tests/std/X.V11R1/server/dix/swaprep.c:1123]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/swaprep.c:114]: (style) The scope of the variable 'toLast' can be reduced.
+[tests/std/X.V11R1/server/dix/swaprep.c:1192]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/swaprep.c:1198]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/dix/swaprep.c:76]: (style) The scope of the variable 'toLast' can be reduced.
+[tests/std/X.V11R1/server/dix/window.c:1308]: (style) The scope of the variable 'cwsx' can be reduced.
+[tests/std/X.V11R1/server/dix/window.c:1308]: (style) The scope of the variable 'cwsy' can be reduced.
+[tests/std/X.V11R1/server/dix/window.c:1913]: (style) The scope of the variable 'anyMarked' can be reduced.
+[tests/std/X.V11R1/server/dix/window.c:2248]: (error) Uninitialized variable: pChild
+[tests/std/X.V11R1/server/dix/window.c:2859]: (style) The scope of the variable 'new_x' can be reduced.
+[tests/std/X.V11R1/server/dix/window.c:2859]: (style) The scope of the variable 'new_y' can be reduced.
+[tests/std/X.V11R1/server/dix/window.c:286]: (style) The scope of the variable 'srcbits' can be reduced.
+[tests/std/X.V11R1/server/dix/window.c:287]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/dix/window.c:450]: (style) The scope of the variable 'idepth' can be reduced.
+[tests/std/X.V11R1/server/dix/window.c:450]: (style) The scope of the variable 'ivisual' can be reduced.
+[tests/std/X.V11R1/server/os/4.2bsd/access.c:253]: (style) Obsolete function 'bcmp' called. It is recommended to use the function 'memcmp' instead.
+[tests/std/X.V11R1/server/os/4.2bsd/access.c:259]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/os/4.2bsd/access.c:309]: (style) Obsolete function 'bcmp' called. It is recommended to use the function 'memcmp' instead.
+[tests/std/X.V11R1/server/os/4.2bsd/access.c:354]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:120]: (style) Variable 'request' is not assigned a value.
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:141]: (style) Unused variable: retry
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:308]: (style) The scope of the variable 'got' can be reduced.
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:434]: (style) Variable 'auth_proto' is assigned a value that is never used.
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:446]: (style) Variable 'auth_string' is assigned a value that is never used.
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:472]: (style) The scope of the variable 'curconn' can be reduced.
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:473]: (style) The scope of the variable 'newconn' can be reduced.
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:614]: (error) Dereferencing 'connection' after it is deallocated / released
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:615]: (error) Dereferencing 'connection' after it is deallocated / released
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:616]: (error) Dereferencing 'connection' after it is deallocated / released
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:617]: (error) Dereferencing 'connection' after it is deallocated / released
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:619]: (error) Dereferencing 'connection' after it is deallocated / released
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:620]: (error) Dereferencing 'connection' after it is deallocated / released
+[tests/std/X.V11R1/server/os/4.2bsd/connection.c:621]: (error) Dereferencing 'connection' after it is deallocated / released
+[tests/std/X.V11R1/server/os/4.2bsd/filenames.c:108]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/server/os/4.2bsd/filenames.c:110]: (style) The scope of the variable 'len' can be reduced.
+[tests/std/X.V11R1/server/os/4.2bsd/filenames.c:110]: (style) The scope of the variable 'n' can be reduced.
+[tests/std/X.V11R1/server/os/4.2bsd/filenames.c:132]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/os/4.2bsd/filenames.c:216]: (style) Obsolete function 'bzero' called. It is recommended to use the function 'memset' instead.
+[tests/std/X.V11R1/server/os/4.2bsd/filenames.c:219]: (style) Obsolete function 'index' called. It is recommended to use the function 'strchr' instead.
+[tests/std/X.V11R1/server/os/4.2bsd/filenames.c:247]: (style) The scope of the variable 'n' can be reduced.
+[tests/std/X.V11R1/server/os/4.2bsd/filenames.c:285]: (portability) Non reentrant function 'readdir' called. For threadsafe applications it is recommended to use the reentrant replacement function 'readdir_r'.
+[tests/std/X.V11R1/server/os/4.2bsd/filenames.c:295]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/os/4.2bsd/filenames.c:79]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/os/4.2bsd/io.c:172]: (style) Obsolete function 'bcopy' called. It is recommended to use the 'memmove' or 'memcpy' function instead.
+[tests/std/X.V11R1/server/os/4.2bsd/utils.c:319]: (style) Unused variable: foo
+[tests/std/X.V11R1/util/bm-convert/bm-convert.c:22]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/std/X.V11R1/util/makedepend/include.c:36]: (style) The scope of the variable 'p' can be reduced.
+[tests/std/X.V11R1/util/makedepend/include.c:36]: (style) The scope of the variable 'pp' can be reduced.
+[tests/std/X.V11R1/util/makedepend/parse.c:126]: (warning) Redundant code: Found a statement that begins with string constant.
+[tests/std/X.V11R1/util/makedepend/parse.c:190]: (warning) Redundant code: Found a statement that begins with string constant.
+[tests/std/X.V11R1/util/makedepend/parse.c:197]: (warning) Redundant code: Found a statement that begins with string constant.
+[tests/std/X.V11R1/util/makedepend/parse.c:208]: (warning) Redundant code: Found a statement that begins with string constant.
+[tests/std/X.V11R1/util/makedepend/parse.c:234]: (warning) Redundant code: Found a statement that begins with string constant.
+[tests/std/X.V11R1/util/makedepend/parse.c:264]: (style) The scope of the variable 'ip' can be reduced.
+[tests/std/X.V11R1/util/makedepend/parse.c:266]: (style) The scope of the variable 'i' can be reduced.
+[tests/std/X.V11R1/util/patch/patch.c:1655]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'long'.
+[tests/std/X.V11R1/util/patch/patch.c:1682]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'long'.
+[tests/std/X.V11R1/util/patch/patch.c:1682]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'long'.
+[tests/std/X.V11R1/util/patch/patch.c:1729]: (style) The scope of the variable 's' can be reduced.
+[tests/std/X.V11R1/util/patch/patch.c:1730]: (style) The scope of the variable 'indent' can be reduced.
+[tests/std/X.V11R1/util/patch/patch.c:467]: (style) Variable 'max_neg_offset' is assigned a value that is never used.
+[tests/std/X.V11R1/util/patch/patch.c:477]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'long'.
+[tests/std/X.V11R1/util/patch/patch.c:477]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'long'.
+[tests/std/X.V11R1/util/patch/patch.c:485]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'long'.
+[tests/std/X.V11R1/util/vtobdf/vtobdf.c:109]: (style) Variable 'maxHeight' is assigned a value that is never used.
+[tests/std/X.V11R1/util/vtobdf/vtobdf.c:77]: (style) Obsolete function 'rindex' called. It is recommended to use the function 'strrchr' instead.
+[tests/std/X.V11R1/util/vtobdf/vtobdf.c:80]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
