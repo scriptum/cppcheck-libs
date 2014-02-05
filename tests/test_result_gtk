@@ -3,9 +3,9 @@
 [tests/gtk/synthetic.c:12]: (style) Variable 'b' is allocated memory that is never used.
 [tests/gtk/synthetic.c:18]: (style) Variable 'a' is allocated memory that is never used.
 [tests/gtk/synthetic.c:19]: (error) Mismatching allocation and deallocation: a
-[tests/gtk/synthetic.c:2]: (error) Allocation with strdup, strcmp doesn't release it.
-[tests/gtk/synthetic.c:3]: (error) Allocation with strdup, strcmp doesn't release it.
-[tests/gtk/synthetic.c:4]: (error) Allocation with strdup, strcmp doesn't release it.
+[tests/gtk/synthetic.c:2]: (error) Allocation with g_strdup, g_strcmp0 doesn't release it.
+[tests/gtk/synthetic.c:3]: (error) Allocation with g_strdup, g_strlcpy doesn't release it.
+[tests/gtk/synthetic.c:4]: (error) Allocation with g_strdup, g_strcmp0 doesn't release it.
 [tests/gtk/synthetic.c:5]: (error) Allocation with g_malloc, if doesn't release it.
 [tests/gtk/Thunar-1.6.3/plugins/thunar-apr/thunar-apr-desktop-page.c:335]: (style) The scope of the variable 'type' can be reduced.
 [tests/gtk/Thunar-1.6.3/plugins/thunar-apr/thunar-apr-desktop-page.c:526]: (style) The scope of the variable 'toplevel' can be reduced.

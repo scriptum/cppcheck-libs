@@ -1,7 +1,7 @@
 void f1() {
-	if(TRUE || strcmp(strdup(a), b))
-	if(!strcmp(strdup(a), b) == 0)
-	42, strcmp(strdup(a), b);
+	if(TRUE || g_strcmp0(g_strdup(a), b))
+	if(!g_strlcpy(g_strdup(a), b) == 0)
+	42, g_strcmp0(g_strdup(a), b);
 	if(g_malloc(42));
 }
 
