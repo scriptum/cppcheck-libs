@@ -33,7 +33,9 @@ for line in sys.stdin:
 				allocs[current][key] = []
 			allocs[current][key].append(line)
 
-print "<?xml version=\"1.0\"?>\n<def>"
+print "<?xml version=\"1.0\"?>"
+print "<!-- THIS FILE IS GENERATED AUTOMATICALLY. See https://github.com/scriptum/cppcheck-libs -->"
+print "<def>"
 
 if len(sys.argv) > 1:
 	print "  <include><![CDATA["
