@@ -38,10 +38,13 @@ print "<!-- THIS FILE IS GENERATED AUTOMATICALLY. See https://github.com/scriptu
 print "<def>"
 
 if len(sys.argv) > 1:
-	print "  <include><![CDATA["
 	with open(sys.argv[1], 'r') as f:
-		print (f.read())
-	print "  ]]></include>"
+		import re
+		pattern = re.compile("^#define\s+([^\s()]+\s*(?:\([^)]*\))?)\s+(.*)$")
+		for line in f:
+			match = pattern.match(line.strip())
+			if match:
+				print "  <define name=\""+match.group(1)+"\" value=\""+match.group(2)+"\"/>"
 
 for key in allocs:
 	print "  <memory>";

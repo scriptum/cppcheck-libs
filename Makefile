@@ -17,10 +17,10 @@ geany.cfg: geany.rules gtk.rules gtk-functions.rules gtk.cfg
 	cat geany.rules gtk.rules gtk-functions.rules | $(COMPILER) > $@
 
 gtk.cfg: gtk.rules gtk-functions.rules gtk.h compile.py
-	cat gtk.rules gtk-functions.rules | $(COMPILER) > $@
+	cat gtk.rules gtk-functions.rules | $(COMPILER) gtk.h > $@
 
 selinux.cfg: selinux.rules selinux.h compile.py
-	cat selinux.rules | $(COMPILER) > $@
+	cat selinux.rules | $(COMPILER) selinux.h > $@
 
 clean:
 	rm -f $(TARGETS)
