@@ -818,10 +818,6 @@ functions:
 	g_slist_insert_sorted
 	g_slist_insert_sorted_with_data
 	g_slist_prepend
-	gtk_list_store_set
-	gtk_list_store_set_valist
-	gtk_list_store_set_value
-	gtk_list_store_set_valuesv
 	gtk_box_pack_end
 	gtk_box_pack_end_defaults
 	gtk_box_pack_start
