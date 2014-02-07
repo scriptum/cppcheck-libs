@@ -31,19 +31,32 @@
 [tests/selinux/checkpolicy-2.2/test/dispol.c:546]: (error) Resource leak: out_fp
 [tests/selinux/libselinux-2.2.2/src/audit2why.c:307]: (style) The scope of the variable 'strObj' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/audit2why.c:68]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/avc.c:88]: (error) Memory leak: rctx
 [tests/selinux/libselinux-2.2.2/src/avc.c:976]: (style) The scope of the variable 'i' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/avc_internal.c:225]: (style) The scope of the variable 'rc' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/avc_internal.c:252]: (style) The scope of the variable 'rc' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/avc_sidtab.c:126]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
 [tests/selinux/libselinux-2.2.2/src/booleans.c:352]: (style) The scope of the variable 'name1' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/booleans.c:551]: (style) The scope of the variable 'ret' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/canonicalize_context.c:73]: (error) Memory leak: rcon
+[tests/selinux/libselinux-2.2.2/src/checkAccess.c:65]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/libselinux-2.2.2/src/checkAccess.c:72]: (error) Memory leak: user_context
+[tests/selinux/libselinux-2.2.2/src/check_context.c:42]: (error) Memory leak: rcon
+[tests/selinux/libselinux-2.2.2/src/compute_av.c:115]: (error) Memory leak: rscon
+[tests/selinux/libselinux-2.2.2/src/compute_av.c:118]: (error) Memory leak: rtcon
 [tests/selinux/libselinux-2.2.2/src/compute_av.c:53]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/compute_create.c:132]: (error) Memory leak: rscon
+[tests/selinux/libselinux-2.2.2/src/compute_create.c:135]: (error) Memory leak: rtcon
 [tests/selinux/libselinux-2.2.2/src/compute_user.c:49]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/compute_user.c:89]: (error) Memory leak: rscon
 [tests/selinux/libselinux-2.2.2/src/context.c:102]: (style) The scope of the variable 'i' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/context.c:153]: (style) The scope of the variable 'p' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/context.c:38]: (error) Dereferencing 'n' after it is deallocated / released
 [tests/selinux/libselinux-2.2.2/src/context.c:39]: (error) Dereferencing 'n' after it is deallocated / released
 [tests/selinux/libselinux-2.2.2/src/deny_unknown.c:34]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/enabled.c:26]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/libselinux-2.2.2/src/fsetfilecon.c:17]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/libselinux-2.2.2/src/fsetfilecon.c:36]: (error) Memory leak: rcontext
 [tests/selinux/libselinux-2.2.2/src/get_context_list.c:120]: (style) The scope of the variable 'conrole' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/get_context_list.c:120]: (style) The scope of the variable 'contype' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/get_context_list.c:289]: (style) Variable 'buf' is assigned a value that is never used.
@@ -75,8 +88,11 @@
 [tests/selinux/libselinux-2.2.2/src/label_x.c:49]: (warning) %a in format string (no. 1) requires 'float *' but the argument type is 'char * *'.
 [tests/selinux/libselinux-2.2.2/src/label_x.c:49]: (warning) %a in format string (no. 2) requires 'float *' but the argument type is 'char * *'.
 [tests/selinux/libselinux-2.2.2/src/label_x.c:49]: (warning) %a in format string (no. 3) requires 'float *' but the argument type is 'char * *'.
+[tests/selinux/libselinux-2.2.2/src/lsetfilecon.c:17]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/libselinux-2.2.2/src/lsetfilecon.c:36]: (error) Memory leak: rcontext
 [tests/selinux/libselinux-2.2.2/src/matchpathcon.c:238]: (style) The scope of the variable 'len' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/policyvers.c:39]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/src/procattr.c:291]: (error) Memory leak: rcontext
 [tests/selinux/libselinux-2.2.2/src/query_user_context.c:24]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
 [tests/selinux/libselinux-2.2.2/src/query_user_context.c:27]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
 [tests/selinux/libselinux-2.2.2/src/query_user_context.c:40]: (style) The scope of the variable 'response' can be reduced.
@@ -85,12 +101,15 @@
 [tests/selinux/libselinux-2.2.2/src/query_user_context.c:53]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
 [tests/selinux/libselinux-2.2.2/src/query_user_context.c:84]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
 [tests/selinux/libselinux-2.2.2/src/query_user_context.c:87]: (error) fflush() called on input stream 'stdin' results in undefined behaviour.
+[tests/selinux/libselinux-2.2.2/src/rpm.c:54]: (error) Mismatching allocation and deallocation: newcon
 [tests/selinux/libselinux-2.2.2/src/selinux_check_securetty_context.c:12]: (style) The scope of the variable 'end' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/selinux_check_securetty_context.c:14]: (style) The scope of the variable 'len' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/selinux_config.c:156]: (style) The scope of the variable 'intptr' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/selinux_config.c:158]: (style) The scope of the variable 'len' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/selinux_config.c:159]: (style) The scope of the variable 'end' can be reduced.
 [tests/selinux/libselinux-2.2.2/src/selinux_config.c:159]: (style) The scope of the variable 'value' can be reduced.
+[tests/selinux/libselinux-2.2.2/src/setfilecon.c:17]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/libselinux-2.2.2/src/setfilecon.c:36]: (error) Memory leak: rcontext
 [tests/selinux/libselinux-2.2.2/src/setrans_client.c:60]: (error) Mismatching allocation and deallocation: fd
 [tests/selinux/libselinux-2.2.2/src/setrans_client.c:71]: (error) Mismatching allocation and deallocation: fd
 [tests/selinux/libselinux-2.2.2/src/stringrep.c:246]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
@@ -115,13 +134,18 @@
 [tests/selinux/libselinux-2.2.2/utils/avcstat.c:217]: (warning) %Lu in format string (no. 5) requires 'unsigned long long' but the argument type is 'unsigned long long'.
 [tests/selinux/libselinux-2.2.2/utils/avcstat.c:217]: (warning) %Lu in format string (no. 6) requires 'unsigned long long' but the argument type is 'unsigned long long'.
 [tests/selinux/libselinux-2.2.2/utils/getconlist.c:24]: (style) The scope of the variable 'i' can be reduced.
+[tests/selinux/libselinux-2.2.2/utils/getconlist.c:50]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
 [tests/selinux/libselinux-2.2.2/utils/getdefaultcon.c:54]: (error) Memory leak: level
 [tests/selinux/libselinux-2.2.2/utils/getdefaultcon.c:54]: (error) Memory leak: role
 [tests/selinux/libselinux-2.2.2/utils/getdefaultcon.c:54]: (error) Memory leak: service
+[tests/selinux/libselinux-2.2.2/utils/getdefaultcon.c:61]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
 [tests/selinux/libselinux-2.2.2/utils/getfilecon.c:9]: (style) The scope of the variable 'rc' can be reduced.
 [tests/selinux/libselinux-2.2.2/utils/getpidcon.c:17]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
 [tests/selinux/libselinux-2.2.2/utils/matchpathcon.c:148]: (style) The scope of the variable 'rc' can be reduced.
+[tests/selinux/libselinux-2.2.2/utils/matchpathcon.c:41]: (error) Mismatching allocation and deallocation: buf
 [tests/selinux/libselinux-2.2.2/utils/sefcontext_compile.c:51]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
+[tests/selinux/libselinux-2.2.2/utils/selinuxexeccon.c:41]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/libselinux-2.2.2/utils/selinuxexeccon.c:43]: (error) Memory leak: con
 [tests/selinux/libselinux-2.2.2/utils/setfilecon.c:8]: (style) The scope of the variable 'rc' can be reduced.
 [tests/selinux/libselinux-2.2.2/utils/togglesebool.c:26]: (style) The scope of the variable 'rc' can be reduced.
 [tests/selinux/libselinux-2.2.2/utils/togglesebool.c:81]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
@@ -278,20 +302,23 @@
 [tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:469]: (portability) scanf without field width limits can crash with huge input data on some versions of libc.
 [tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:481]: (error) Memory leak: constraint
 [tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstrans.c:508]: (error) Memory leak: constraint
+[tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstransd.c:169]: (error) Memory leak: peercon
 [tests/selinux/policycoreutils-2.2.5/mcstrans/src/mcstransd.c:407]: (style) The scope of the variable 'ret' can be reduced.
 [tests/selinux/policycoreutils-2.2.5/mcstrans/src/mls_level.c:102]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
 [tests/selinux/policycoreutils-2.2.5/mcstrans/src/mls_level.c:144]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
 [tests/selinux/policycoreutils-2.2.5/newrole/hashtab.c:233]: (style) The scope of the variable 'last' can be reduced.
 [tests/selinux/policycoreutils-2.2.5/newrole/hashtab.c:289]: (warning) %d in format string (no. 4) requires 'int' but the argument type is 'unsigned int'.
+[tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:1070]: (error) Memory leak: old_context
 [tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:1073]: (portability) Non reentrant function 'ttyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'ttyname_r'.
 [tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:363]: (portability) Non reentrant function 'getspnam' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getspnam_r'.
 [tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:378]: (portability) Non reentrant function 'crypt' called. For threadsafe applications it is recommended to use the reentrant replacement function 'crypt_r'.
 [tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:434]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:704]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:713]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/policycoreutils-2.2.5/newrole/newrole.c:860]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
 [tests/selinux/policycoreutils-2.2.5/restorecond/restorecond.c:207]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
 [tests/selinux/policycoreutils-2.2.5/restorecond/stringslist.c:72]: (style) The scope of the variable 'prev' can be reduced.
 [tests/selinux/policycoreutils-2.2.5/restorecond/user.c:118]: (style) The scope of the variable 'i' can be reduced.
-[tests/selinux/policycoreutils-2.2.5/restorecond/user.c:228]: (error) Memory leak: in
-[tests/selinux/policycoreutils-2.2.5/restorecond/user.c:266]: (error) Memory leak: c
 [tests/selinux/policycoreutils-2.2.5/restorecond/utmpwatcher.c:87]: (portability) Non reentrant function 'getpwnam' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwnam_r'.
 [tests/selinux/policycoreutils-2.2.5/restorecond/watch.c:148]: (style) The scope of the variable 'prev' can be reduced.
 [tests/selinux/policycoreutils-2.2.5/run_init/open_init_pty.c:312]: (style) The scope of the variable 'nwritten' can be reduced.
@@ -304,8 +331,13 @@
 [tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:374]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
 [tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:389]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
 [tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:399]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
+[tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:439]: (error) Division by zero.
+[tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:667]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
 [tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:784]: (portability) Non reentrant function 'readdir' called. For threadsafe applications it is recommended to use the reentrant replacement function 'readdir_r'.
+[tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:806]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
 [tests/selinux/policycoreutils-2.2.5/sandbox/seunshare.c:866]: (portability) Non reentrant function 'getpwuid' called. For threadsafe applications it is recommended to use the reentrant replacement function 'getpwuid_r'.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:399]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/policycoreutils-2.2.5/secon/secon.c:422]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
 [tests/selinux/policycoreutils-2.2.5/secon/secon.c:586]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
 [tests/selinux/policycoreutils-2.2.5/secon/secon.c:586]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
 [tests/selinux/policycoreutils-2.2.5/secon/secon.c:658]: (portability) Non reentrant function 'strtok' called. For threadsafe applications it is recommended to use the reentrant replacement function 'strtok_r'.
@@ -324,9 +356,17 @@
 [tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:175]: (style) The scope of the variable 'c' can be reduced.
 [tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:175]: (style) The scope of the variable 'opt' can be reduced.
 [tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:180]: (portability) Non reentrant function 'ttyname' called. For threadsafe applications it is recommended to use the reentrant replacement function 'ttyname_r'.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:180]: (style) Variable 'cterm' is assigned a value that is never used.
 [tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:196]: (style) The scope of the variable 'pol_name' can be reduced.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:396]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:403]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:412]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:425]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:433]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
+[tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:449]: (style) Suspicious condition (assignment + comparison); Clarify expression with parentheses.
 [tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:66]: (style) The scope of the variable 'pid' can be reduced.
 [tests/selinux/policycoreutils-2.2.5/sestatus/sestatus.c:73]: (portability) Non reentrant function 'readdir' called. For threadsafe applications it is recommended to use the reentrant replacement function 'readdir_r'.
+[tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:265]: (error) Mismatching allocation and deallocation: newcon
 [tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:398]: (style) The scope of the variable 'rc' can be reduced.
 [tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:399]: (style) The scope of the variable 'p' can be reduced.
 [tests/selinux/policycoreutils-2.2.5/setfiles/restore.c:502]: (style) The scope of the variable 'len' can be reduced.

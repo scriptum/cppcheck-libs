@@ -5,10 +5,11 @@ TMP = .tmp_test_result
 REPLACE = sed -e 's/^</ NEW:/' -e 's/^>/LOST:/'
 CHECK_TAIL = 2>&1 | sort > $(TMP)
 CPPCHECK = ../cppcheck/cppcheck -q -j4 --max-configs=1 --std=posix  --enable=warning,performance,style,portability
-CHECK_ALL = $(CPPCHECK) --library=selinux --include=selinux.h tests $(CHECK_TAIL)
 CHECK_GTK = $(CPPCHECK) --library=gtk --include=gtk.h tests/gtk $(CHECK_TAIL)
 CHECK_STD = $(CPPCHECK) --include=gnu.h tests/std $(CHECK_TAIL)
-CHECK_SELINUX = $(CPPCHECK) --library=gtk tests/selinux $(CHECK_TAIL)
+CHECK_SELINUX = $(CPPCHECK) --library=selinux --include=selinux.h tests/selinux $(CHECK_TAIL)
+
+CHECK_FULL = $(CPPCHECK) --library=gtk --include=gtk.h --include=gnu.h tests/full $(CHECK_TAIL)
 
 all: $(TARGETS)
 
@@ -16,10 +17,10 @@ geany.cfg: geany.rules gtk.rules gtk-functions.rules gtk.cfg
 	cat geany.rules gtk.rules gtk-functions.rules | $(COMPILER) > $@
 
 gtk.cfg: gtk.rules gtk-functions.rules gtk.h compile.py
-	cat gtk.rules gtk-functions.rules | $(COMPILER) > $@
+	cat gtk.rules gtk-functions.rules | $(COMPILER) gtk.h > $@
 
 selinux.cfg: selinux.rules selinux.h compile.py
-	cat selinux.rules | $(COMPILER) > $@
+	cat selinux.rules | $(COMPILER) selinux.h > $@
 
 clean:
 	rm -f $(TARGETS)
@@ -41,6 +42,12 @@ test_std: all
 
 test_std_replace: all
 	@$(CHECK_STD) > tests/test_result_std
+
+test_full: all
+	@$(CHECK_FULL) && diff $(TMP) tests/test_result_full | $(REPLACE)
+
+test_full_replace: all
+	@$(CHECK_FULL) > tests/test_result_full
 
 test: test_gtk test_selinux test_std
 

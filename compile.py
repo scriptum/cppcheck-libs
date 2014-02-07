@@ -33,16 +33,21 @@ for line in sys.stdin:
 				allocs[current][key] = []
 			allocs[current][key].append(line)
 
-print "<?xml version=\"1.0\"?>\n<def>"
+print "<?xml version=\"1.0\"?>"
+print "<!-- THIS FILE IS GENERATED AUTOMATICALLY. See https://github.com/scriptum/cppcheck-libs -->"
+print "<def>"
 
 if len(sys.argv) > 1:
-	print "\t<include><![CDATA["
 	with open(sys.argv[1], 'r') as f:
-		print (f.read())
-	print "\t]]></include>"
+		import re
+		pattern = re.compile("^#define\s+([^\s()]+\s*(?:\([^)]*\))?)\s+(.*)$")
+		for line in f:
+			match = pattern.match(line.strip())
+			if match:
+				print "  <define name=\""+match.group(1)+"\" value=\""+match.group(2)+"\"/>"
 
 for key in allocs:
-	print "\t<memory>";
+	print "  <memory>";
 	for k in allocs[key]:
 		for vv in allocs[key][k]:
 			init = ''
@@ -56,21 +61,21 @@ for key in allocs:
 						init = ' init="true"'
 				except:
 					init = ' init="true"'
-			print "\t\t<"+k+init+">"+name+"</"+k+">"
-	print "\t</memory>"
+			print "    <"+k+init+">"+name+"</"+k+">"
+	print "  </memory>"
 
 for v in funcs:
 	opts = v.split()
-	print "\t<function name=\""+opts[0]+"\">"
+	print "  <function name=\""+opts[0]+"\">"
 	noret = False
 	for vv in opts[1:]:
 		if vv == "leak-ignore":
-			print "\t\t<leak-ignore/>"
+			print "    <leak-ignore/>"
 		elif vv == "noreturn":
 			noret = True
-			print "\t\t<noreturn>true</noreturn>"
+			print "    <noreturn>true</noreturn>"
 	if not noret:
-		print "\t\t<noreturn>false</noreturn>"
-	print "\t</function>"
+		print "    <noreturn>false</noreturn>"
+	print "  </function>"
 
 print "</def>"
