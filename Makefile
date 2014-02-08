@@ -13,8 +13,8 @@ CHECK_FULL = $(CPPCHECK) --library=gtk --include=gtk.h --include=gnu.h tests/ful
 
 all: $(TARGETS)
 
-geany.cfg: geany.rules gtk.rules gtk-functions.rules gtk.cfg
-	cat geany.rules gtk.rules gtk-functions.rules | $(COMPILER) > $@
+geany.cfg: geany.rules
+	cat geany.rules | $(COMPILER) > $@
 
 gtk.cfg: gtk.rules gtk-functions.rules gtk.h compile.py
 	cat gtk.rules gtk-functions.rules | $(COMPILER) gtk.h > $@
