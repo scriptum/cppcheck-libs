@@ -659,6 +659,11 @@ alloc:
 dealloc:
 	g_timer_destroy
 
+alloc:
+	g_scanner_new
+dealloc:
+	g_scanner_destroy
+
 alloc[gobject]:
 	g_app_launch_context_new
 	g_app_info_create_from_commandline
@@ -746,7 +751,6 @@ alloc[gobject]:
 	g_proxy_address_new
 	g_ptr_array_sized_new
 	g_relation_new
-	g_scanner_new
 	g_settings_new
 	g_signal_type_cclosure_new
 	g_simple_action_group_new
