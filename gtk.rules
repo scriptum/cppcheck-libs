@@ -783,6 +783,7 @@ dealloc:
 	gtk_widget_destroy
 use:
 	g_object_ref
+	g_object_unref
 
 functions:
 	g_exit	noreturn
@@ -834,5 +835,3 @@ functions:
 	gtk_table_attach
 	gtk_table_attach_defaults
 	gtk_notebook_append_page
-	g_object_ref
-	g_object_unref
