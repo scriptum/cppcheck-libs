@@ -780,7 +780,6 @@ alloc[gobject]:
 	g_zlib_compressor_new
 	g_zlib_decompressor_new
 dealloc:
-	g_object_unref
 	gtk_widget_destroy
 use:
 	g_object_ref
