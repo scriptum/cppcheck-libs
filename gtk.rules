@@ -390,7 +390,6 @@ use:
 
 alloc:
 	g_dir_open
-	g_dir_rewind
 dealloc:
 	g_dir_close
 
