@@ -789,6 +789,8 @@ functions:
 	g_exit	noreturn
 	g_hash_table_insert
 	g_hash_table_replace
+	g_tree_insert
+	g_tree_replace
 	g_list_append
 	g_list_insert_before
 	g_list_insert
