@@ -197,8 +197,8 @@ alloc:
 	g_ptr_array_new_with_free_func
 dealloc:
 	g_ptr_array_free
-	g_ptr_array_unref
 use:
+	g_ptr_array_unref
 	g_ptr_array_ref
 
 #alloc:
@@ -218,8 +218,8 @@ alloc:
 	g_key_file_new
 dealloc:
 	g_key_file_free
-	g_key_file_unref
 use:
+	g_key_file_unref
 	g_key_file_ref
 
 alloc:
@@ -227,8 +227,8 @@ alloc:
 	g_mapped_file_new_from_fd
 dealloc:
 	g_mapped_file_free
-	g_mapped_file_unref
 use:
+	g_mapped_file_unref
 	g_mapped_file_ref
 
 alloc:
@@ -340,8 +340,8 @@ alloc:
 	g_bytes_unref_to_array
 dealloc:
 	g_byte_array_free
-	g_byte_array_unref
 use:
+	g_byte_array_unref
 	g_byte_array_ref
 
 alloc:
@@ -376,17 +376,16 @@ alloc:
 	g_hook_alloc
 use:
 	g_hook_ref
-dealloc:
 	g_hook_unref
+dealloc:
 	g_hook_destroy
 	g_hook_free
 
 alloc:
 	g_hmac_new
 	g_hmac_copy
-dealloc:
-	g_hmac_unref
 use:
+	g_hmac_unref
 	g_hmac_ref
 
 alloc:
@@ -405,16 +404,14 @@ alloc:
 	g_memory_output_stream_steal_as_bytes
 	g_variant_get_data_as_bytes
 	g_mapped_file_get_bytes
-dealloc:
-	g_bytes_unref
 use:
+	g_bytes_unref
 	g_bytes_ref
 
 alloc:
 	g_regex_new
-dealloc:
-	g_regex_unref
 use:
+	g_regex_unref
 	g_regex_ref
 
 alloc:
@@ -426,25 +423,25 @@ alloc:
 dealloc:
 	g_io_channel_close
 	g_io_channel_shutdown
-	g_io_channel_unref
 use:
+	g_io_channel_unref
 	g_io_channel_ref
 
 alloc:
 	g_main_loop_new
 	g_main_new
 dealloc:
-	g_main_loop_unref
 	g_main_destroy
 use:
+	g_main_loop_unref
 	g_main_loop_ref
 
 alloc:
 	g_main_context_new
 dealloc:
-	g_main_context_unref
 	g_main_destroy
 use:
+	g_main_context_unref
 	g_main_context_ref
 
 alloc:
@@ -455,9 +452,8 @@ alloc:
 	g_child_watch_source_new
 	g_cancellable_source_new
 	g_io_create_watch
-dealloc:
-	g_source_unref
 use:
+	g_source_unref
 	g_source_ref
 
 alloc:
@@ -465,8 +461,8 @@ alloc:
 	g_hash_table_new
 dealloc:
 	g_hash_table_destroy
-	g_hash_table_unref
 use:
+	g_hash_table_unref
 	g_hash_table_ref
 
 alloc:
@@ -474,16 +470,15 @@ alloc:
 	g_array_sized_new
 dealloc:
 	g_array_free
-	g_array_unref
 use:
+	g_array_unref
 	g_array_ref
 
 alloc:
 	g_async_queue_new
 	g_async_queue_new_full
-dealloc:
-	g_async_queue_unref
 use:
+	g_async_queue_unref
 	g_async_queue_ref
 
 alloc:
@@ -498,9 +493,8 @@ alloc:
 	g_cclosure_new_object_swap
 	g_closure_new_object
 	g_closure_new_simple
-dealloc:
-	g_closure_unref
 use:
+	g_closure_unref
 	g_closure_ref
 
 alloc:
@@ -526,25 +520,22 @@ alloc:
 	g_date_time_to_timezone
 	g_date_time_to_local
 	g_date_time_to_utc
-dealloc:
-	g_date_time_unref
 use:
+	g_date_time_unref
 	g_date_time_ref
 
 alloc:
 	g_file_attribute_info_list_new
 	g_file_attribute_info_list_dup
-dealloc:
-	g_file_attribute_info_list_unref
 use:
+	g_file_attribute_info_list_unref
 	g_file_attribute_info_list_ref
 
 alloc:
 	g_file_attribute_matcher_new
 	g_file_attribute_matcher_subtract
-dealloc:
-	g_file_attribute_matcher_unref
 use:
+	g_file_attribute_matcher_unref
 	g_file_attribute_matcher_ref
 
 alloc[glist]:
@@ -612,9 +603,8 @@ alloc:
 	g_variant_get_child_value
 	g_variant_get_normal_form
 	g_variant_parse
-dealloc:
-	g_variant_unref
 use:
+	g_variant_unref
 	g_variant_ref
 	g_variant_take_ref
 	g_variant_ref_sink
@@ -627,18 +617,17 @@ dealloc:
 
 alloc:
 	g_variant_builder_new
-dealloc:
-	g_variant_builder_unref
 use:
+	g_variant_builder_unref
 	g_variant_builder_ref
 
 alloc:
 	g_thread_new
 	g_thread_try_new
-dealloc:
-	g_thread_unref
 use:
+	g_thread_unref
 	g_thread_ref
+	g_thread_join
 
 alloc:
 	g_tree_new

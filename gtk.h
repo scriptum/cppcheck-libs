@@ -10,4 +10,4 @@
 
 /* assume thath g_idle_add is just function call */
 #define g_idle_add(function, data) function(data)
-#define g_idle_add_full (priority, function, data, notify) function(data)
+#define g_idle_add_full(priority, function, data, notify) function(data)
