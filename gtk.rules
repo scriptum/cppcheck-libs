@@ -632,18 +632,16 @@ alloc:
 	g_tree_new
 	g_tree_new_full
 	g_tree_new_with_data
-dealloc:
-	g_tree_unref
 use:
+	g_tree_unref
 	g_tree_ref
 
 alloc:
 	g_time_zone_new
 	g_time_zone_new_local
 	g_time_zone_new_utc
-dealloc:
-	g_time_zone_unref
 use:
+	g_time_zone_unref
 	g_time_zone_ref
 
 alloc:
