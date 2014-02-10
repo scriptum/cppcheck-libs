@@ -11,6 +11,3 @@
 /* assume thath g_idle_add is just function call */
 #define g_idle_add(function, data) function(data)
 #define g_idle_add_full(priority, function, data, notify) function(data)
-
-/* ignore write-only value */
-#define g_utf8_validate(str, len, end) end = str, g_utf8_validate(str, len)
