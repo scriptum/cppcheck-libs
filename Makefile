@@ -17,7 +17,9 @@ geany.cfg: geany.rules
 	cat geany.rules | $(COMPILER) > $@
 
 gtk.cfg: gtk.rules gtk-functions.rules gtk.h compile.py
-	cat gtk.rules gtk-functions.rules | $(COMPILER) gtk.h > $@
+	grep -Ehor '#define G_\w+\(\w+\)' /usr/include/glib-2.0/ | sed -r 's/\((\w+)\)/(\1) \1/' | sort -u > .gtk-auto.h
+	cat gtk.rules gtk-functions.rules | $(COMPILER) gtk.h .gtk-auto.h > $@
+	rm .gtk-auto.h
 
 selinux.cfg: selinux.rules selinux.h compile.py
 	cat selinux.rules | $(COMPILER) selinux.h > $@
