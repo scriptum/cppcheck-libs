@@ -4,9 +4,9 @@
 #define g_return_if_reached() do{return;}while(0)
 #define g_return_val_if_reached(val) do{return val;}while(0)
 
-/* replace g_list_sort coz it just returns first pointer */
-#define g_list_sort(a, b) a
-#define g_list_sort_with_data(a, b, c) a
+/* replace g_list_sort coz it just returns first pointer, use helper function */
+#define g_list_sort(a, b) g_helper_ignore(a)
+#define g_list_sort_with_data(a, b, c) g_helper_ignore(a)
 
 /* assume thath g_idle_add is just function call */
 #define g_idle_add(function, data) function(data)

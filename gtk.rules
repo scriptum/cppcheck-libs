@@ -777,6 +777,7 @@ use:
 
 functions:
 	g_exit	noreturn
+	g_helper_ignore leak-ignore
 	g_hash_table_insert
 	g_hash_table_replace
 	g_tree_insert
