@@ -1024,12 +1024,10 @@ functions:
 	g_tree_destroy leak-ignore
 	g_tree_foreach leak-ignore
 	g_tree_height leak-ignore
-	g_tree_insert leak-ignore
 	g_tree_lookup leak-ignore
 	g_tree_lookup_extended leak-ignore
 	g_tree_nnodes leak-ignore
 	g_tree_remove leak-ignore
-	g_tree_replace leak-ignore
 	g_tree_search leak-ignore
 	g_tree_steal leak-ignore
 	g_tree_traverse leak-ignore
