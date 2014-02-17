@@ -17,7 +17,7 @@ geany.cfg: geany.rules
 	cat geany.rules | $(COMPILER) > $@
 
 gtk.cfg: gtk.rules gtk-functions.rules gtk.h compile.py
-	grep -Ehor '#define G_\w+\(\w+\)' /usr/include/glib-2.0/ | sed -r 's/\((\w+)\)/(\1) (\1)/' | grep -v " G_IS_" |sort -u > .gtk-auto.h
+	grep -Ehor '#define G_\w+\(\w+\)' /usr/include/glib-2.0/ | sed -r 's/\((\w+)\)/(\1) (\1)/' | grep -v " G_IS_" | grep -v " G_VALUE_HOLDS_" | sort -u > .gtk-auto.h
 	cat gtk.rules gtk-functions.rules | $(COMPILER) gtk.h .gtk-auto.h > $@
 	rm .gtk-auto.h
 
