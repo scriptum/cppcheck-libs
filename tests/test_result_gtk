@@ -179,6 +179,7 @@
 [tests/gtk/Thunar-1.6.3/thunar/thunar-file.c:2422]: (style) The scope of the variable 'path' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-file.c:2697]: (style) The scope of the variable 'content_type' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-file.c:2876]: (style) The scope of the variable 'path' can be reduced.
+[tests/gtk/Thunar-1.6.3/thunar/thunar-file.c:3172]: (error) Memory leak: emblem_names
 [tests/gtk/Thunar-1.6.3/thunar/thunar-file.c:3295] -> [tests/gtk/Thunar-1.6.3/thunar/thunar-file.c:3298]: (performance) Variable 'is_desktop' is reassigned a value before the old one has been used.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-file.c:3309]: (style) The scope of the variable 'checksum' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-file.c:3310]: (style) The scope of the variable 'basename' can be reduced.
@@ -403,8 +404,10 @@
 [tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1289]: (style) The scope of the variable 'shortcut' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1362]: (style) The scope of the variable 'shortcut' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1412]: (style) The scope of the variable 'shortcut' can be reduced.
+[tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1538] -> [tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1541]: (warning) Possible null pointer dereference: lp - otherwise it is redundant to check it against null.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1555]: (style) The scope of the variable 'path' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1556]: (style) The scope of the variable 'shortcut' can be reduced.
+[tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1571] -> [tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1573]: (warning) Possible null pointer dereference: lp - otherwise it is redundant to check it against null.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1643]: (style) The scope of the variable 'shortcut' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1733]: (style) The scope of the variable 'shortcut' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-shortcuts-model.c:1780]: (style) The scope of the variable 'shortcut' can be reduced.
@@ -463,7 +466,6 @@
 [tests/gtk/Thunar-1.6.3/thunar/thunar-standard-view.c:1614]: (style) The scope of the variable 'items' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-standard-view.c:1766]: (style) The scope of the variable 'paths' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-standard-view.c:1819]: (style) The scope of the variable 'accel_path' can be reduced.
-[tests/gtk/Thunar-1.6.3/thunar/thunar-standard-view.c:1963]: (error) Returning/dereferencing 'file' after it is deallocated / released
 [tests/gtk/Thunar-1.6.3/thunar/thunar-standard-view.c:1973]: (style) The scope of the variable 'file' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-standard-view.c:1977]: (style) The scope of the variable 'files' can be reduced.
 [tests/gtk/Thunar-1.6.3/thunar/thunar-standard-view.c:1978]: (style) The scope of the variable 'tmp' can be reduced.
